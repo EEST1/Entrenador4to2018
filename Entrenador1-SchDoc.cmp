@@ -1,0 +1,683 @@
+Cmp-Mod V01 Created by PcbNew   date = 27/1/2018 8:28:10 p. m.
+
+BeginCmp
+TimeStamp = 5A3E8B34
+Path = /5A3ECE52
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6C3D
+Path = /5A6DBE1D
+Reference = S3;
+ValeurCmp = SW DPST_2;
+IdModule  = libreria:SW_TH_Tactile_Omron_B3F-10xx;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B8E29
+Path = /5A5C7776
+Reference = P5;
+ValeurCmp = CONN_01X09;
+IdModule  = libreria:Socket_Strip_Straight_1x09_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5BBC7C
+Path = /5A368A12
+Reference = S1;
+ValeurCmp = SW DPST_2;
+IdModule  = libreria:SW_PUSH_6mm_h13mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5BBC9A
+Path = /5A68E040
+Reference = S2;
+ValeurCmp = SW DPST_2;
+IdModule  = libreria:SW_PUSH_6mm_h13mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BBF99
+Path = /5A4F30AE
+Reference = P2;
+ValeurCmp = CONN_01X04;
+IdModule  = libreria:Socket_Strip_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A380F
+Path = /5A5A69AC
+Reference = P1;
+ValeurCmp = CONN_01X04;
+IdModule  = libreria:Socket_Strip_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A3A25
+Path = /5A5B19C5
+Reference = P4;
+ValeurCmp = CONN_01X04;
+IdModule  = libreria:Socket_Strip_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B9240
+Path = /5A5C6968
+Reference = J6;
+ValeurCmp = CON8;
+IdModule  = libreria:Socket_Strip_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B967A
+Path = /5A5C3D0D
+Reference = J5;
+ValeurCmp = CON8;
+IdModule  = libreria:Socket_Strip_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E993D
+Path = /5A3FBEB9
+Reference = R15;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3EBB00
+Path = /5A405865
+Reference = R16;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E9927
+Path = /5A3FBDCB
+Reference = R14;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E9911
+Path = /5A3FBCE9
+Reference = R13;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E98FB
+Path = /5A3EBDBB
+Reference = R12;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E98E5
+Path = /5A3EBCFF
+Reference = R11;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E98CF
+Path = /5A3EBC52
+Reference = R10;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E98B9
+Path = /5A3EBB4E
+Reference = R9;
+ValeurCmp = 330;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B96A5
+Path = /5A368A14
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B96A0
+Path = /5A368A13
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BC025
+Path = /5A4D351A
+Reference = R18;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BC00F
+Path = /5A4D18FF
+Reference = R17;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BC03B
+Path = /5A4D5D82
+Reference = R19;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BC051
+Path = /5A4D5E87
+Reference = R20;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BDA73
+Path = /5A4C13B7
+Reference = R21;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BDA89
+Path = /5A4C2ADD
+Reference = R22;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BDA9F
+Path = /5A4C2D4D
+Reference = R23;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BDAB5
+Path = /5A4C2F43
+Reference = R24;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BDACB
+Path = /5A4C303E
+Reference = R25;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BDAE1
+Path = /5A4C3138
+Reference = R26;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BDAF7
+Path = /5A4C3235
+Reference = R27;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4BEA61
+Path = /5A4C49E4
+Reference = R28;
+ValeurCmp = 470;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B969B
+Path = /5A368A0D
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B9696
+Path = /5A368A02
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E8B1E
+Path = /5A3ECB7A
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E8AF2
+Path = /5A3EC6F9
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E8B08
+Path = /5A3ECAFB
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A85DE
+Path = /5A5AB7FD
+Reference = R29;
+ValeurCmp = 1200;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A85F4
+Path = /5A5AC2B9
+Reference = R30;
+ValeurCmp = 1200;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A860A
+Path = /5A5AC3C7
+Reference = R31;
+ValeurCmp = 1200;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5A8620
+Path = /5A5AC4FE
+Reference = R32;
+ValeurCmp = 1200;
+IdModule  = libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B9690
+Path = /5A368A17
+Reference = J9;
+ValeurCmp = 3vias;
+IdModule  = libreria:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B8E33
+Path = /5A5E6768
+Reference = P6;
+ValeurCmp = USB_B;
+IdModule  = libreria:USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E9815
+Path = /5A5AB091
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E9828
+Path = /5A5AB849
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E983B
+Path = /5A5AB963
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E984E
+Path = /5A5ABA90
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E9861
+Path = /5A5ABBB0
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E9874
+Path = /5A5ABCCF
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3E9887
+Path = /5A5ABDFD
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B9667
+Path = /5A368A16
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B966C
+Path = /5A368A15
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B8E09
+Path = /5A61A476
+Reference = C10;
+ValeurCmp = C;
+IdModule  = libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B8E03
+Path = /5A61A339
+Reference = C9;
+ValeurCmp = C;
+IdModule  = libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B8DF7
+Path = /5A60A3BD
+Reference = C7;
+ValeurCmp = C;
+IdModule  = libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B8E0F
+Path = /5A6062F8
+Reference = C11;
+ValeurCmp = CP;
+IdModule  = libreria:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5B8DFD
+Path = /5A60CA15
+Reference = C8;
+ValeurCmp = CP;
+IdModule  = libreria:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4B851F
+Path = /5A4BBB80
+Reference = AFF4;
+ValeurCmp = 7SEGMENTS;
+IdModule  = libreria:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4B84D1
+Path = /5A4BBF94
+Reference = AFF1;
+ValeurCmp = 7SEGMENTS;
+IdModule  = libreria:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4B84EB
+Path = /5A4BBFA2
+Reference = AFF2;
+ValeurCmp = 7SEGMENTS;
+IdModule  = libreria:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4B8505
+Path = /5A4B8953
+Reference = AFF3;
+ValeurCmp = 7SEGMENTS;
+IdModule  = libreria:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6A57
+Path = /5A368A09
+Reference = C6;
+ValeurCmp = ~;
+IdModule  = libreria:CP_Radial_D6.3mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6AEB
+Path = /5A60D55A
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = libreria:BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6B09
+Path = /5A5ABF28
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = libreria:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6B1B
+Path = /5A60D459
+Reference = D12;
+ValeurCmp = D;
+IdModule  = libreria:D_5W_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6B33
+Path = /5A368A1B
+Reference = J3;
+ValeurCmp = ICSP;
+IdModule  = libreria:Socket_Strip_Straight_1x06_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6B4B
+Path = /5A5C622E
+Reference = J7;
+ValeurCmp = CON8;
+IdModule  = libreria:Socket_Strip_Straight_1x09_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6B66
+Path = /5A403AF2
+Reference = J11;
+ValeurCmp = CON8;
+IdModule  = libreria:Socket_Strip_Straight_1x08_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6B80
+Path = /5A60CAEE
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = libreria:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6B96
+Path = /5A54BDF6
+Reference = P3;
+ValeurCmp = CONN_01X07;
+IdModule  = libreria:Socket_Strip_Straight_1x07_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6C13
+Path = /5A3E7AC7
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = libreria:Potentiometer_Omeg_PC16PU_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6C28
+Path = /5A3E7E62
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = libreria:Potentiometer_Omeg_PC16PU_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6C52
+Path = /5A6DD400
+Reference = S4;
+ValeurCmp = SW DPST_2;
+IdModule  = libreria:SW_TH_Tactile_Omron_B3F-10xx;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6C67
+Path = /5A6DD518
+Reference = S5;
+ValeurCmp = SW DPST_2;
+IdModule  = libreria:SW_TH_Tactile_Omron_B3F-10xx;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6C7C
+Path = /5A6DD635
+Reference = S6;
+ValeurCmp = SW DPST_2;
+IdModule  = libreria:SW_TH_Tactile_Omron_B3F-10xx;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6C91
+Path = /5A402E41
+Reference = U2;
+ValeurCmp = ULN2803;
+IdModule  = libreria:DIP-18_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6CB6
+Path = /5A4B7D2C
+Reference = U3;
+ValeurCmp = 4511;
+IdModule  = libreria:DIP-16_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6CD9
+Path = /5A60C94E
+Reference = U4;
+ValeurCmp = LM7805;
+IdModule  = libreria:TO-220-3_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6CF2
+Path = /5A5CC39D
+Reference = U5;
+ValeurCmp = PIC18(L)F4550-I/P;
+IdModule  = libreria:DIP-40_W15.24mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D6D2D
+Path = /5A61A552
+Reference = Y2;
+ValeurCmp = XTAL;
+IdModule  = libreria:Crystal_HC49-4H_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D7666
+Path = /5A4C2FC5
+Reference = Q1;
+ValeurCmp = BC548;
+IdModule  = libreria:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D7677
+Path = /5A4C554D
+Reference = Q2;
+ValeurCmp = BC548;
+IdModule  = libreria:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D7688
+Path = /5A4C5CFE
+Reference = Q3;
+ValeurCmp = BC548;
+IdModule  = libreria:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D7699
+Path = /5A4C6421
+Reference = Q4;
+ValeurCmp = BC548;
+IdModule  = libreria:TO-92_Inline_Narrow_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A6D7DD0
+Path = /5A6E6642
+Reference = P7;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Altech_AK300-2_P5.00mm;
+EndCmp
+
+EndListe
