@@ -27,4 +27,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/LED_D3.0mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
