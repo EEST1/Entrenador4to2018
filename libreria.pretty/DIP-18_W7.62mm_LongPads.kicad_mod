@@ -1,4 +1,4 @@
-(module Housings_DIP:DIP-18_W7.62mm_LongPads (layer F.Cu) (tedit 59C78D6B)
+(module DIP-18_W7.62mm_LongPads (layer F.Cu) (tedit 59C78D6B)
   (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
   (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
   (fp_text reference U2 (at 3.81 -2.33) (layer F.SilkS)
@@ -43,7 +43,7 @@
   (pad 17 thru_hole oval (at 7.62 2.54) (size 2.4 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 9 thru_hole oval (at 0 20.32) (size 2.4 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 18 thru_hole oval (at 7.62 0) (size 2.4 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-18_W7.62mm.wrl
+  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/DIP-18_W7.62mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
