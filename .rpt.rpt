@@ -1,0 +1,47 @@
+** Drc report for C:/Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Entrenador1-SchDoc.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 13 unconnected pads **
+ErrType(2): Pads no conectados
+    @ (72,390mm,62,150mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de P8 net GND
+    @ (76,200mm,83,820mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S4
+ErrType(2): Pads no conectados
+    @ (76,200mm,90,320mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S4 net GND
+    @ (88,900mm,90,320mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S3
+ErrType(2): Pads no conectados
+    @ (76,200mm,83,820mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S4 net GND
+    @ (76,200mm,90,320mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S4
+ErrType(2): Pads no conectados
+    @ (179,252mm,98,933mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S1 net GND
+    @ (176,530mm,92,075mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de C6
+ErrType(2): Pads no conectados
+    @ (84,455mm,124,460mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S5 net GND
+    @ (71,755mm,124,460mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de S6
+ErrType(2): Pads no conectados
+    @ (84,400mm,83,820mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S3 net Boton1
+    @ (84,400mm,90,320mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S3
+ErrType(2): Pads no conectados
+    @ (71,700mm,90,320mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S4 net Boton2
+    @ (71,700mm,83,820mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S4
+ErrType(2): Pads no conectados
+    @ (88,955mm,130,960mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S5 net Boton3
+    @ (88,955mm,124,460mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S5
+ErrType(2): Pads no conectados
+    @ (76,255mm,130,960mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S6 net Boton4
+    @ (76,255mm,124,460mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S6
+ErrType(2): Pads no conectados
+    @ (209,169mm,43,688mm): Pad 6 en F.Cu, B.Cu, Interno, Sin cobre de U3 net /Display_D
+    @ (212,217mm,45,720mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de R32
+ErrType(2): Pads no conectados
+    @ (174,752mm,105,433mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S1 net MCRL
+    @ (174,752mm,98,933mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de S1
+ErrType(2): Pads no conectados
+    @ (80,010mm,41,910mm): Pad 2 en F.Cu, B.Cu, Interno, Sin cobre de D10 net VDD
+    @ (80,010mm,83,185mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de R6
+ErrType(2): Pads no conectados
+    @ (147,280mm,118,745mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de C7 net VDD
+    @ (111,125mm,125,730mm): Pad 1 en F.Cu, B.Cu, Interno, Sin cobre de J9
+
+** End of Report **
