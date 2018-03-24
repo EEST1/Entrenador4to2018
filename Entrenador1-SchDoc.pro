@@ -1,4 +1,4 @@
-update=mié 21 mar 2018 17:06:26 -03
+update=24/3/2018 5:15:24 p. m.
 version=1
 last_client=kicad
 [cvpcb]
@@ -61,3 +61,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=cmos_ieee
 LibName32=microchip_pic18mcu
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
