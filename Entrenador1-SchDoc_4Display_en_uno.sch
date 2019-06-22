@@ -1,7 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:Entrenador1-SchDoc-rescue
+EESchema Schematic File Version 4
 LIBS:power
 LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -29,10 +31,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:cmos_ieee
-LIBS:microchip_pic18mcu
-LIBS:Entrenador1-SchDoc-cache
-EELAYER 25 0
+LIBS:Entrenador1-SchDoc_4Display_en_uno-cache
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X06 J3
+L Entrenador1-SchDoc-rescue:CONN_01X06 J3
 U 1 1 5A368A1B
 P 4500 6350
 F 0 "J3" H 4200 5950 60  0000 L TNN
@@ -58,7 +58,7 @@ F 3 "" H 4200 6750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X03 J9
+L Entrenador1-SchDoc-rescue:CONN_01X03 J9
 U 1 1 5A368A17
 P 3550 9100
 F 0 "J9" H 3450 9300 60  0000 L BNN
@@ -69,7 +69,7 @@ F 3 "" H 3450 8800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D2
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D2
 U 1 1 5A368A16
 P 9900 8500
 F 0 "D2" V 9990 8620 60  0000 L BNN
@@ -80,7 +80,7 @@ F 3 "" H 10090 8620 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D3
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D3
 U 1 1 5A368A15
 P 10500 8500
 F 0 "D3" V 10590 8620 60  0000 L BNN
@@ -91,7 +91,7 @@ F 3 "" H 10690 8620 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Res1 R4
+L Entrenador1-SchDoc-rescue:Res1 R4
 U 1 1 5A368A14
 P 10300 8200
 F 0 "R4" V 10410 8070 60  0000 R TNN
@@ -102,7 +102,7 @@ F 3 "" H 10310 8070 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R3
+L Entrenador1-SchDoc-rescue:Res1 R3
 U 1 1 5A368A13
 P 9700 8200
 F 0 "R3" V 9810 8070 60  0000 R TNN
@@ -113,7 +113,7 @@ F 3 "" H 9710 8070 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SPST S1
+L Entrenador1-SchDoc-rescue:SPST S1
 U 1 1 5A368A12
 P 9600 5600
 F 0 "S1" H 9390 5730 60  0000 L BNN
@@ -124,7 +124,7 @@ F 3 "" H 9390 5370 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R2
+L Entrenador1-SchDoc-rescue:Res1 R2
 U 1 1 5A368A0D
 P 9000 6700
 F 0 "R2" V 9110 6570 60  0000 R TNN
@@ -135,7 +135,7 @@ F 3 "" H 9010 6570 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CP C6
+L Device:CP C6
 U 1 1 5A368A09
 P 9100 5750
 F 0 "C6" H 8800 5800 60  0000 L BNN
@@ -146,7 +146,7 @@ F 3 "" H 9100 5750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R1
+L Entrenador1-SchDoc-rescue:Res1 R1
 U 1 1 5A368A02
 P 9000 5500
 F 0 "R1" V 9110 5370 60  0000 R TNN
@@ -157,7 +157,7 @@ F 3 "" H 9010 5370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L POT-RESCUE-Entrenador1-SchDoc RV1
+L Entrenador1-SchDoc-rescue:POT-RESCUE-Entrenador1-SchDoc RV1
 U 1 1 5A3E7AC7
 P 11400 4200
 F 0 "RV1" V 11450 3900 50  0000 C CNN
@@ -168,7 +168,7 @@ F 3 "" H 11400 4200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT-RESCUE-Entrenador1-SchDoc RV2
+L Entrenador1-SchDoc-rescue:POT-RESCUE-Entrenador1-SchDoc RV2
 U 1 1 5A3E7E62
 P 11400 4900
 F 0 "RV2" V 11400 4600 50  0000 C CNN
@@ -179,7 +179,7 @@ F 3 "" H 11400 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Res1 R5
+L Entrenador1-SchDoc-rescue:Res1 R5
 U 1 1 5A3EC6F9
 P 10700 1200
 F 0 "R5" V 10810 1070 60  0000 R TNN
@@ -190,7 +190,7 @@ F 3 "" H 10710 1070 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R6
+L Entrenador1-SchDoc-rescue:Res1 R6
 U 1 1 5A3ECAFB
 P 10700 1800
 F 0 "R6" V 10810 1670 60  0000 R TNN
@@ -201,7 +201,7 @@ F 3 "" H 10710 1670 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R7
+L Entrenador1-SchDoc-rescue:Res1 R7
 U 1 1 5A3ECB7A
 P 10700 2450
 F 0 "R7" V 10810 2320 60  0000 R TNN
@@ -212,7 +212,7 @@ F 3 "" H 10710 2320 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R8
+L Entrenador1-SchDoc-rescue:Res1 R8
 U 1 1 5A3ECE52
 P 10700 3100
 F 0 "R8" V 10810 2970 60  0000 R TNN
@@ -223,7 +223,7 @@ F 3 "" H 10710 2970 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R9
+L Entrenador1-SchDoc-rescue:Res1 R9
 U 1 1 5A3EBB4E
 P 5800 2500
 F 0 "R9" V 5910 2370 60  0000 R TNN
@@ -234,7 +234,7 @@ F 3 "" H 5810 2370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R10
+L Entrenador1-SchDoc-rescue:Res1 R10
 U 1 1 5A3EBC52
 P 6350 2500
 F 0 "R10" V 6460 2370 60  0000 R TNN
@@ -245,7 +245,7 @@ F 3 "" H 6360 2370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R11
+L Entrenador1-SchDoc-rescue:Res1 R11
 U 1 1 5A3EBCFF
 P 6900 2500
 F 0 "R11" V 7010 2370 60  0000 R TNN
@@ -256,7 +256,7 @@ F 3 "" H 6910 2370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R12
+L Entrenador1-SchDoc-rescue:Res1 R12
 U 1 1 5A3EBDBB
 P 7450 2500
 F 0 "R12" V 7550 2350 60  0000 R TNN
@@ -267,7 +267,7 @@ F 3 "" H 7460 2370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R13
+L Entrenador1-SchDoc-rescue:Res1 R13
 U 1 1 5A3FBCE9
 P 8000 2500
 F 0 "R13" V 8100 2350 60  0000 R TNN
@@ -278,7 +278,7 @@ F 3 "" H 8010 2370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R14
+L Entrenador1-SchDoc-rescue:Res1 R14
 U 1 1 5A3FBDCB
 P 8500 2500
 F 0 "R14" V 8600 2350 60  0000 R TNN
@@ -289,7 +289,7 @@ F 3 "" H 8510 2370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R15
+L Entrenador1-SchDoc-rescue:Res1 R15
 U 1 1 5A3FBEB9
 P 9000 2500
 F 0 "R15" V 9100 2350 60  0000 R TNN
@@ -300,7 +300,7 @@ F 3 "" H 9010 2370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ULN2803 U2
+L Entrenador1-SchDoc-rescue:ULN2803 U2
 U 1 1 5A402E41
 P 3750 1750
 F 0 "U2" H 3900 2300 60  0000 C CNN
@@ -311,7 +311,7 @@ F 3 "" H 3750 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X08 J11
+L Entrenador1-SchDoc-rescue:CONN_01X08 J11
 U 1 1 5A403AF2
 P 2650 1750
 F 0 "J11" H 2550 2150 60  0000 L BNN
@@ -322,7 +322,7 @@ F 3 "" H 2550 1150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Res1 R16
+L Entrenador1-SchDoc-rescue:Res1 R16
 U 1 1 5A405865
 P 5250 2500
 F 0 "R16" V 5360 2370 60  0000 R TNN
@@ -341,7 +341,7 @@ Boton3
 Text GLabel 11100 2900 2    60   Input ~ 0
 Boton4
 $Comp
-L 4511 U3
+L cmos_ieee:4511 U3
 U 1 1 5A4B7D2C
 P 14550 8150
 F 0 "U3" H 14900 8600 50  0000 C CNN
@@ -351,114 +351,6 @@ F 3 "" H 14550 8150 60  0001 C CNN
 	1    14550 8150
 	1    0    0    -1  
 $EndComp
-$Comp
-L 7SEGMENTS AFF3
-U 1 1 5A4B8953
-P 14550 5350
-F 0 "AFF3" H 14550 5900 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 4900 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 5350 50  0001 C CNN
-F 3 "" H 14550 5350 50  0000 C CNN
-	1    14550 5350
-	1    0    0    -1  
-$EndComp
-Text Label 13950 4950 0    60   ~ 0
-a
-Text Label 13950 5050 0    60   ~ 0
-b
-Text Label 13950 5150 0    60   ~ 0
-c
-Text Label 15150 5600 0    60   ~ 0
-h
-Text Label 13950 5350 0    60   ~ 0
-e
-Text Label 13950 5250 0    60   ~ 0
-d
-Text Label 13950 5450 0    60   ~ 0
-f
-Text Label 13950 5550 0    60   ~ 0
-g
-$Comp
-L 7SEGMENTS AFF4
-U 1 1 5A4BBB80
-P 14550 6800
-F 0 "AFF4" H 14550 7350 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 6350 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 6800 50  0001 C CNN
-F 3 "" H 14550 6800 50  0000 C CNN
-	1    14550 6800
-	1    0    0    -1  
-$EndComp
-Text Label 13950 6400 0    60   ~ 0
-a
-Text Label 13950 6500 0    60   ~ 0
-b
-Text Label 13950 6600 0    60   ~ 0
-c
-Text Label 15150 7050 0    60   ~ 0
-h
-Text Label 13950 6800 0    60   ~ 0
-e
-Text Label 13950 6700 0    60   ~ 0
-d
-Text Label 13950 6900 0    60   ~ 0
-f
-Text Label 13950 7000 0    60   ~ 0
-g
-$Comp
-L 7SEGMENTS AFF1
-U 1 1 5A4BBF94
-P 14550 2450
-F 0 "AFF1" H 14550 3000 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 2000 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 2450 50  0001 C CNN
-F 3 "" H 14550 2450 50  0000 C CNN
-	1    14550 2450
-	1    0    0    -1  
-$EndComp
-Text Label 13950 2050 0    60   ~ 0
-a
-Text Label 13950 2150 0    60   ~ 0
-b
-Text Label 13950 2250 0    60   ~ 0
-c
-Text Label 15150 2700 0    60   ~ 0
-h
-Text Label 13950 2450 0    60   ~ 0
-e
-Text Label 13950 2350 0    60   ~ 0
-d
-Text Label 13950 2550 0    60   ~ 0
-f
-Text Label 13950 2650 0    60   ~ 0
-g
-$Comp
-L 7SEGMENTS AFF2
-U 1 1 5A4BBFA2
-P 14550 3900
-F 0 "AFF2" H 14550 4450 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 3450 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 3900 50  0001 C CNN
-F 3 "" H 14550 3900 50  0000 C CNN
-	1    14550 3900
-	1    0    0    -1  
-$EndComp
-Text Label 13950 3500 0    60   ~ 0
-a
-Text Label 13950 3600 0    60   ~ 0
-b
-Text Label 13950 3700 0    60   ~ 0
-c
-Text Label 15150 4150 0    60   ~ 0
-h
-Text Label 13950 3900 0    60   ~ 0
-e
-Text Label 13950 3800 0    60   ~ 0
-d
-Text Label 13950 4000 0    60   ~ 0
-f
-Text Label 13950 4100 0    60   ~ 0
-g
 Text Label 13850 7950 2    60   ~ 0
 Display_A
 Text Label 13850 8050 2    60   ~ 0
@@ -468,7 +360,7 @@ Display_C
 Text Label 13850 8250 2    60   ~ 0
 Display_D
 $Comp
-L BC548 Q1
+L transistors:BC548 Q1
 U 1 1 5A4C2FC5
 P 15600 2300
 F 0 "Q1" H 15800 2375 50  0000 L CNN
@@ -479,7 +371,7 @@ F 3 "" H 15600 2300 50  0000 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BC548 Q2
+L transistors:BC548 Q2
 U 1 1 5A4C554D
 P 15650 3750
 F 0 "Q2" H 15850 3825 50  0000 L CNN
@@ -490,7 +382,7 @@ F 3 "" H 15650 3750 50  0000 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BC548 Q3
+L transistors:BC548 Q3
 U 1 1 5A4C5CFE
 P 15650 5200
 F 0 "Q3" H 15850 5275 50  0000 L CNN
@@ -501,7 +393,7 @@ F 3 "" H 15650 5200 50  0000 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BC548 Q4
+L transistors:BC548 Q4
 U 1 1 5A4C6421
 P 15650 6650
 F 0 "Q4" H 15850 6725 50  0000 L CNN
@@ -512,7 +404,7 @@ F 3 "" H 15650 6650 50  0000 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Res1 R17
+L Entrenador1-SchDoc-rescue:Res1 R17
 U 1 1 5A4D18FF
 P 15800 2600
 F 0 "R17" V 15910 2470 60  0000 R TNN
@@ -523,7 +415,7 @@ F 3 "" H 15810 2470 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R18
+L Entrenador1-SchDoc-rescue:Res1 R18
 U 1 1 5A4D351A
 P 15850 4050
 F 0 "R18" V 15960 3920 60  0000 R TNN
@@ -534,7 +426,7 @@ F 3 "" H 15860 3920 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R19
+L Entrenador1-SchDoc-rescue:Res1 R19
 U 1 1 5A4D5D82
 P 15850 5500
 F 0 "R19" V 15960 5370 60  0000 R TNN
@@ -545,7 +437,7 @@ F 3 "" H 15860 5370 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R20
+L Entrenador1-SchDoc-rescue:Res1 R20
 U 1 1 5A4D5E87
 P 15850 6950
 F 0 "R20" V 15960 6820 60  0000 R TNN
@@ -580,7 +472,7 @@ g
 Text Label 15500 8550 0    60   ~ 0
 h
 $Comp
-L CONN_01X04 P2
+L Entrenador1-SchDoc-rescue:CONN_01X04 P2
 U 1 1 5A4F30AE
 P 2300 3800
 F 0 "P2" H 2300 4050 50  0000 C CNN
@@ -599,7 +491,7 @@ Disp3
 Text GLabel 3100 3950 2    60   Input ~ 0
 Disp4
 $Comp
-L Res1 R21
+L Entrenador1-SchDoc-rescue:Res1 R21
 U 1 1 5A4C13B7
 P 15200 7750
 F 0 "R21" H 15800 7700 60  0000 R TNN
@@ -610,7 +502,7 @@ F 3 "" H 15210 7620 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R22
+L Entrenador1-SchDoc-rescue:Res1 R22
 U 1 1 5A4C2ADD
 P 15200 7850
 F 0 "R22" H 15800 7800 60  0000 R TNN
@@ -621,7 +513,7 @@ F 3 "" H 15210 7720 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R23
+L Entrenador1-SchDoc-rescue:Res1 R23
 U 1 1 5A4C2D4D
 P 15200 7950
 F 0 "R23" H 15800 7900 60  0000 R TNN
@@ -632,7 +524,7 @@ F 3 "" H 15210 7820 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R24
+L Entrenador1-SchDoc-rescue:Res1 R24
 U 1 1 5A4C2F43
 P 15200 8050
 F 0 "R24" H 15800 8000 60  0000 R TNN
@@ -643,7 +535,7 @@ F 3 "" H 15210 7920 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R25
+L Entrenador1-SchDoc-rescue:Res1 R25
 U 1 1 5A4C303E
 P 15200 8150
 F 0 "R25" H 15800 8100 60  0000 R TNN
@@ -654,7 +546,7 @@ F 3 "" H 15210 8020 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R26
+L Entrenador1-SchDoc-rescue:Res1 R26
 U 1 1 5A4C3138
 P 15200 8250
 F 0 "R26" H 15800 8200 60  0000 R TNN
@@ -665,7 +557,7 @@ F 3 "" H 15210 8120 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R27
+L Entrenador1-SchDoc-rescue:Res1 R27
 U 1 1 5A4C3235
 P 15200 8350
 F 0 "R27" H 15800 8300 60  0000 R TNN
@@ -676,7 +568,7 @@ F 3 "" H 15210 8220 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Res1 R28
+L Entrenador1-SchDoc-rescue:Res1 R28
 U 1 1 5A4C49E4
 P 15200 8450
 F 0 "R28" H 15800 8400 60  0000 R TNN
@@ -689,7 +581,7 @@ $EndComp
 Text Label 13450 8350 0    60   ~ 0
 DisplayH
 $Comp
-L CONN_01X04 P1
+L Entrenador1-SchDoc-rescue:CONN_01X04 P1
 U 1 1 5A5A69AC
 P 12350 4550
 F 0 "P1" H 12350 4800 50  0000 C CNN
@@ -700,7 +592,7 @@ F 3 "" H 12350 4550 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_01X04 P4
+L Entrenador1-SchDoc-rescue:CONN_01X04 P4
 U 1 1 5A5B19C5
 P 2300 4400
 F 0 "P4" H 2300 4650 50  0000 C CNN
@@ -719,7 +611,7 @@ Boton3
 Text GLabel 3000 4550 2    60   Input ~ 0
 Boton4
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D4
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D4
 U 1 1 5A5AB091
 P 5450 2900
 F 0 "D4" H 5450 3000 50  0000 C CNN
@@ -730,7 +622,7 @@ F 3 "" H 5450 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D5
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D5
 U 1 1 5A5AB849
 P 6000 2900
 F 0 "D5" H 6000 3000 50  0000 C CNN
@@ -741,7 +633,7 @@ F 3 "" H 6000 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D6
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D6
 U 1 1 5A5AB963
 P 6550 2900
 F 0 "D6" H 6550 3000 50  0000 C CNN
@@ -752,7 +644,7 @@ F 3 "" H 6550 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D7
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D7
 U 1 1 5A5ABA90
 P 7100 2900
 F 0 "D7" H 7100 3000 50  0000 C CNN
@@ -763,7 +655,7 @@ F 3 "" H 7100 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D8
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D8
 U 1 1 5A5ABBB0
 P 7650 2900
 F 0 "D8" H 7650 3000 50  0000 C CNN
@@ -774,7 +666,7 @@ F 3 "" H 7650 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D9
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D9
 U 1 1 5A5ABCCF
 P 8200 2900
 F 0 "D9" H 8200 3000 50  0000 C CNN
@@ -785,7 +677,7 @@ F 3 "" H 8200 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D10
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D10
 U 1 1 5A5ABDFD
 P 8700 2900
 F 0 "D10" H 8700 3000 50  0000 C CNN
@@ -796,7 +688,7 @@ F 3 "" H 8700 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D11
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D11
 U 1 1 5A5ABF28
 P 9200 2900
 F 0 "D11" H 9200 3000 50  0000 C CNN
@@ -991,7 +883,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2700 5350 2600
 $Comp
-L Res1 R29
+L Entrenador1-SchDoc-rescue:Res1 R29
 U 1 1 5A5AB7FD
 P 11600 6650
 F 0 "R29" V 11700 6500 60  0000 R TNN
@@ -1002,7 +894,7 @@ F 3 "" H 11610 6520 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R30
+L Entrenador1-SchDoc-rescue:Res1 R30
 U 1 1 5A5AC2B9
 P 11950 6650
 F 0 "R30" V 12050 6500 60  0000 R TNN
@@ -1013,7 +905,7 @@ F 3 "" H 11960 6520 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R31
+L Entrenador1-SchDoc-rescue:Res1 R31
 U 1 1 5A5AC3C7
 P 12300 6650
 F 0 "R31" V 12400 6500 60  0000 R TNN
@@ -1024,7 +916,7 @@ F 3 "" H 12310 6520 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Res1 R32
+L Entrenador1-SchDoc-rescue:Res1 R32
 U 1 1 5A5AC4FE
 P 12650 6650
 F 0 "R32" V 12750 6500 60  0000 R TNN
@@ -1037,11 +929,11 @@ $EndComp
 Wire Wire Line
 	11700 6750 11700 6850
 Wire Wire Line
-	11700 6850 12750 6850
+	11700 6850 12050 6850
 Wire Wire Line
 	12750 6850 12750 6750
 Wire Wire Line
-	12400 6750 12400 7000
+	12400 6750 12400 6850
 Connection ~ 12400 6850
 Wire Wire Line
 	12050 6750 12050 6850
@@ -1055,7 +947,7 @@ Display_C
 Text Label 12750 6350 1    60   ~ 0
 Display_D
 $Comp
-L CONN_01X08 J7
+L Entrenador1-SchDoc-rescue:CONN_01X08 J7
 U 1 1 5A5C622E
 P 2400 9100
 F 0 "J7" H 2300 9500 60  0000 L BNN
@@ -1066,7 +958,7 @@ F 3 "" H 2300 8500 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X08 J6
+L Entrenador1-SchDoc-rescue:CONN_01X08 J6
 U 1 1 5A5C6968
 P 2400 7900
 F 0 "J6" H 2300 8300 60  0000 L BNN
@@ -1077,7 +969,7 @@ F 3 "" H 2300 7300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X09 P5
+L Entrenador1-SchDoc-rescue:CONN_01X09 P5
 U 1 1 5A5C7776
 P 2400 6600
 F 0 "P5" H 2400 7100 50  0000 C CNN
@@ -1088,7 +980,7 @@ F 3 "" H 2400 6600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PIC18(L)F4550-I/P U5
+L Entrenador1-SchDoc-rescue:PIC18(L)F4550-I_P U5
 U 1 1 5A5CC39D
 P 6300 8700
 F 0 "U5" H 5400 10000 50  0000 C CNN
@@ -1125,7 +1017,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 6800 2600 6800
 $Comp
-L VDD #PWR01
+L power:VDD #PWR01
 U 1 1 5A5CFC8F
 P 6200 7200
 F 0 "#PWR01" H 6200 7050 50  0001 C CNN
@@ -1136,7 +1028,7 @@ F 3 "" H 6200 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 7200 6200 7300
+	6200 7200 6200 7250
 Wire Wire Line
 	6300 7300 6300 7250
 Wire Wire Line
@@ -1169,7 +1061,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 8100 5200 8100
 Wire Wire Line
-	5100 8200 5200 8200
+	5100 8200 5150 8200
 Text GLabel 2700 6800 2    39   Input ~ 0
 RE0
 Text GLabel 2700 6900 2    39   Input ~ 0
@@ -1193,9 +1085,9 @@ RE3
 Wire Wire Line
 	7400 9700 7500 9700
 Wire Wire Line
-	7400 9800 7500 9800
+	7400 9800 7450 9800
 Wire Wire Line
-	6200 10200 6200 10100
+	6200 10200 6200 10150
 Wire Wire Line
 	6300 10100 6300 10150
 Wire Wire Line
@@ -1228,11 +1120,11 @@ Wire Wire Line
 Wire Wire Line
 	5100 9100 5200 9100
 Wire Wire Line
-	5100 9200 5200 9200
+	5100 9200 5150 9200
 Text GLabel 5100 9300 0    39   Input ~ 0
 RB7
 Wire Wire Line
-	5100 9300 5200 9300
+	5100 9300 5150 9300
 Text GLabel 7500 8600 2    39   Input ~ 0
 RD0
 Text GLabel 7500 8700 2    39   Input ~ 0
@@ -1294,7 +1186,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 8200 7400 8200
 $Comp
-L USB_B-RESCUE-Entrenador1-SchDoc P6
+L Entrenador1-SchDoc-rescue:USB_B-RESCUE-Entrenador1-SchDoc P6
 U 1 1 5A5E6768
 P 8600 8000
 F 0 "P6" H 8800 7800 50  0000 C CNN
@@ -1329,7 +1221,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 7800 10400 7900
 $Comp
-L VDD #PWR02
+L power:VDD #PWR02
 U 1 1 5A5EDD3A
 P 9100 6400
 F 0 "#PWR02" H 9100 6250 50  0001 C CNN
@@ -1340,7 +1232,7 @@ F 3 "" H 9100 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR03
+L power:VDD #PWR03
 U 1 1 5A5EEBB7
 P 9100 5200
 F 0 "#PWR03" H 9100 5050 50  0001 C CNN
@@ -1351,7 +1243,7 @@ F 3 "" H 9100 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5A5EF5F2
 P 9100 5900
 F 0 "#PWR04" H 9100 5650 50  0001 C CNN
@@ -1362,7 +1254,7 @@ F 3 "" H 9100 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5A5EF8C4
 P 10100 5600
 F 0 "#PWR05" H 10100 5350 50  0001 C CNN
@@ -1375,7 +1267,7 @@ $EndComp
 Wire Wire Line
 	9900 5600 10100 5600
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5A5EFB5C
 P 10100 6800
 F 0 "#PWR06" H 10100 6550 50  0001 C CNN
@@ -1413,7 +1305,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 8400 7400 8400
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5A602ACD
 P 6200 10200
 F 0 "#PWR07" H 6200 9950 50  0001 C CNN
@@ -1424,7 +1316,7 @@ F 3 "" H 6200 10200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C11
+L Device:CP C11
 U 1 1 5A6062F8
 P 7900 8550
 F 0 "C11" H 8050 8550 50  0000 L CNN
@@ -1435,7 +1327,7 @@ F 3 "" H 7900 8550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5A606C94
 P 7900 8700
 F 0 "#PWR08" H 7900 8450 50  0001 C CNN
@@ -1446,7 +1338,7 @@ F 3 "" H 7900 8700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5A607470
 P 8250 8300
 F 0 "#PWR09" H 8250 8050 50  0001 C CNN
@@ -1457,7 +1349,7 @@ F 3 "" H 8250 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5A607580
 P 8700 8300
 F 0 "#PWR010" H 8700 8050 50  0001 C CNN
@@ -1468,7 +1360,7 @@ F 3 "" H 8700 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L Device:C C7
 U 1 1 5A60A3BD
 P 4000 7900
 F 0 "C7" H 4150 7950 50  0000 L CNN
@@ -1479,7 +1371,7 @@ F 3 "" H 4000 7900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR011
+L power:VDD #PWR011
 U 1 1 5A60A9E4
 P 4000 7750
 F 0 "#PWR011" H 4000 7600 50  0001 C CNN
@@ -1490,7 +1382,7 @@ F 3 "" H 4000 7750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5A60AD11
 P 4000 8050
 F 0 "#PWR012" H 4000 7800 50  0001 C CNN
@@ -1501,7 +1393,7 @@ F 3 "" H 4000 8050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM7805CT U4
+L Entrenador1-SchDoc-rescue:LM7805CT U4
 U 1 1 5A60C94E
 P 5700 3950
 F 0 "U4" H 5850 3754 50  0000 C CNN
@@ -1512,7 +1404,7 @@ F 3 "" H 5700 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C8
+L Device:CP C8
 U 1 1 5A60CA15
 P 6250 4050
 F 0 "C8" H 6275 4150 50  0000 L CNN
@@ -1523,7 +1415,7 @@ F 3 "" H 6250 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JUMPER3 JP1
+L Entrenador1-SchDoc-rescue:JUMPER3 JP1
 U 1 1 5A60CAEE
 P 6700 3900
 F 0 "JP1" H 6750 3800 50  0000 L CNN
@@ -1534,7 +1426,7 @@ F 3 "" H 6700 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D12
+L Device:D D12
 U 1 1 5A60D459
 P 5050 3900
 F 0 "D12" H 5050 4000 50  0000 C CNN
@@ -1545,7 +1437,7 @@ F 3 "" H 5050 3900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5A60F4DD
 P 5700 4300
 F 0 "#PWR013" H 5700 4050 50  0001 C CNN
@@ -1556,7 +1448,7 @@ F 3 "" H 5700 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5A60FE65
 P 6250 4300
 F 0 "#PWR014" H 6250 4050 50  0001 C CNN
@@ -1571,14 +1463,14 @@ Wire Wire Line
 Wire Wire Line
 	6250 4300 6250 4200
 Wire Wire Line
-	6100 3900 6450 3900
+	6100 3900 6250 3900
 Connection ~ 6250 3900
 Text GLabel 7100 3900 2    39   Input ~ 0
 +5VUSB
 Wire Wire Line
 	7100 3900 6950 3900
 $Comp
-L VDD #PWR015
+L power:VDD #PWR015
 U 1 1 5A615EA9
 P 7250 4200
 F 0 "#PWR015" H 7250 4050 50  0001 C CNN
@@ -1593,7 +1485,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 4200 6700 4000
 $Comp
-L C C9
+L Device:C C9
 U 1 1 5A61A339
 P 7100 6250
 F 0 "C9" H 7125 6350 50  0000 L CNN
@@ -1604,7 +1496,7 @@ F 3 "" H 7100 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L Device:C C10
 U 1 1 5A61A476
 P 7600 6250
 F 0 "C10" H 7625 6350 50  0000 L CNN
@@ -1615,7 +1507,7 @@ F 3 "" H 7600 6250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XTAL Y2
+L Entrenador1-SchDoc-rescue:XTAL Y2
 U 1 1 5A61A552
 P 7300 6000
 F 0 "Y2" H 7300 6200 60  0000 L BNN
@@ -1626,9 +1518,9 @@ F 3 "" H 7300 6000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 5800 7100 6100
+	7100 5800 7100 6000
 Wire Wire Line
-	7600 5800 7600 6100
+	7600 5800 7600 6000
 Text GLabel 5100 8400 0    39   Input ~ 0
 OSC1
 Wire Wire Line
@@ -1649,7 +1541,7 @@ Connection ~ 7100 6000
 Text GLabel 8250 7550 2    39   Input ~ 0
 +5VUSB
 $Comp
-L VDD #PWR016
+L power:VDD #PWR016
 U 1 1 5A630582
 P 3150 5700
 F 0 "#PWR016" H 3150 5550 50  0001 C CNN
@@ -1662,7 +1554,7 @@ $EndComp
 Wire Wire Line
 	2600 5700 3150 5700
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5A63155E
 P 3350 5600
 F 0 "#PWR017" H 3350 5350 50  0001 C CNN
@@ -1687,7 +1579,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 5200 2600 5200
 $Comp
-L CONN_01X08 J5
+L Entrenador1-SchDoc-rescue:CONN_01X08 J5
 U 1 1 5A5C3D0D
 P 2400 5350
 F 0 "J5" H 2300 5750 60  0000 L BNN
@@ -1710,7 +1602,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 5000 2600 5000
 $Comp
-L VDD #PWR018
+L power:VDD #PWR018
 U 1 1 5A648DDA
 P 4900 6500
 F 0 "#PWR018" H 4900 6350 50  0001 C CNN
@@ -1721,7 +1613,7 @@ F 3 "" H 4900 6500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5A649BDF
 P 5250 6400
 F 0 "#PWR019" H 5250 6150 50  0001 C CNN
@@ -1756,7 +1648,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 9000 3750 9000
 $Comp
-L VDD #PWR020
+L power:VDD #PWR020
 U 1 1 5A661625
 P 10550 3200
 F 0 "#PWR020" H 10550 3050 50  0001 C CNN
@@ -1767,7 +1659,7 @@ F 3 "" H 10550 3200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VDD #PWR021
+L power:VDD #PWR021
 U 1 1 5A661943
 P 9450 3300
 F 0 "#PWR021" H 9450 3150 50  0001 C CNN
@@ -1778,7 +1670,7 @@ F 3 "" H 9450 3300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VDD #PWR022
+L power:VDD #PWR022
 U 1 1 5A661A4D
 P 10550 2550
 F 0 "#PWR022" H 10550 2400 50  0001 C CNN
@@ -1789,7 +1681,7 @@ F 3 "" H 10550 2550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VDD #PWR023
+L power:VDD #PWR023
 U 1 1 5A661B57
 P 10550 1900
 F 0 "#PWR023" H 10550 1750 50  0001 C CNN
@@ -1800,7 +1692,7 @@ F 3 "" H 10550 1900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VDD #PWR024
+L power:VDD #PWR024
 U 1 1 5A662305
 P 10550 1300
 F 0 "#PWR024" H 10550 1150 50  0001 C CNN
@@ -1811,7 +1703,7 @@ F 3 "" H 10550 1300 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 5A663BC4
 P 11950 1500
 F 0 "#PWR025" H 11950 1250 50  0001 C CNN
@@ -1822,7 +1714,7 @@ F 3 "" H 11950 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L power:GND #PWR026
 U 1 1 5A6650BA
 P 11950 2100
 F 0 "#PWR026" H 11950 1850 50  0001 C CNN
@@ -1833,7 +1725,7 @@ F 3 "" H 11950 2100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 5A6655C0
 P 11950 2750
 F 0 "#PWR027" H 11950 2500 50  0001 C CNN
@@ -1844,7 +1736,7 @@ F 3 "" H 11950 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 5A6656CA
 P 11950 3400
 F 0 "#PWR028" H 11950 3150 50  0001 C CNN
@@ -1919,7 +1811,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 9250 2600 9250
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 5A6768D2
 P 7100 6450
 F 0 "#PWR029" H 7100 6200 50  0001 C CNN
@@ -1930,7 +1822,7 @@ F 3 "" H 7100 6450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 5A6769D9
 P 7600 6450
 F 0 "#PWR030" H 7600 6200 50  0001 C CNN
@@ -1941,7 +1833,7 @@ F 3 "" H 7600 6450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 5A676AE0
 P 3850 9300
 F 0 "#PWR031" H 3850 9050 50  0001 C CNN
@@ -1956,7 +1848,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 6400 7100 6450
 $Comp
-L VDD #PWR032
+L power:VDD #PWR032
 U 1 1 5A679DB8
 P 3750 1150
 F 0 "#PWR032" H 3750 1000 50  0001 C CNN
@@ -1969,7 +1861,7 @@ $EndComp
 Wire Wire Line
 	3750 1150 3750 1250
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5A67ABD8
 P 3750 2250
 F 0 "#PWR033" H 3750 2000 50  0001 C CNN
@@ -1980,7 +1872,7 @@ F 3 "" H 3750 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR034
+L power:VDD #PWR034
 U 1 1 5A67E56D
 P 13900 8450
 F 0 "#PWR034" H 13900 8300 50  0001 C CNN
@@ -1991,7 +1883,7 @@ F 3 "" H 13900 8450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L power:GND #PWR035
 U 1 1 5A67FC7E
 P 14550 8600
 F 0 "#PWR035" H 14550 8350 50  0001 C CNN
@@ -2002,7 +1894,7 @@ F 3 "" H 14550 8600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 5A67FD85
 P 13750 7650
 F 0 "#PWR036" H 13750 7400 50  0001 C CNN
@@ -2013,7 +1905,7 @@ F 3 "" H 13750 7650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 5A68187D
 P 12400 7000
 F 0 "#PWR037" H 12400 6750 50  0001 C CNN
@@ -2024,7 +1916,7 @@ F 3 "" H 12400 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 5A681984
 P 15550 6900
 F 0 "#PWR038" H 15550 6650 50  0001 C CNN
@@ -2035,7 +1927,7 @@ F 3 "" H 15550 6900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 5A681D2B
 P 15500 2550
 F 0 "#PWR039" H 15500 2300 50  0001 C CNN
@@ -2046,7 +1938,7 @@ F 3 "" H 15500 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L power:GND #PWR040
 U 1 1 5A682AFE
 P 15550 4000
 F 0 "#PWR040" H 15550 3750 50  0001 C CNN
@@ -2057,7 +1949,7 @@ F 3 "" H 15550 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 5A685C8F
 P 9800 8800
 F 0 "#PWR041" H 9800 8550 50  0001 C CNN
@@ -2068,7 +1960,7 @@ F 3 "" H 9800 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L power:GND #PWR042
 U 1 1 5A685D96
 P 10400 8800
 F 0 "#PWR042" H 10400 8550 50  0001 C CNN
@@ -2079,7 +1971,7 @@ F 3 "" H 10400 8800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR043
+L power:VDD #PWR043
 U 1 1 5A68726B
 P 4000 9200
 F 0 "#PWR043" H 4000 9050 50  0001 C CNN
@@ -2092,10 +1984,10 @@ $EndComp
 Wire Wire Line
 	5250 3250 5250 3900
 Wire Wire Line
-	5200 3900 5300 3900
+	5200 3900 5250 3900
 Connection ~ 5250 3900
 $Comp
-L SPST S2
+L Entrenador1-SchDoc-rescue:SPST S2
 U 1 1 5A68E040
 P 9600 6800
 F 0 "S2" H 9390 6930 60  0000 L BNN
@@ -2108,7 +2000,7 @@ $EndComp
 Wire Wire Line
 	8650 5600 9100 5600
 $Comp
-L GND #PWR044
+L power:GND #PWR044
 U 1 1 5A5BEC7D
 P 15550 5450
 F 0 "#PWR044" H 15550 5200 50  0001 C CNN
@@ -2119,7 +2011,7 @@ F 3 "" H 15550 5450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST S3
+L Entrenador1-SchDoc-rescue:SPST S3
 U 1 1 5A6DBE1D
 P 11550 1300
 F 0 "S3" H 11340 1430 60  0000 L BNN
@@ -2130,7 +2022,7 @@ F 3 "" H 11340 1070 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST S4
+L Entrenador1-SchDoc-rescue:SPST S4
 U 1 1 5A6DD400
 P 11550 1900
 F 0 "S4" H 11340 2030 60  0000 L BNN
@@ -2141,7 +2033,7 @@ F 3 "" H 11340 1670 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST S5
+L Entrenador1-SchDoc-rescue:SPST S5
 U 1 1 5A6DD518
 P 11550 2550
 F 0 "S5" H 11340 2680 60  0000 L BNN
@@ -2152,7 +2044,7 @@ F 3 "" H 11340 2320 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST S6
+L Entrenador1-SchDoc-rescue:SPST S6
 U 1 1 5A6DD635
 P 11550 3200
 F 0 "S6" H 11340 3330 60  0000 L BNN
@@ -2180,10 +2072,6 @@ Wire Wire Line
 	11950 2100 12050 2100
 Wire Wire Line
 	12050 2100 12050 1900
-Connection ~ 12050 1900
-Connection ~ 12050 2550
-Connection ~ 12050 1300
-Connection ~ 12050 3200
 Wire Wire Line
 	11100 1000 11050 1000
 Wire Wire Line
@@ -2205,18 +2093,18 @@ Connection ~ 11050 2550
 Connection ~ 11050 1900
 Connection ~ 11050 1300
 $Comp
-L CONN_01X02 P7
+L Entrenador1-SchDoc-rescue:CONN_01X02 P7
 U 1 1 5A6E6642
 P 4350 4800
 F 0 "P7" H 4350 4950 50  0000 C CNN
 F 1 "CONN_01X02" V 4450 4800 50  0000 C CNN
-F 2 "libreria:TerminalBlock_Altech_AK300-2_P5.00mm" H 4350 4800 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4350 4800 50  0001 C CNN
 F 3 "" H 4350 4800 50  0000 C CNN
 	1    4350 4800
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR045
+L power:GND #PWR045
 U 1 1 5A6E94EF
 P 4650 4850
 F 0 "#PWR045" H 4650 4600 50  0001 C CNN
@@ -2240,7 +2128,6 @@ Wire Wire Line
 	4700 3400 4750 3400
 Wire Wire Line
 	4750 3400 4750 3900
-Connection ~ 4750 3900
 Text GLabel 10550 4050 0    60   Input ~ 0
 VrefAnalogica
 Text GLabel 10550 4750 0    60   Input ~ 0
@@ -2250,18 +2137,18 @@ VrefAnalogica
 Wire Wire Line
 	11850 3900 11950 3900
 $Comp
-L CONN_01X02 P8
+L Entrenador1-SchDoc-rescue:CONN_01X02 P8
 U 1 1 5A71D7A0
 P 4350 5400
 F 0 "P8" H 4350 5550 50  0000 C CNN
 F 1 "CONN_01X02" V 4450 5400 50  0000 C CNN
-F 2 "libreria:TerminalBlock_Altech_AK300-2_P5.00mm" H 4350 5400 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4350 5400 50  0001 C CNN
 F 3 "" H 4350 5400 50  0000 C CNN
 	1    4350 5400
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR046
+L power:GND #PWR046
 U 1 1 5A71E024
 P 4650 5450
 F 0 "#PWR046" H 4650 5200 50  0001 C CNN
@@ -2274,9 +2161,9 @@ $EndComp
 Wire Wire Line
 	4650 5450 4550 5450
 Wire Wire Line
-	4550 5350 4850 5350
+	4550 5350 4750 5350
 $Comp
-L VDD #PWR047
+L power:VDD #PWR047
 U 1 1 5A721D25
 P 5400 5350
 F 0 "#PWR047" H 5400 5200 50  0001 C CNN
@@ -2287,7 +2174,7 @@ F 3 "" H 5400 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P9
+L Entrenador1-SchDoc-rescue:CONN_01X04 P9
 U 1 1 5A72322A
 P 2300 2750
 F 0 "P9" H 2300 3000 50  0000 C CNN
@@ -2298,7 +2185,7 @@ F 3 "" H 2300 2750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P10
+L Entrenador1-SchDoc-rescue:CONN_01X04 P10
 U 1 1 5A723EA4
 P 2300 3250
 F 0 "P10" H 2300 3500 50  0000 C CNN
@@ -2309,7 +2196,7 @@ F 3 "" H 2300 3250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR048
+L power:VDD #PWR048
 U 1 1 5A724122
 P 2700 2550
 F 0 "#PWR048" H 2700 2400 50  0001 C CNN
@@ -2320,7 +2207,7 @@ F 3 "" H 2700 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 2550 2700 2900
+	2700 2550 2700 2600
 Wire Wire Line
 	2700 2600 2500 2600
 Wire Wire Line
@@ -2333,7 +2220,7 @@ Wire Wire Line
 	2700 2900 2500 2900
 Connection ~ 2700 2800
 $Comp
-L GND #PWR049
+L power:GND #PWR049
 U 1 1 5A724E72
 P 3250 3450
 F 0 "#PWR049" H 3250 3200 50  0001 C CNN
@@ -2346,11 +2233,11 @@ $EndComp
 Wire Wire Line
 	3250 3450 3250 3400
 Wire Wire Line
-	3250 3400 2500 3400
+	3250 3400 2700 3400
 Wire Wire Line
 	2500 3100 2700 3100
 Wire Wire Line
-	2700 3100 2700 3400
+	2700 3100 2700 3200
 Connection ~ 2700 3400
 Wire Wire Line
 	2500 3300 2700 3300
@@ -2359,7 +2246,7 @@ Wire Wire Line
 	2500 3200 2700 3200
 Connection ~ 2700 3200
 $Comp
-L D D1
+L Device:D D1
 U 1 1 5A7F09D1
 P 5000 5350
 F 0 "D1" H 5000 5450 50  0000 C CNN
@@ -2370,7 +2257,7 @@ F 3 "" H 5000 5350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X05 P3
+L Entrenador1-SchDoc-rescue:CONN_01X05 P3
 U 1 1 5A7F3B85
 P 12850 8150
 F 0 "P3" H 12850 8450 50  0000 C CNN
@@ -2396,7 +2283,7 @@ Connection ~ 4750 5350
 Wire Wire Line
 	5400 5350 5150 5350
 Wire Wire Line
-	5350 3200 9100 3200
+	5350 3200 5900 3200
 Connection ~ 5900 3200
 Connection ~ 6450 3200
 Connection ~ 7000 3200
@@ -2411,7 +2298,7 @@ Connection ~ 9100 3200
 Wire Wire Line
 	4750 3900 4900 3900
 $Comp
-L CC56-12EWA U1
+L display:CC56-12EWA U1
 U 1 1 5B4E520D
 P 14600 1200
 F 0 "U1" H 13650 1650 50  0000 C CNN
@@ -2477,4 +2364,56 @@ Text Label 13100 800  0    60   ~ 0
 CC4
 Wire Wire Line
 	13400 800  13100 800 
+Wire Wire Line
+	12400 6850 12750 6850
+Wire Wire Line
+	12400 6850 12400 7000
+Wire Wire Line
+	12050 6850 12400 6850
+Wire Wire Line
+	6200 7250 6200 7300
+Wire Wire Line
+	6200 10150 6200 10100
+Wire Wire Line
+	7450 9800 7500 9800
+Wire Wire Line
+	5150 9200 5200 9200
+Wire Wire Line
+	5150 9300 5200 9300
+Wire Wire Line
+	6250 3900 6450 3900
+Wire Wire Line
+	5150 8200 5200 8200
+Wire Wire Line
+	7600 6000 7600 6100
+Wire Wire Line
+	7100 6000 7100 6100
+Wire Wire Line
+	5250 3900 5300 3900
+Wire Wire Line
+	2700 2600 2700 2700
+Wire Wire Line
+	2700 2700 2700 2800
+Wire Wire Line
+	2700 2800 2700 2900
+Wire Wire Line
+	2700 3400 2500 3400
+Wire Wire Line
+	2700 3300 2700 3400
+Wire Wire Line
+	2700 3200 2700 3300
+Wire Wire Line
+	4750 5350 4850 5350
+Wire Wire Line
+	5900 3200 6450 3200
+Wire Wire Line
+	6450 3200 7000 3200
+Wire Wire Line
+	7000 3200 7550 3200
+Wire Wire Line
+	7550 3200 8100 3200
+Wire Wire Line
+	8100 3200 8600 3200
+Wire Wire Line
+	8600 3200 9100 3200
 $EndSCHEMATC
