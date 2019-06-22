@@ -1,5 +1,37 @@
 EESchema Schematic File Version 4
-LIBS:Entrenador1-SchDoc-cache
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Entrenador1-SchDoc_4Display_en_uno-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -319,114 +351,6 @@ F 3 "" H 14550 8150 60  0001 C CNN
 	1    14550 8150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:7SEGMENTS AFF3
-U 1 1 5A4B8953
-P 14550 5350
-F 0 "AFF3" H 14550 5900 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 4900 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 5350 50  0001 C CNN
-F 3 "" H 14550 5350 50  0000 C CNN
-	1    14550 5350
-	1    0    0    -1  
-$EndComp
-Text Label 13950 4950 0    60   ~ 0
-a
-Text Label 13950 5050 0    60   ~ 0
-b
-Text Label 13950 5150 0    60   ~ 0
-c
-Text Label 15150 5600 0    60   ~ 0
-h
-Text Label 13950 5350 0    60   ~ 0
-e
-Text Label 13950 5250 0    60   ~ 0
-d
-Text Label 13950 5450 0    60   ~ 0
-f
-Text Label 13950 5550 0    60   ~ 0
-g
-$Comp
-L Entrenador1-SchDoc-rescue:7SEGMENTS AFF4
-U 1 1 5A4BBB80
-P 14550 6800
-F 0 "AFF4" H 14550 7350 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 6350 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 6800 50  0001 C CNN
-F 3 "" H 14550 6800 50  0000 C CNN
-	1    14550 6800
-	1    0    0    -1  
-$EndComp
-Text Label 13950 6400 0    60   ~ 0
-a
-Text Label 13950 6500 0    60   ~ 0
-b
-Text Label 13950 6600 0    60   ~ 0
-c
-Text Label 15150 7050 0    60   ~ 0
-h
-Text Label 13950 6800 0    60   ~ 0
-e
-Text Label 13950 6700 0    60   ~ 0
-d
-Text Label 13950 6900 0    60   ~ 0
-f
-Text Label 13950 7000 0    60   ~ 0
-g
-$Comp
-L Entrenador1-SchDoc-rescue:7SEGMENTS AFF1
-U 1 1 5A4BBF94
-P 14550 2450
-F 0 "AFF1" H 14550 3000 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 2000 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 2450 50  0001 C CNN
-F 3 "" H 14550 2450 50  0000 C CNN
-	1    14550 2450
-	1    0    0    -1  
-$EndComp
-Text Label 13950 2050 0    60   ~ 0
-a
-Text Label 13950 2150 0    60   ~ 0
-b
-Text Label 13950 2250 0    60   ~ 0
-c
-Text Label 15150 2700 0    60   ~ 0
-h
-Text Label 13950 2450 0    60   ~ 0
-e
-Text Label 13950 2350 0    60   ~ 0
-d
-Text Label 13950 2550 0    60   ~ 0
-f
-Text Label 13950 2650 0    60   ~ 0
-g
-$Comp
-L Entrenador1-SchDoc-rescue:7SEGMENTS AFF2
-U 1 1 5A4BBFA2
-P 14550 3900
-F 0 "AFF2" H 14550 4450 50  0000 C CNN
-F 1 "7SEGMENTS" H 14550 3450 50  0000 C CNN
-F 2 "libreria:7SegmentLED_LTS6760_LTS6780" H 14550 3900 50  0001 C CNN
-F 3 "" H 14550 3900 50  0000 C CNN
-	1    14550 3900
-	1    0    0    -1  
-$EndComp
-Text Label 13950 3500 0    60   ~ 0
-a
-Text Label 13950 3600 0    60   ~ 0
-b
-Text Label 13950 3700 0    60   ~ 0
-c
-Text Label 15150 4150 0    60   ~ 0
-h
-Text Label 13950 3900 0    60   ~ 0
-e
-Text Label 13950 3800 0    60   ~ 0
-d
-Text Label 13950 4000 0    60   ~ 0
-f
-Text Label 13950 4100 0    60   ~ 0
-g
 Text Label 13850 7950 2    60   ~ 0
 Display_A
 Text Label 13850 8050 2    60   ~ 0
@@ -2174,7 +2098,7 @@ U 1 1 5A6E6642
 P 4350 4800
 F 0 "P7" H 4350 4950 50  0000 C CNN
 F 1 "CONN_01X02" V 4450 4800 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4350 4800 50  0001 C CNN
+F 2 "libreria:TerminalBlock_bornier-2_P5.08mm" H 4350 4800 50  0001 C CNN
 F 3 "" H 4350 4800 50  0000 C CNN
 	1    4350 4800
 	-1   0    0    1   
@@ -2218,7 +2142,7 @@ U 1 1 5A71D7A0
 P 4350 5400
 F 0 "P8" H 4350 5550 50  0000 C CNN
 F 1 "CONN_01X02" V 4450 5400 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 4350 5400 50  0001 C CNN
+F 2 "libreria:TerminalBlock_bornier-2_P5.08mm" H 4350 5400 50  0001 C CNN
 F 3 "" H 4350 5400 50  0000 C CNN
 	1    4350 5400
 	-1   0    0    1   
@@ -2379,7 +2303,7 @@ U 1 1 5B4E520D
 P 14600 1200
 F 0 "U1" H 13650 1650 50  0000 C CNN
 F 1 "CC56-12EWA" H 15430 1650 50  0000 C CNN
-F 2 "Displays_7-Segment:CA56-12EWA" H 14600 600 50  0001 C CNN
+F 2 "libreria:CA56-12EWA" H 14600 600 50  0001 C CNN
 F 3 "" H 14220 1230 50  0001 C CNN
 	1    14600 1200
 	-1   0    0    1   
