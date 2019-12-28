@@ -1,4 +1,4 @@
-(module DIP-16_W7.62mm (layer F.Cu) (tedit 59C78D6B)
+(module DIP-16_W7.62mm (layer F.Cu) (tedit 5E07BDD5)
   (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
   (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
   (fp_text reference U3 (at 3.81 -2.33) (layer F.SilkS)
@@ -41,7 +41,7 @@
   (pad 15 thru_hole oval (at 7.62 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 8 thru_hole oval (at 0 17.78) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 16 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/DIP-16_W7.62mm.wrl
+  (model ${KIPRJMOD}/Modelos3d/DIP-16_W7.62mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

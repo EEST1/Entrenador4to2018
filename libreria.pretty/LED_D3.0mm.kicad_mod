@@ -1,4 +1,4 @@
-(module LED_D3.0mm (layer F.Cu) (tedit 587A3A7B)
+(module LED_D3.0mm (layer F.Cu) (tedit 5E07BE69)
   (descr "LED, diameter 3.0mm, 2 pins")
   (tags "LED diameter 3.0mm 2 pins")
   (fp_text reference D11 (at 1.27 -2.96) (layer F.SilkS)
@@ -27,7 +27,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/LED_D3.0mm.wrl
+  (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

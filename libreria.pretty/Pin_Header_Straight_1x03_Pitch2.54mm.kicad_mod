@@ -1,4 +1,4 @@
-(module Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5A79CAFE)
+(module Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5E07BEF5)
   (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x03 2.54mm single row")
   (fp_text reference JP1 (at 0 -2.33) (layer F.SilkS)
@@ -33,7 +33,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
+  (model ${KIPRJMOD}/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

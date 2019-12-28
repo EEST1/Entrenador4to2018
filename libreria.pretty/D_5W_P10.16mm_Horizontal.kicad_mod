@@ -1,4 +1,4 @@
-(module D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5921392E)
+(module D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5E07BE57)
   (descr "D, 5W series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=8.9*3.7mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
   (tags "D 5W series Axial Horizontal pin pitch 10.16mm  length 8.9mm diameter 3.7mm")
   (fp_text reference D12 (at -3.556 0) (layer F.SilkS)
@@ -35,7 +35,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
+  (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

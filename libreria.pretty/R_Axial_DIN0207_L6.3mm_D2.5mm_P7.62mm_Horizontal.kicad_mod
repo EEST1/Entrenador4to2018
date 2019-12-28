@@ -1,4 +1,4 @@
-(module R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5874F706)
+(module R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5E07C081)
   (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
   (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
   (fp_text reference R15 (at -1.905 0 90) (layer F.SilkS)
@@ -25,7 +25,7 @@
   (fp_line (start 8.7 -1.6) (end -1.05 -1.6) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
-  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl
+  (model ${KIPRJMOD}/Modelos3d/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-(module USB_B (layer F.Cu) (tedit 5BDF0787)
+(module USB_B (layer F.Cu) (tedit 5E07C271)
   (descr "USB B connector")
   (tags "USB_B USB_DEV")
   (fp_text reference P6 (at 11.05 1.27 90) (layer F.SilkS)
@@ -23,7 +23,7 @@
   (pad 3 thru_hole oval (at 2 2.54 270) (size 2 1.6) (drill 0.81) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 4.7 7.27 270) (size 5 4) (drill 2.3) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 4.7 -4.73 270) (size 5 4) (drill 2.3) (layers *.Cu *.Mask))
-  (model C:/Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/usb_B.wrl
+  (model ${KIPRJMOD}/Modelos3d/usb_B.wrl
     (offset (xyz 6.984999895095826 -1.269999980926514 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 270))

@@ -1,4 +1,4 @@
-(module CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 597BC7C2)
+(module CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5E07BD79)
   (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
   (fp_text reference C8 (at 1.25 -3.81) (layer F.SilkS)
@@ -143,7 +143,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ../../../../../../Users/Admin/Dropbox/tecnica1/Entrenador4to2018/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
+  (model ${KIPRJMOD}/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
