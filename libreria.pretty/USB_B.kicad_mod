@@ -1,4 +1,4 @@
-(module USB_B (layer F.Cu) (tedit 5E08B650)
+(module USB_B (layer F.Cu) (tedit 5E0929AB)
   (descr "USB B connector")
   (tags "USB_B USB_DEV")
   (fp_text reference P6 (at 11.05 1.27 90) (layer F.SilkS)
