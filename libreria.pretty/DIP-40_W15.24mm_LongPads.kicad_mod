@@ -1,4 +1,4 @@
-(module DIP-40_W15.24mm_LongPads (layer F.Cu) (tedit 5E08A588)
+(module DIP-40_W15.24mm_LongPads (layer F.Cu) (tedit 5E08B02F)
   (descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), LongPads")
   (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil LongPads")
   (fp_text reference U5 (at 7.62 -2.33) (layer F.SilkS)
@@ -70,9 +70,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-40_W15.24mm.step
-    (at (xyz 0 0 0))
+  (model "${KIPRJMOD}/Modelos3d/DIP40 & Socket.stp"
+    (offset (xyz 7.5 -24.25 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
