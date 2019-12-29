@@ -1,4 +1,4 @@
-(module USB_B (layer F.Cu) (tedit 5E07C271)
+(module USB_B (layer F.Cu) (tedit 5E08B650)
   (descr "USB B connector")
   (tags "USB_B USB_DEV")
   (fp_text reference P6 (at 11.05 1.27 90) (layer F.SilkS)
@@ -27,5 +27,10 @@
     (offset (xyz 6.984999895095826 -1.269999980926514 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 270))
+  )
+  (model ${KIPRJMOD}/Modelos3d/usb_B.STEP
+    (offset (xyz 1 -1.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
   )
 )

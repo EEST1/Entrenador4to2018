@@ -477,7 +477,7 @@
     )
   )
 
-  (module libreria:CA56-12EWA (layer F.Cu) (tedit 5D0E35D2) (tstamp 5D1089A1)
+  (module libreria:CA56-12EWA (layer F.Cu) (tedit 5E08A4E2) (tstamp 5D1089A1)
     (at 153.162 54.864 90)
     (descr "4 digit 7 segment green LED, http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf")
     (tags "4 digit 7 segment green LED")
@@ -536,9 +536,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Displays_7-Segment.3dshapes/CA56-12EWA.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:Socket_Strip_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 5E07C107) (tstamp 5D107ABC)
+  (module libreria:Socket_Strip_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 5E08AA77) (tstamp 5D107ABC)
     (at 206.248 68.072 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
@@ -577,6 +582,11 @@
     (pad 1 thru_hole rect (at 0 0 270) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 57 /Display_A))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x05_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -769,7 +779,7 @@
     )
   )
 
-  (module libreria:USB_B (layer F.Cu) (tedit 5E07C271) (tstamp 5A5B8E33)
+  (module libreria:USB_B (layer F.Cu) (tedit 5E08B650) (tstamp 5A5B8E33)
     (at 74.136 107.315 180)
     (descr "USB B connector")
     (tags "USB_B USB_DEV")
@@ -807,9 +817,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
+    (model ${KIPRJMOD}/Modelos3d/usb_B.STEP
+      (offset (xyz 1 -1.25 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
-  (module libreria:Socket_Strip_Straight_1x09_Pitch2.54mm (layer F.Cu) (tedit 5E07C148) (tstamp 5A7B1437)
+  (module libreria:Socket_Strip_Straight_1x09_Pitch2.54mm (layer F.Cu) (tedit 5E08AAAE) (tstamp 5A7B1437)
     (at 138.176 87.63 270)
     (descr "Through hole straight socket strip, 1x09, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x09 2.54mm single row")
@@ -860,9 +875,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x09_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5E07BEF5) (tstamp 5A7B1420)
+  (module libreria:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5E08B37F) (tstamp 5A7B1420)
     (at 78.74 114.3 180)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
@@ -897,19 +917,19 @@
       (net 101 VDD))
     (pad 1 thru_hole rect (at 0 0 180) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 93 "Net-(C8-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5E07BE57) (tstamp 5A6D6B1B)
+  (module libreria:D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5E08A42E) (tstamp 5A6D6B1B)
     (at 76.327 133.985)
     (descr "D, 5W series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=8.9*3.7mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
     (tags "D 5W series Axial Horizontal pin pitch 10.16mm  length 8.9mm diameter 3.7mm")
@@ -945,19 +965,19 @@
       (net 103 +12VFuente))
     (pad 1 thru_hole rect (at 0 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 100 VUR))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
+    (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
+    (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5E07BEF5) (tstamp 5A5B9690)
+  (module libreria:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 5E08B37F) (tstamp 5A5B9690)
     (at 81.661 125.73)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
@@ -992,19 +1012,19 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 101 VDD))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinHeader_1x03_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E07C0F7) (tstamp 5A5A380F)
+  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E08AA5E) (tstamp 5A5A380F)
     (at 196.215 85.725 90)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1040,19 +1060,19 @@
       (net 82 "Net-(P1-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 105 -VrefAnalogica))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E07C0F7) (tstamp 5A5A3A25)
+  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E08AA5E) (tstamp 5A5A3A25)
     (at 180.213 96.012 270)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1088,19 +1108,19 @@
       (net 43 Boton2))
     (pad 1 thru_hole rect (at 0 0 270) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 42 Boton1))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E07C0F7) (tstamp 5A720FD7)
+  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E08AA5E) (tstamp 5A720FD7)
     (at 166.878 112.522)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1136,19 +1156,19 @@
       (net 101 VDD))
     (pad 1 thru_hole rect (at 0 0) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 101 VDD))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E07C0F7) (tstamp 5A720FEE)
+  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E08AA5E) (tstamp 5A720FEE)
     (at 166.878 99.822)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -1184,19 +1204,19 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 GND))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Crystal_HC49-4H_Vertical (layer F.Cu) (tedit 5E07BDC2) (tstamp 5A6D6D2D)
+  (module libreria:Crystal_HC49-4H_Vertical (layer F.Cu) (tedit 5E08A53B) (tstamp 5A6D6D2D)
     (at 109.02 95.885 180)
     (descr "Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf")
     (tags "THT crystalHC-49-4H")
@@ -1230,19 +1250,19 @@
       (net 94 OSC2))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 OSC1))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/Crystal_HC49-4H_Vertical.wrl
+    (model ${KIPRJMOD}//Modelos3d/Crystal_HC49-4H_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}//Modelos3d/Crystal_HC49-4H_Vertical.wrl
+    (model ${KIPRJMOD}//Modelos3d/Crystal_HC49-4H_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5E07BDB4) (tstamp 5A5B8E09)
+  (module libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5E08A525) (tstamp 5A5B8E09)
     (at 102.235 92.075)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -1272,19 +1292,19 @@
       (net 12 GND))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 94 OSC2))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
+    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
+    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5E07BDB4) (tstamp 5A5B8E03)
+  (module libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5E08A525) (tstamp 5A5B8E03)
     (at 110.45 92.075 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -1314,19 +1334,19 @@
       (net 12 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 13 OSC1))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
+    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
+    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5E07BD79) (tstamp 5A5B8DFD)
+  (module libreria:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5E08A4FC) (tstamp 5A5B8DFD)
     (at 81.661 119.38 270)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
@@ -1470,19 +1490,19 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 93 "Net-(C8-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D5.0mm_P2.50mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5E07BD79) (tstamp 5A5B8E0F)
+  (module libreria:CP_Radial_D5.0mm_P2.50mm (layer F.Cu) (tedit 5E08A4FC) (tstamp 5A5B8E0F)
     (at 85.471 97.75 90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
@@ -1626,19 +1646,19 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 95 "Net-(C11-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D5.0mm_P2.50mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D5.0mm_P2.50mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5E07BDA2) (tstamp 5A6D6A57)
+  (module libreria:CP_Radial_D6.3mm_P2.50mm (layer F.Cu) (tedit 5E08A511) (tstamp 5A6D6A57)
     (at 147.066 94.575 90)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
@@ -1798,19 +1818,19 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 92 MCRL))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/CP_Radial_D6.3mm_P2.50mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D6.3mm_P2.50mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D6.3mm_P2.50mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/CP_Radial_D6.3mm_P2.50mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 5E07C114) (tstamp 5A6D6B33)
+  (module libreria:Socket_Strip_Straight_1x06_Pitch2.54mm (layer F.Cu) (tedit 5E08AA89) (tstamp 5A6D6B33)
     (at 154.686 101.473)
     (descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x06 2.54mm single row")
@@ -1851,6 +1871,11 @@
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 92 MCRL))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x06_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x06_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2523,7 +2548,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A6D6B66)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E08AAA3) (tstamp 5A6D6B66)
     (at 86.233 68.072 90)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2572,9 +2597,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A5B967A)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E08AAA3) (tstamp 5A5B967A)
     (at 89.916 87.63 90)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2623,9 +2653,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A5B9240)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E08AAA3) (tstamp 5A5B9240)
     (at 138.176 128.27 270)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2670,6 +2705,11 @@
     (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 99 PGD))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3854,7 +3894,7 @@
     )
   )
 
-  (module libreria:DIP-40_W15.24mm_LongPads (layer F.Cu) (tedit 59C78D6C) (tstamp 5A6D6CF2)
+  (module libreria:DIP-40_W15.24mm_LongPads (layer F.Cu) (tedit 5E08B02F) (tstamp 5A6D6CF2)
     (at 138.176 100.33 270)
     (descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil LongPads")
@@ -3968,6 +4008,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/Modelos3d/DIP40 & Socket.stp"
+      (offset (xyz 7.5 -24.25 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module libreria:TO-220-3_Vertical (layer F.Cu) (tedit 5E07C468) (tstamp 5A6D6CD9)
@@ -4020,7 +4065,7 @@
     )
   )
 
-  (module libreria:DIP-16_W7.62mm (layer F.Cu) (tedit 5E07BDD5) (tstamp 5A6D6CB6)
+  (module libreria:DIP-16_W7.62mm (layer F.Cu) (tedit 5E08A557) (tstamp 5A6D6CB6)
     (at 209.169 56.388 180)
     (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
@@ -4086,9 +4131,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/Modelos3d/DIP-16_W7.62mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:DIP-18_W7.62mm_LongPads (layer F.Cu) (tedit 5E07BE37) (tstamp 5A6D6C91)
+  (module libreria:DIP-18_W7.62mm_LongPads (layer F.Cu) (tedit 5E08B3C0) (tstamp 5A6D6C91)
     (at 86.233 62.23 90)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
@@ -4158,9 +4208,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/Modelos3d/DIP-18_W7.62mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E07C5A5) (tstamp 5A6D6C28)
+  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E08B3FC) (tstamp 5A6D6C28)
     (at 196.215 104.06)
     (descr "Potentiometer, horizontally mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, http://www.omeg.co.uk/pc6bubrc.htm")
     (tags "Potentiometer horizontal  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU")
@@ -4192,19 +4247,19 @@
       (net 82 "Net-(P1-Pad2)"))
     (pad 3 thru_hole circle (at 0 -10) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask)
       (net 105 -VrefAnalogica))
-    (model Potentiometers.3dshapes/Potentiometer_Omeg_PC16PU_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 90 0 0))
-    )
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl
       (offset (xyz 0 10 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 180))
     )
+    (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E07C5A5) (tstamp 5A6D6C13)
+  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E08B3FC) (tstamp 5A6D6C13)
     (at 196.215 126.92)
     (descr "Potentiometer, horizontally mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, http://www.omeg.co.uk/pc6bubrc.htm")
     (tags "Potentiometer horizontal  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU")
@@ -4236,19 +4291,19 @@
       (net 83 "Net-(P1-Pad3)"))
     (pad 3 thru_hole circle (at 0 -10) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask)
       (net 105 -VrefAnalogica))
-    (model Potentiometers.3dshapes/Potentiometer_Omeg_PC16PU_Horizontal.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 90 0 0))
-    )
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl
       (offset (xyz 0 10 7.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 90 180))
     )
+    (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5E07BDB4) (tstamp 5A5B8DF7)
+  (module libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm (layer F.Cu) (tedit 5E08A525) (tstamp 5A5B8DF7)
     (at 117.816 118.745 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor")
@@ -4278,19 +4333,19 @@
       (net 12 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 101 VDD))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
+    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.wrl
+    (model ${KIPRJMOD}//Modelos3d/C_Disc_D5.0mm_W2.5mm_P2.50mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A7DDF44)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E08AAA3) (tstamp 5A7DDF44)
     (at 107.696 128.27 270)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -4339,9 +4394,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E07C0F7) (tstamp 5A7B6C78)
+  (module libreria:Socket_Strip_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 5E08AA5E) (tstamp 5A7B6C78)
     (at 160.782 68.072 90)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
@@ -4377,19 +4437,19 @@
       (net 59 Disp2))
     (pad 1 thru_hole rect (at 0 0 90) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 58 Disp1))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/Modelos3d/PinSocket_1x04_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5E07BE57) (tstamp 5A7ED0A1)
+  (module libreria:D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5E08A42E) (tstamp 5A7ED0A1)
     (at 120.015 58.674 180)
     (descr "D, 5W series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=8.9*3.7mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
     (tags "D 5W series Axial Horizontal pin pitch 10.16mm  length 8.9mm diameter 3.7mm")
@@ -4425,12 +4485,12 @@
       (net 110 +5VFuente))
     (pad 1 thru_hole rect (at 0 0 180) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask)
       (net 111 +5VD))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
+    (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
+    (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

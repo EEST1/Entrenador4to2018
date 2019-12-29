@@ -1,4 +1,4 @@
-(module Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E07C5A5)
+(module Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E08B3FC)
   (descr "Potentiometer, horizontally mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, http://www.omeg.co.uk/pc6bubrc.htm")
   (tags "Potentiometer horizontal  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU")
   (fp_text reference RV2 (at 9.915 -14.7) (layer F.SilkS)
@@ -25,14 +25,14 @@
   (pad 3 thru_hole circle (at 0 -10) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -5) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 2.34 2.34) (drill 1.3) (layers *.Cu *.Mask))
-  (model Potentiometers.3dshapes/Potentiometer_Omeg_PC16PU_Horizontal.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 90 0 0))
-  )
   (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl
     (offset (xyz 0 10 7.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 180))
+  )
+  (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

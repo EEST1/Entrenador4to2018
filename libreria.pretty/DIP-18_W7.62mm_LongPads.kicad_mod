@@ -1,4 +1,4 @@
-(module DIP-18_W7.62mm_LongPads (layer F.Cu) (tedit 5E08A571)
+(module DIP-18_W7.62mm_LongPads (layer F.Cu) (tedit 5E08B3C0)
   (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
   (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
   (fp_text reference U2 (at 3.81 -2.33) (layer F.SilkS)
