@@ -1,4 +1,4 @@
-(module D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5E07BE57)
+(module D_5W_P10.16mm_Horizontal (layer F.Cu) (tedit 5E08A42E)
   (descr "D, 5W series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=8.9*3.7mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
   (tags "D 5W series Axial Horizontal pin pitch 10.16mm  length 8.9mm diameter 3.7mm")
   (fp_text reference D12 (at -3.556 0) (layer F.SilkS)
@@ -30,12 +30,12 @@
   (fp_line (start 11.85 -2.2) (end -1.65 -2.2) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole rect (at 0 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 10.16 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask))
-  (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
+  (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.wrl
+  (model ${KIPRJMOD}/Modelos3d/D_5W_P10.16mm_Horizontal.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

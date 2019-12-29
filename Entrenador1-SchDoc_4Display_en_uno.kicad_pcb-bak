@@ -536,6 +536,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Displays_7-Segment.3dshapes/CA56-12EWA.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module libreria:Socket_Strip_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 5E07C107) (tstamp 5D107ABC)
@@ -806,6 +811,11 @@
       (offset (xyz 6.984999895095826 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
+    )
+    (model ${KIPRJMOD}/Modelos3d/usb_B.STEP
+      (offset (xyz 0.985 -1.27 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
     )
   )
 
@@ -2523,7 +2533,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A6D6B66)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A6D6B66)
     (at 86.233 68.072 90)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2565,7 +2575,7 @@
       (net 36 "Net-(J11-Pad3)"))
     (pad 2 thru_hole oval (at 0 2.54 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 "Net-(J11-Pad2)"))
-    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 34 "Net-(J11-Pad1)"))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -2574,7 +2584,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A5B967A)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A5B967A)
     (at 89.916 87.63 90)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2616,7 +2626,7 @@
       (net 28 RC2))
     (pad 2 thru_hole oval (at 0 2.54 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 RD0))
-    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 RD1))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -2625,7 +2635,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A5B9240)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A5B9240)
     (at 138.176 128.27 270)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2667,7 +2677,7 @@
       (net 25 RB5))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 98 PGC))
-    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 99 PGD))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -3970,7 +3980,7 @@
     )
   )
 
-  (module libreria:TO-220-3_Vertical (layer F.Cu) (tedit 58CE52AD) (tstamp 5A6D6CD9)
+  (module libreria:TO-220-3_Vertical (layer F.Cu) (tedit 5E07C468) (tstamp 5A6D6CD9)
     (at 76.581 125.73 90)
     (descr "TO-220-3, Vertical, RM 2.54mm")
     (tags "TO-220-3 Vertical RM 2.54mm")
@@ -4160,7 +4170,7 @@
     )
   )
 
-  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E07C06E) (tstamp 5A6D6C28)
+  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E07C5A5) (tstamp 5A6D6C28)
     (at 196.215 104.06)
     (descr "Potentiometer, horizontally mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, http://www.omeg.co.uk/pc6bubrc.htm")
     (tags "Potentiometer horizontal  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU")
@@ -4194,17 +4204,17 @@
       (net 105 -VrefAnalogica))
     (model Potentiometers.3dshapes/Potentiometer_Omeg_PC16PU_Horizontal.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 90 0 0))
     )
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 10 7.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 90 180))
     )
   )
 
-  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E07C06E) (tstamp 5A6D6C13)
+  (module libreria:Potentiometer_Omeg_PC16PU_Horizontal (layer F.Cu) (tedit 5E07C5A5) (tstamp 5A6D6C13)
     (at 196.215 126.92)
     (descr "Potentiometer, horizontally mounted, Omeg PC16PU, Omeg PC16PU, Omeg PC16PU, http://www.omeg.co.uk/pc6bubrc.htm")
     (tags "Potentiometer horizontal  Omeg PC16PU  Omeg PC16PU  Omeg PC16PU")
@@ -4238,13 +4248,13 @@
       (net 105 -VrefAnalogica))
     (model Potentiometers.3dshapes/Potentiometer_Omeg_PC16PU_Horizontal.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
-      (rotate (xyz 0 0 0))
+      (scale (xyz 0.3937 0.3937 0.3937))
+      (rotate (xyz 90 0 0))
     )
     (model ${KISYS3DMOD}/Potentiometers.3dshapes/Potentiometer_Alps-RK163-single_15mm.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 10 7.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 90 180))
     )
   )
 
@@ -4290,7 +4300,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A7DDF44)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A7DDF44)
     (at 107.696 128.27 270)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -4332,7 +4342,7 @@
       (net 6 RD5))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 RD6))
-    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 4 RD7))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))

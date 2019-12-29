@@ -1,4 +1,4 @@
-(module BARREL_JACK (layer F.Cu) (tedit 5E07BD04)
+(module BARREL_JACK (layer F.Cu) (tedit 5E08A4BC)
   (descr "DC Barrel Jack")
   (tags "Power Jack")
   (fp_text reference CON1 (at -8.45 5.75 180) (layer F.SilkS)
@@ -38,5 +38,10 @@
     (offset (xyz -13.71599979400635 0 0))
     (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 90))
+  )
+  (model ${KIPRJMOD}/Modelos3d/BARREL_JACK.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

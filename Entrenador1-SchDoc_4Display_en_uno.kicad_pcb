@@ -349,7 +349,7 @@
     (add_net "Net-(R27-Pad1)")
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A6D6B09)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A6D6B09)
     (at 72.39 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -377,12 +377,12 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 84 "Net-(D11-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2163,7 +2163,7 @@
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A5B966C)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A5B966C)
     (at 71.501 93.726 270)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2191,19 +2191,19 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 33 "Net-(D3-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A5B9667)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A5B9667)
     (at 71.501 90.551 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2231,19 +2231,19 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 32 "Net-(D2-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A3E9887)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A3E9887)
     (at 80.01 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2271,19 +2271,19 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 91 "Net-(D10-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A3E9874)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A3E9874)
     (at 87.63 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2311,19 +2311,19 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 90 "Net-(D9-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A3E9861)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A3E9861)
     (at 95.25 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2351,19 +2351,19 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 89 "Net-(D8-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A3E984E)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A3E984E)
     (at 102.87 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2391,19 +2391,19 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 88 "Net-(D7-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A3E983B)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A3E983B)
     (at 110.49 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2431,19 +2431,19 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 87 "Net-(D6-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A3E9828)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A3E9828)
     (at 118.11 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2471,19 +2471,19 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 86 "Net-(D5-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E07BE69) (tstamp 5A3E9815)
+  (module libreria:LED_D3.0mm (layer F.Cu) (tedit 5E08A291) (tstamp 5A3E9815)
     (at 125.73 44.45 90)
     (descr "LED, diameter 3.0mm, 2 pins")
     (tags "LED diameter 3.0mm 2 pins")
@@ -2511,19 +2511,19 @@
       (net 111 +5VD))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 85 "Net-(D4-Pad1)"))
-    (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/Modelos3d/LED_D3.0mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A6D6B66)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A6D6B66)
     (at 86.233 68.072 90)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2565,7 +2565,7 @@
       (net 36 "Net-(J11-Pad3)"))
     (pad 2 thru_hole oval (at 0 2.54 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 "Net-(J11-Pad2)"))
-    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 34 "Net-(J11-Pad1)"))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -2574,7 +2574,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A5B967A)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A5B967A)
     (at 89.916 87.63 90)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2616,7 +2616,7 @@
       (net 28 RC2))
     (pad 2 thru_hole oval (at 0 2.54 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 RD0))
-    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 90) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 RD1))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -2625,7 +2625,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A5B9240)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A5B9240)
     (at 138.176 128.27 270)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -2667,7 +2667,7 @@
       (net 25 RB5))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 98 PGC))
-    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 99 PGD))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4290,7 +4290,7 @@
     )
   )
 
-  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E07C30D) (tstamp 5A7DDF44)
+  (module libreria:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5E089E11) (tstamp 5A7DDF44)
     (at 107.696 128.27 270)
     (descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row")
     (tags "Through hole socket strip THT 1x08 2.54mm single row")
@@ -4332,7 +4332,7 @@
       (net 6 RD5))
     (pad 2 thru_hole oval (at 0 2.54 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 RD6))
-    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill oval 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 270) (size 3 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 4 RD7))
     (model ${KIPRJMOD}/Modelos3d/PinSocket_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))

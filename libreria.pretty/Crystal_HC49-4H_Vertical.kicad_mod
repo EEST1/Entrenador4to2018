@@ -1,4 +1,4 @@
-(module Crystal_HC49-4H_Vertical (layer F.Cu) (tedit 5E07BDC2)
+(module Crystal_HC49-4H_Vertical (layer F.Cu) (tedit 5E08A53B)
   (descr "Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf")
   (tags "THT crystalHC-49-4H")
   (fp_text reference Y2 (at 2.44 -3.525) (layer F.SilkS)
@@ -28,12 +28,12 @@
   (fp_arc (start 5.64 0) (end 5.64 -2.525) (angle 180) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 4.88 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
-  (model C:/Users/Admin/Dropbox/tecnica1/altium2kicad/Modelos3d/Crystal_HC49-4H_Vertical.wrl
+  (model ${KIPRJMOD}//Modelos3d/Crystal_HC49-4H_Vertical.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}//Modelos3d/Crystal_HC49-4H_Vertical.wrl
+  (model ${KIPRJMOD}//Modelos3d/Crystal_HC49-4H_Vertical.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

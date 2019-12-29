@@ -1,4 +1,4 @@
-(module Socket_Strip_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 5E07C107)
+(module Socket_Strip_Straight_1x05_Pitch2.54mm (layer F.Cu) (tedit 5E08AA77)
   (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row")
   (tags "Through hole socket strip THT 1x05 2.54mm single row")
   (fp_text reference P3 (at 0 -2.33) (layer F.SilkS)
@@ -30,6 +30,11 @@
   (pad 4 thru_hole oval (at 0 7.62) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 0 10.16) (size 2.2 1.7) (drill 1) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/Modelos3d/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/Modelos3d/PinSocket_1x05_P2.54mm_Vertical.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
