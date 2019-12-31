@@ -410,20 +410,6 @@ X 3 3 150 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Entrenador1-SchDoc-rescue_Res1
-#
-DEF Entrenador1-SchDoc-rescue_Res1 R 0 40 Y Y 1 F N
-F0 "R" 130 110 60 H V L BNN
-F1 "Entrenador1-SchDoc-rescue_Res1" 130 10 60 V V L BNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 10 0 1 10 200 -100 160 -100 150 -120 130 -80 110 -120 90 -80 70 -120 50 -80 40 -100 0 -100 N
-X 1 1 -100 -100 100 R 1 1 0 1 P
-X 2 2 300 -100 100 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # Entrenador1-SchDoc-rescue_SPST
 #
 DEF Entrenador1-SchDoc-rescue_SPST SW 0 0 N Y 1 F N

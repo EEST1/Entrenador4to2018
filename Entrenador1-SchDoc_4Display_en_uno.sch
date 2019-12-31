@@ -13,292 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X06 J3
-U 1 1 5A368A1B
-P 4500 6350
-F 0 "J3" H 4200 5950 60  0000 L TNN
-F 1 "ICSP" H 4200 6750 60  0000 L TNN
-F 2 "libreria:Socket_Strip_Straight_1x06_Pitch2.54mm" H 4250 6900 60  0000 C CNN
-F 3 "" H 4200 6750 60  0000 C CNN
-	1    4500 6350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X03 J9
-U 1 1 5A368A17
-P 3550 9100
-F 0 "J9" H 3450 9300 60  0000 L BNN
-F 1 "3vias" H 3450 8800 60  0000 L BNN
-F 2 "libreria:Pin_Header_Straight_1x03_Pitch2.54mm" H 3450 8800 60  0001 C CNN
-F 3 "" H 3450 8800 60  0000 C CNN
-	1    3550 9100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D2
-U 1 1 5A368A16
-P 9900 8500
-F 0 "D2" V 9990 8620 60  0000 L BNN
-F 1 "LED" V 10090 8620 60  0000 L BNN
-F 2 "libreria:LED_D3.0mm" H 10090 8620 60  0001 C CNN
-F 3 "" H 10090 8620 60  0000 C CNN
-	1    9900 8500
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D3
-U 1 1 5A368A15
-P 10500 8500
-F 0 "D3" V 10590 8620 60  0000 L BNN
-F 1 "LED" V 10690 8620 60  0000 L BNN
-F 2 "libreria:LED_D3.0mm" H 10690 8620 60  0001 C CNN
-F 3 "" H 10690 8620 60  0000 C CNN
-	1    10500 8500
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R4
-U 1 1 5A368A14
-P 10300 8200
-F 0 "R4" V 10410 8070 60  0000 R TNN
-F 1 "470" V 10310 8070 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10310 8070 60  0001 C CNN
-F 3 "" H 10310 8070 60  0000 C CNN
-	1    10300 8200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R3
-U 1 1 5A368A13
-P 9700 8200
-F 0 "R3" V 9810 8070 60  0000 R TNN
-F 1 "470" V 9710 8070 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8850 6400 60  0001 C CNN
-F 3 "" H 9710 8070 60  0000 C CNN
-	1    9700 8200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:SPST S1
-U 1 1 5A368A12
-P 9600 5600
-F 0 "S1" H 9390 5730 60  0000 L BNN
-F 1 "SW DPST_2" H 9390 5370 60  0000 L BNN
-F 2 "libreria:SW_PUSH_6mm_h13mm" H 9390 5370 60  0001 C CNN
-F 3 "" H 9390 5370 60  0000 C CNN
-	1    9600 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R2
-U 1 1 5A368A0D
-P 9000 6700
-F 0 "R2" V 9110 6570 60  0000 R TNN
-F 1 "10K" V 9010 6570 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9010 6570 60  0001 C CNN
-F 3 "" H 9010 6570 60  0000 C CNN
-	1    9000 6700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:CP C6
-U 1 1 5A368A09
-P 9100 5750
-F 0 "C6" H 8800 5800 60  0000 L BNN
-F 1 "10uf" H 8900 5750 60  0000 C CNN
-F 2 "libreria:CP_Radial_D6.3mm_P2.50mm" H 9100 5750 60  0001 C CNN
-F 3 "" H 9100 5750 60  0001 C CNN
-	1    9100 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R1
-U 1 1 5A368A02
-P 9000 5500
-F 0 "R1" V 9110 5370 60  0000 R TNN
-F 1 "10K" V 9010 5370 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9010 5370 60  0001 C CNN
-F 3 "" H 9010 5370 60  0000 C CNN
-	1    9000 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:POT-RESCUE-Entrenador1-SchDoc RV1
-U 1 1 5A3E7AC7
-P 11400 4200
-F 0 "RV1" V 11450 3900 50  0000 C CNN
-F 1 "10K lin" V 11350 3950 50  0000 C CNN
-F 2 "libreria:Potentiometer_Omeg_PC16PU_Horizontal" H 11400 4200 50  0001 C CNN
-F 3 "" H 11400 4200 50  0000 C CNN
-	1    11400 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:POT-RESCUE-Entrenador1-SchDoc RV2
-U 1 1 5A3E7E62
-P 11400 4900
-F 0 "RV2" V 11400 4600 50  0000 C CNN
-F 1 "10K lin" V 11300 4650 50  0000 C CNN
-F 2 "libreria:Potentiometer_Omeg_PC16PU_Horizontal" H 11400 4900 50  0001 C CNN
-F 3 "" H 11400 4900 50  0000 C CNN
-	1    11400 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R5
-U 1 1 5A3EC6F9
-P 10850 1300
-F 0 "R5" V 10700 1450 60  0000 R TNN
-F 1 "10K" V 10600 1450 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10860 1170 60  0001 C CNN
-F 3 "" H 10860 1170 60  0000 C CNN
-	1    10850 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R6
-U 1 1 5A3ECAFB
-P 10700 1800
-F 0 "R6" V 10810 1670 60  0000 R TNN
-F 1 "10K" V 10710 1670 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10710 1670 60  0001 C CNN
-F 3 "" H 10710 1670 60  0000 C CNN
-	1    10700 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R7
-U 1 1 5A3ECB7A
-P 10700 2450
-F 0 "R7" V 10810 2320 60  0000 R TNN
-F 1 "10K" V 10710 2320 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10710 2320 60  0001 C CNN
-F 3 "" H 10710 2320 60  0000 C CNN
-	1    10700 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R8
-U 1 1 5A3ECE52
-P 10700 3100
-F 0 "R8" V 10810 2970 60  0000 R TNN
-F 1 "10K" V 10710 2970 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10710 2970 60  0001 C CNN
-F 3 "" H 10710 2970 60  0000 C CNN
-	1    10700 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R9
-U 1 1 5A3EBB4E
-P 5900 2350
-F 0 "R9" V 6010 2220 60  0000 R TNN
-F 1 "180" V 5910 2220 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5910 2220 60  0001 C CNN
-F 3 "" H 5910 2220 60  0000 C CNN
-	1    5900 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R10
-U 1 1 5A3EBC52
-P 6450 2350
-F 0 "R10" V 6560 2220 60  0000 R TNN
-F 1 "180" V 6460 2220 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6460 2220 60  0001 C CNN
-F 3 "" H 6460 2220 60  0000 C CNN
-	1    6450 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R11
-U 1 1 5A3EBCFF
-P 7000 2350
-F 0 "R11" V 7110 2220 60  0000 R TNN
-F 1 "180" V 7010 2220 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7010 2220 60  0001 C CNN
-F 3 "" H 7010 2220 60  0000 C CNN
-	1    7000 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R12
-U 1 1 5A3EBDBB
-P 7550 2350
-F 0 "R12" V 7650 2200 60  0000 R TNN
-F 1 "180" V 7560 2220 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7560 2220 60  0001 C CNN
-F 3 "" H 7560 2220 60  0000 C CNN
-	1    7550 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R13
-U 1 1 5A3FBCE9
-P 8100 2350
-F 0 "R13" V 8200 2200 60  0000 R TNN
-F 1 "180" V 8110 2220 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8110 2220 60  0001 C CNN
-F 3 "" H 8110 2220 60  0000 C CNN
-	1    8100 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R14
-U 1 1 5A3FBDCB
-P 8600 2350
-F 0 "R14" V 8700 2200 60  0000 R TNN
-F 1 "180" V 8610 2220 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8610 2220 60  0001 C CNN
-F 3 "" H 8610 2220 60  0000 C CNN
-	1    8600 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R15
-U 1 1 5A3FBEB9
-P 9100 2350
-F 0 "R15" V 9200 2200 60  0000 R TNN
-F 1 "180" V 9110 2220 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9110 2220 60  0001 C CNN
-F 3 "" H 9110 2220 60  0000 C CNN
-	1    9100 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:ULN2803 U2
-U 1 1 5A402E41
-P 3750 1750
-F 0 "U2" H 3900 2300 60  0000 C CNN
-F 1 "ULN2803" H 4000 2200 60  0000 C CNN
-F 2 "libreria:DIP-18_W7.62mm_LongPads" H 3750 1750 60  0001 C CNN
-F 3 "" H 3750 1750 60  0000 C CNN
-	1    3750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X08 J11
-U 1 1 5A403AF2
-P 2650 1750
-F 0 "J11" H 2550 2150 60  0000 L BNN
-F 1 "CON8" H 2550 1150 60  0000 L BNN
-F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2900 100 60  0001 C CNN
-F 3 "" H 2550 1150 60  0000 C CNN
-	1    2650 1750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R16
-U 1 1 5A405865
-P 5350 2350
-F 0 "R16" V 5500 2550 60  0000 R TNN
-F 1 "180" V 5400 2550 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5360 2220 60  0001 C CNN
-F 3 "" H 5360 2220 60  0000 C CNN
-	1    5350 2350
-	-1   0    0    1   
-$EndComp
 Text GLabel 11100 1000 2    60   Input ~ 0
 Boton1
 Text GLabel 11100 1600 2    60   Input ~ 0
@@ -307,17 +21,6 @@ Text GLabel 11100 2250 2    60   Input ~ 0
 Boton3
 Text GLabel 11100 2900 2    60   Input ~ 0
 Boton4
-$Comp
-L cmos_ieee:4511 U3
-U 1 1 5A4B7D2C
-P 14550 8150
-F 0 "U3" H 14900 8600 50  0000 C CNN
-F 1 "4511" H 14900 7700 50  0000 C CNN
-F 2 "libreria:DIP-16_W7.62mm" H 14550 8150 60  0001 C CNN
-F 3 "" H 14550 8150 60  0001 C CNN
-	1    14550 8150
-	1    0    0    -1  
-$EndComp
 Text Label 13800 7950 2    60   ~ 0
 Display_A
 Text Label 13800 8050 2    60   ~ 0
@@ -326,94 +29,6 @@ Text Label 13800 8150 2    60   ~ 0
 Display_C
 Text Label 13800 8250 2    60   ~ 0
 Display_D
-$Comp
-L transistors:BC548 Q1
-U 1 1 5A4C2FC5
-P 15600 2300
-F 0 "Q1" H 15800 2375 50  0000 L CNN
-F 1 "BC548" H 15800 2300 50  0000 L CNN
-F 2 "libreria:TO-92_Molded_Narrow" H 15550 2850 50  0001 L CIN
-F 3 "" H 15600 2300 50  0000 L CNN
-	1    15600 2300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L transistors:BC548 Q2
-U 1 1 5A4C554D
-P 15650 3750
-F 0 "Q2" H 15850 3825 50  0000 L CNN
-F 1 "BC548" H 15850 3750 50  0000 L CNN
-F 2 "libreria:TO-92_Molded_Narrow" H 15650 4300 50  0001 L CIN
-F 3 "" H 15650 3750 50  0000 L CNN
-	1    15650 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L transistors:BC548 Q3
-U 1 1 5A4C5CFE
-P 15650 5200
-F 0 "Q3" H 15850 5275 50  0000 L CNN
-F 1 "BC548" H 15850 5200 50  0000 L CNN
-F 2 "libreria:TO-92_Molded_Narrow" H 15650 5750 50  0001 L CIN
-F 3 "" H 15650 5200 50  0000 L CNN
-	1    15650 5200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L transistors:BC548 Q4
-U 1 1 5A4C6421
-P 15650 6650
-F 0 "Q4" H 15850 6725 50  0000 L CNN
-F 1 "BC548" H 15850 6650 50  0000 L CNN
-F 2 "libreria:TO-92_Molded_Narrow" H 15650 7200 50  0001 L CIN
-F 3 "" H 15650 6650 50  0000 L CNN
-	1    15650 6650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R17
-U 1 1 5A4D18FF
-P 15800 2600
-F 0 "R17" V 15910 2470 60  0000 R TNN
-F 1 "1200" V 15810 2470 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15810 2470 60  0001 C CNN
-F 3 "" H 15810 2470 60  0000 C CNN
-	1    15800 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R18
-U 1 1 5A4D351A
-P 15850 4050
-F 0 "R18" V 15960 3920 60  0000 R TNN
-F 1 "1200" V 15860 3920 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15860 3920 60  0001 C CNN
-F 3 "" H 15860 3920 60  0000 C CNN
-	1    15850 4050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R19
-U 1 1 5A4D5D82
-P 15850 5500
-F 0 "R19" V 15960 5370 60  0000 R TNN
-F 1 "1200" V 15860 5370 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15860 5370 60  0001 C CNN
-F 3 "" H 15860 5370 60  0000 C CNN
-	1    15850 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R20
-U 1 1 5A4D5E87
-P 15850 6950
-F 0 "R20" V 15960 6820 60  0000 R TNN
-F 1 "1200" V 15860 6820 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15860 6820 60  0001 C CNN
-F 3 "" H 15860 6820 60  0000 C CNN
-	1    15850 6950
-	0    -1   -1   0   
-$EndComp
 Text GLabel 15900 2700 3    60   Input ~ 0
 Disp1
 Text GLabel 15950 4150 3    60   Input ~ 0
@@ -438,17 +53,6 @@ Text Label 15500 8450 0    60   ~ 0
 g
 Text Label 15500 8550 0    60   ~ 0
 h
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X04 P2
-U 1 1 5A4F30AE
-P 2300 3800
-F 0 "P2" H 2300 4050 50  0000 C CNN
-F 1 "CONN_01X04" V 2400 3800 50  0000 C CNN
-F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 3800 50  0001 C CNN
-F 3 "" H 2300 3800 50  0001 C CNN
-	1    2300 3800
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2700 3650 2    60   Input ~ 0
 Disp1
 Text GLabel 3100 3750 2    60   Input ~ 0
@@ -457,118 +61,8 @@ Text GLabel 2700 3850 2    60   Input ~ 0
 Disp3
 Text GLabel 3100 3950 2    60   Input ~ 0
 Disp4
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R21
-U 1 1 5A4C13B7
-P 15200 7750
-F 0 "R21" H 15800 7700 60  0000 R TNN
-F 1 "180" H 16050 7700 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 7620 60  0001 C CNN
-F 3 "" H 15210 7620 60  0000 C CNN
-	1    15200 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R22
-U 1 1 5A4C2ADD
-P 15200 7850
-F 0 "R22" H 15800 7800 60  0000 R TNN
-F 1 "180" H 16050 7800 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 7720 60  0001 C CNN
-F 3 "" H 15210 7720 60  0000 C CNN
-	1    15200 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R23
-U 1 1 5A4C2D4D
-P 15200 7950
-F 0 "R23" H 15800 7900 60  0000 R TNN
-F 1 "180" H 16050 7900 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 7820 60  0001 C CNN
-F 3 "" H 15210 7820 60  0000 C CNN
-	1    15200 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R24
-U 1 1 5A4C2F43
-P 15200 8050
-F 0 "R24" H 15800 8000 60  0000 R TNN
-F 1 "180" H 16050 8000 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 7920 60  0001 C CNN
-F 3 "" H 15210 7920 60  0000 C CNN
-	1    15200 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R25
-U 1 1 5A4C303E
-P 15200 8150
-F 0 "R25" H 15800 8100 60  0000 R TNN
-F 1 "180" H 16050 8100 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 8020 60  0001 C CNN
-F 3 "" H 15210 8020 60  0000 C CNN
-	1    15200 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R26
-U 1 1 5A4C3138
-P 15200 8250
-F 0 "R26" H 15800 8200 60  0000 R TNN
-F 1 "180" H 16050 8200 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 8120 60  0001 C CNN
-F 3 "" H 15210 8120 60  0000 C CNN
-	1    15200 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R27
-U 1 1 5A4C3235
-P 15200 8350
-F 0 "R27" H 15800 8300 60  0000 R TNN
-F 1 "180" H 16050 8300 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 8220 60  0001 C CNN
-F 3 "" H 15210 8220 60  0000 C CNN
-	1    15200 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R28
-U 1 1 5A4C49E4
-P 15200 8450
-F 0 "R28" H 15800 8400 60  0000 R TNN
-F 1 "180" H 16050 8400 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15210 8320 60  0001 C CNN
-F 3 "" H 15210 8320 60  0000 C CNN
-	1    15200 8450
-	1    0    0    -1  
-$EndComp
 Text Label 13350 8350 0    60   ~ 0
 DisplayH
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X04 P1
-U 1 1 5A5A69AC
-P 12350 4550
-F 0 "P1" H 12350 4800 50  0000 C CNN
-F 1 "CONN_01X04" V 12450 4550 50  0000 C CNN
-F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 12350 4550 50  0001 C CNN
-F 3 "" H 12350 4550 50  0000 C CNN
-	1    12350 4550
-	1    0    0    1   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X04 P4
-U 1 1 5A5B19C5
-P 2300 4400
-F 0 "P4" H 2300 4650 50  0000 C CNN
-F 1 "CONN_01X04" V 2400 4400 50  0000 C CNN
-F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 4400 50  0001 C CNN
-F 3 "" H 2300 4400 50  0000 C CNN
-	1    2300 4400
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2500 4250 2    60   Input ~ 0
 Boton1
 Text GLabel 3000 4350 2    60   Input ~ 0
@@ -577,96 +71,7 @@ Text GLabel 2500 4450 2    60   Input ~ 0
 Boton3
 Text GLabel 3000 4550 2    60   Input ~ 0
 Boton4
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D4
-U 1 1 5A5AB091
-P 5450 2900
-F 0 "D4" H 5450 3000 50  0000 C CNN
-F 1 "LED" H 5450 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 5450 2900 50  0001 C CNN
-F 3 "" H 5450 2900 50  0000 C CNN
-	1    5450 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D5
-U 1 1 5A5AB849
-P 6000 2900
-F 0 "D5" H 6000 3000 50  0000 C CNN
-F 1 "LED" H 6000 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 6000 2900 50  0001 C CNN
-F 3 "" H 6000 2900 50  0000 C CNN
-	1    6000 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D6
-U 1 1 5A5AB963
-P 6550 2900
-F 0 "D6" H 6550 3000 50  0000 C CNN
-F 1 "LED" H 6550 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 6550 2900 50  0001 C CNN
-F 3 "" H 6550 2900 50  0000 C CNN
-	1    6550 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D7
-U 1 1 5A5ABA90
-P 7100 2900
-F 0 "D7" H 7100 3000 50  0000 C CNN
-F 1 "LED" H 7100 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 7100 2900 50  0001 C CNN
-F 3 "" H 7100 2900 50  0000 C CNN
-	1    7100 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D8
-U 1 1 5A5ABBB0
-P 7650 2900
-F 0 "D8" H 7650 3000 50  0000 C CNN
-F 1 "LED" H 7650 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 7650 2900 50  0001 C CNN
-F 3 "" H 7650 2900 50  0000 C CNN
-	1    7650 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D9
-U 1 1 5A5ABCCF
-P 8200 2900
-F 0 "D9" H 8200 3000 50  0000 C CNN
-F 1 "LED" H 8200 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 8200 2900 50  0001 C CNN
-F 3 "" H 8200 2900 50  0000 C CNN
-	1    8200 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D10
-U 1 1 5A5ABDFD
-P 8700 2900
-F 0 "D10" H 8700 3000 50  0000 C CNN
-F 1 "LED" H 8700 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 8700 2900 50  0001 C CNN
-F 3 "" H 8700 2900 50  0000 C CNN
-	1    8700 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D11
-U 1 1 5A5ABF28
-P 9200 2900
-F 0 "D11" H 9200 3000 50  0000 C CNN
-F 1 "LED" H 9200 2800 50  0000 C CNN
-F 2 "libreria:LED_D3.0mm" H 9200 2900 50  0001 C CNN
-F 3 "" H 9200 2900 50  0000 C CNN
-	1    9200 2900
-	0    1    1    0   
-$EndComp
 Connection ~ 9100 5600
-Connection ~ 9100 6800
 Wire Wire Line
 	4700 6500 4900 6500
 Wire Wire Line
@@ -680,13 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 1300 11050 1300
 Wire Wire Line
-	10550 1900 10600 1900
-Wire Wire Line
 	11000 1900 11050 1900
-Wire Wire Line
-	10550 2550 10600 2550
-Wire Wire Line
-	10550 3200 10600 3200
 Wire Wire Line
 	11000 3200 11050 3200
 Wire Wire Line
@@ -794,8 +193,6 @@ Wire Wire Line
 Wire Wire Line
 	13550 8350 13550 8550
 Wire Wire Line
-	13550 8550 15100 8550
-Wire Wire Line
 	14000 8350 14000 8450
 Wire Wire Line
 	4150 2100 5350 2100
@@ -829,61 +226,9 @@ Wire Wire Line
 	3000 4550 2500 4550
 Wire Wire Line
 	2500 4350 3000 4350
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R29
-U 1 1 5A5AB7FD
-P 11600 6650
-F 0 "R29" V 11700 6500 60  0000 R TNN
-F 1 "10k" V 11610 6520 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 11610 6520 60  0001 C CNN
-F 3 "" H 11610 6520 60  0000 C CNN
-	1    11600 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R30
-U 1 1 5A5AC2B9
-P 11950 6650
-F 0 "R30" V 12050 6500 60  0000 R TNN
-F 1 "10k" V 11960 6520 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 11960 6520 60  0001 C CNN
-F 3 "" H 11960 6520 60  0000 C CNN
-	1    11950 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R31
-U 1 1 5A5AC3C7
-P 12300 6650
-F 0 "R31" V 12400 6500 60  0000 R TNN
-F 1 "10k" V 12310 6520 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12310 6520 60  0001 C CNN
-F 3 "" H 12310 6520 60  0000 C CNN
-	1    12300 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:Res1 R32
-U 1 1 5A5AC4FE
-P 12650 6650
-F 0 "R32" V 12750 6500 60  0000 R TNN
-F 1 "10k" V 12660 6520 60  0000 R TNN
-F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12660 6520 60  0001 C CNN
-F 3 "" H 12660 6520 60  0000 C CNN
-	1    12650 6650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11700 6750 11700 6850
 Wire Wire Line
 	11700 6850 12050 6850
-Wire Wire Line
-	12750 6850 12750 6750
-Wire Wire Line
-	12400 6750 12400 6850
 Connection ~ 12400 6850
-Wire Wire Line
-	12050 6750 12050 6850
 Connection ~ 12050 6850
 Text Label 11700 6350 1    60   ~ 0
 Display_A
@@ -893,50 +238,6 @@ Text Label 12400 6350 1    60   ~ 0
 Display_C
 Text Label 12750 6350 1    60   ~ 0
 Display_D
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X08 J7
-U 1 1 5A5C622E
-P 2400 9100
-F 0 "J7" H 2300 9500 60  0000 L BNN
-F 1 "CON8" H 2300 8500 60  0000 L BNN
-F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2400 8350 60  0001 C CNN
-F 3 "" H 2300 8500 60  0000 C CNN
-	1    2400 9100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X08 J6
-U 1 1 5A5C6968
-P 2400 7900
-F 0 "J6" H 2300 8300 60  0000 L BNN
-F 1 "CON8" H 2300 7300 60  0000 L BNN
-F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2400 7250 60  0001 C CNN
-F 3 "" H 2300 7300 60  0000 C CNN
-	1    2400 7900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X09 P5
-U 1 1 5A5C7776
-P 2400 6600
-F 0 "P5" H 2400 7100 50  0000 C CNN
-F 1 "CONN_01X09" V 2500 6600 50  0000 C CNN
-F 2 "libreria:Socket_Strip_Straight_1x09_Pitch2.54mm" H 2400 6600 50  0001 C CNN
-F 3 "" H 2400 6600 50  0000 C CNN
-	1    2400 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:PIC18(L)F4550-I_P U5
-U 1 1 5A5CC39D
-P 6300 8700
-F 0 "U5" H 5400 10000 50  0000 C CNN
-F 1 "PIC18(L)F4550-I/P" H 6850 7400 50  0000 C CNN
-F 2 "libreria:DIP-40_W15.24mm_LongPads" H 6300 8900 50  0000 C CIN
-F 3 "" H 6300 8450 50  0000 C CNN
-	1    6300 8700
-	1    0    0    -1  
-$EndComp
 Text GLabel 2700 6200 2    39   Input ~ 0
 RA0
 Text GLabel 2700 6300 2    39   Input ~ 0
@@ -963,17 +264,6 @@ Wire Wire Line
 	2700 6700 2600 6700
 Wire Wire Line
 	2700 6800 2600 6800
-$Comp
-L power:VDD #PWR01
-U 1 1 5A5CFC8F
-P 6200 7200
-F 0 "#PWR01" H 6200 7050 50  0001 C CNN
-F 1 "VDD" H 6200 7350 50  0000 C CNN
-F 2 "" H 6200 7200 50  0000 C CNN
-F 3 "" H 6200 7200 50  0000 C CNN
-	1    6200 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 7200 6200 7250
 Wire Wire Line
@@ -1132,17 +422,6 @@ Wire Wire Line
 	7500 8100 7400 8100
 Wire Wire Line
 	7500 8200 7400 8200
-$Comp
-L Entrenador1-SchDoc-rescue:USB_B-RESCUE-Entrenador1-SchDoc P6
-U 1 1 5A5E6768
-P 8600 8000
-F 0 "P6" H 8800 7800 50  0000 C CNN
-F 1 "USB_B" H 8550 8200 50  0000 C CNN
-F 2 "libreria:USB_B" V 8550 7900 50  0001 C CNN
-F 3 "" V 8550 7900 50  0000 C CNN
-	1    8600 8000
-	0    1    1    0   
-$EndComp
 Text GLabel 8300 7900 0    39   Input ~ 0
 RC4
 Text GLabel 8300 8000 0    39   Input ~ 0
@@ -1167,63 +446,8 @@ Wire Wire Line
 	10200 7800 10400 7800
 Wire Wire Line
 	10400 7800 10400 7900
-$Comp
-L power:VDD #PWR02
-U 1 1 5A5EDD3A
-P 9100 6400
-F 0 "#PWR02" H 9100 6250 50  0001 C CNN
-F 1 "VDD" H 9100 6550 50  0000 C CNN
-F 2 "" H 9100 6400 50  0000 C CNN
-F 3 "" H 9100 6400 50  0000 C CNN
-	1    9100 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR03
-U 1 1 5A5EEBB7
-P 9100 5200
-F 0 "#PWR03" H 9100 5050 50  0001 C CNN
-F 1 "VDD" H 9100 5350 50  0000 C CNN
-F 2 "" H 9100 5200 50  0000 C CNN
-F 3 "" H 9100 5200 50  0000 C CNN
-	1    9100 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5A5EF5F2
-P 9100 5900
-F 0 "#PWR04" H 9100 5650 50  0001 C CNN
-F 1 "GND" H 9100 5750 50  0000 C CNN
-F 2 "" H 9100 5900 50  0000 C CNN
-F 3 "" H 9100 5900 50  0000 C CNN
-	1    9100 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5A5EF8C4
-P 10100 5600
-F 0 "#PWR05" H 10100 5350 50  0001 C CNN
-F 1 "GND" H 10100 5450 50  0000 C CNN
-F 2 "" H 10100 5600 50  0000 C CNN
-F 3 "" H 10100 5600 50  0000 C CNN
-	1    10100 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9900 5600 10100 5600
-$Comp
-L power:GND #PWR06
-U 1 1 5A5EFB5C
-P 10100 6800
-F 0 "#PWR06" H 10100 6550 50  0001 C CNN
-F 1 "GND" H 10100 6650 50  0000 C CNN
-F 2 "" H 10100 6800 50  0000 C CNN
-F 3 "" H 10100 6800 50  0000 C CNN
-	1    10100 6800
-	1    0    0    -1  
-$EndComp
 Text GLabel 7700 9850 2    39   Input ~ 0
 MCRL
 Connection ~ 7450 9800
@@ -1251,160 +475,6 @@ Wire Wire Line
 	7450 9850 7450 9800
 Wire Wire Line
 	7900 8400 7400 8400
-$Comp
-L power:GND #PWR07
-U 1 1 5A602ACD
-P 6200 10200
-F 0 "#PWR07" H 6200 9950 50  0001 C CNN
-F 1 "GND" H 6200 10050 50  0000 C CNN
-F 2 "" H 6200 10200 50  0000 C CNN
-F 3 "" H 6200 10200 50  0000 C CNN
-	1    6200 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C11
-U 1 1 5A6062F8
-P 7900 8550
-F 0 "C11" H 8050 8550 50  0000 L CNN
-F 1 "1uf" H 8050 8450 50  0000 L CNN
-F 2 "libreria:CP_Radial_D5.0mm_P2.50mm" H 7938 8400 50  0001 C CNN
-F 3 "" H 7900 8550 50  0000 C CNN
-	1    7900 8550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5A606C94
-P 7900 8700
-F 0 "#PWR08" H 7900 8450 50  0001 C CNN
-F 1 "GND" H 7900 8550 50  0000 C CNN
-F 2 "" H 7900 8700 50  0000 C CNN
-F 3 "" H 7900 8700 50  0000 C CNN
-	1    7900 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5A607470
-P 8250 8300
-F 0 "#PWR09" H 8250 8050 50  0001 C CNN
-F 1 "GND" H 8250 8150 50  0001 C CNN
-F 2 "" H 8250 8300 50  0000 C CNN
-F 3 "" H 8250 8300 50  0000 C CNN
-	1    8250 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5A607580
-P 8700 8300
-F 0 "#PWR010" H 8700 8050 50  0001 C CNN
-F 1 "GND" H 8700 8150 50  0000 C CNN
-F 2 "" H 8700 8300 50  0000 C CNN
-F 3 "" H 8700 8300 50  0000 C CNN
-	1    8700 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5A60A3BD
-P 4000 7900
-F 0 "C7" H 4150 7950 50  0000 L CNN
-F 1 "100nf" H 4150 7850 50  0000 L CNN
-F 2 "libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4038 7750 50  0001 C CNN
-F 3 "" H 4000 7900 50  0000 C CNN
-	1    4000 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR011
-U 1 1 5A60A9E4
-P 4000 7750
-F 0 "#PWR011" H 4000 7600 50  0001 C CNN
-F 1 "VDD" H 4000 7900 50  0000 C CNN
-F 2 "" H 4000 7750 50  0000 C CNN
-F 3 "" H 4000 7750 50  0000 C CNN
-	1    4000 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5A60AD11
-P 4000 8050
-F 0 "#PWR012" H 4000 7800 50  0001 C CNN
-F 1 "GND" H 4000 7900 50  0000 C CNN
-F 2 "" H 4000 8050 50  0000 C CNN
-F 3 "" H 4000 8050 50  0000 C CNN
-	1    4000 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:LM7805CT U4
-U 1 1 5A60C94E
-P 5700 3950
-F 0 "U4" H 5850 3754 50  0000 C CNN
-F 1 "LM7805" H 5700 4150 50  0000 C CNN
-F 2 "libreria:TO-220-3_Vertical" H 5700 3950 50  0001 C CNN
-F 3 "" H 5700 3950 50  0000 C CNN
-	1    5700 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C8
-U 1 1 5A60CA15
-P 6250 4050
-F 0 "C8" H 6275 4150 50  0000 L CNN
-F 1 "47uf" H 6275 3950 50  0000 L CNN
-F 2 "libreria:CP_Radial_D5.0mm_P2.50mm" H 6288 3900 50  0001 C CNN
-F 3 "" H 6250 4050 50  0000 C CNN
-	1    6250 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:JUMPER3 JP1
-U 1 1 5A60CAEE
-P 6700 3900
-F 0 "JP1" H 6750 3800 50  0000 L CNN
-F 1 "JUMPER3" H 6700 4000 50  0000 C BNN
-F 2 "libreria:Pin_Header_Straight_1x03_Pitch2.54mm" H 6700 3900 50  0001 C CNN
-F 3 "" H 6700 3900 50  0000 C CNN
-	1    6700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D12
-U 1 1 5A60D459
-P 5050 3900
-F 0 "D12" H 5050 4000 50  0000 C CNN
-F 1 "1n4004" H 5050 3800 50  0000 C CNN
-F 2 "libreria:D_5W_P10.16mm_Horizontal" H 5050 3900 50  0001 C CNN
-F 3 "" H 5050 3900 50  0000 C CNN
-	1    5050 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 5A60F4DD
-P 5700 4300
-F 0 "#PWR013" H 5700 4050 50  0001 C CNN
-F 1 "GND" H 5700 4150 50  0000 C CNN
-F 2 "" H 5700 4300 50  0000 C CNN
-F 3 "" H 5700 4300 50  0000 C CNN
-	1    5700 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5A60FE65
-P 6250 4300
-F 0 "#PWR014" H 6250 4050 50  0001 C CNN
-F 1 "GND" H 6250 4150 50  0000 C CNN
-F 2 "" H 6250 4300 50  0000 C CNN
-F 3 "" H 6250 4300 50  0000 C CNN
-	1    6250 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 4300 5700 4200
 Wire Wire Line
@@ -1416,54 +486,10 @@ Text GLabel 7100 3900 2    39   Input ~ 0
 +5VUSB
 Wire Wire Line
 	7100 3900 6950 3900
-$Comp
-L power:VDD #PWR015
-U 1 1 5A615EA9
-P 7250 4200
-F 0 "#PWR015" H 7250 4050 50  0001 C CNN
-F 1 "VDD" H 7250 4350 50  0000 C CNN
-F 2 "" H 7250 4200 50  0000 C CNN
-F 3 "" H 7250 4200 50  0000 C CNN
-	1    7250 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 4200 6700 4200
 Wire Wire Line
 	6700 4200 6700 4000
-$Comp
-L Device:C C9
-U 1 1 5A61A339
-P 7100 6250
-F 0 "C9" H 7125 6350 50  0000 L CNN
-F 1 "22pf" H 7125 6150 50  0000 L CNN
-F 2 "libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7138 6100 50  0001 C CNN
-F 3 "" H 7100 6250 50  0000 C CNN
-	1    7100 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
-U 1 1 5A61A476
-P 7600 6250
-F 0 "C10" H 7625 6350 50  0000 L CNN
-F 1 "22pf" H 7625 6150 50  0000 L CNN
-F 2 "libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7638 6100 50  0001 C CNN
-F 3 "" H 7600 6250 50  0000 C CNN
-	1    7600 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:XTAL Y2
-U 1 1 5A61A552
-P 7300 6000
-F 0 "Y2" H 7300 6200 60  0000 L BNN
-F 1 "20MHz" H 7200 6100 60  0000 L BNN
-F 2 "libreria:Crystal_HC49-4H_Vertical" H 7300 6000 60  0001 C CNN
-F 3 "" H 7300 6000 60  0000 C CNN
-	1    7300 6000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 5800 7100 6000
 Wire Wire Line
@@ -1487,30 +513,8 @@ OSC1
 Connection ~ 7100 6000
 Text GLabel 8250 7550 2    39   Input ~ 0
 +5VUSB
-$Comp
-L power:VDD #PWR016
-U 1 1 5A630582
-P 3150 5700
-F 0 "#PWR016" H 3150 5550 50  0001 C CNN
-F 1 "VDD" H 3150 5850 50  0000 C CNN
-F 2 "" H 3150 5700 50  0000 C CNN
-F 3 "" H 3150 5700 50  0000 C CNN
-	1    3150 5700
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2600 5700 3150 5700
-$Comp
-L power:GND #PWR017
-U 1 1 5A63155E
-P 3350 5600
-F 0 "#PWR017" H 3350 5350 50  0001 C CNN
-F 1 "GND" H 3350 5450 50  0000 C CNN
-F 2 "" H 3350 5600 50  0000 C CNN
-F 3 "" H 3350 5600 50  0000 C CNN
-	1    3350 5600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2600 5600 3350 5600
 Text GLabel 2700 5400 2    39   Input ~ 0
@@ -1525,17 +529,6 @@ Wire Wire Line
 	2700 5300 2600 5300
 Wire Wire Line
 	2700 5200 2600 5200
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X08 J5
-U 1 1 5A5C3D0D
-P 2400 5350
-F 0 "J5" H 2300 5750 60  0000 L BNN
-F 1 "CON8" H 2300 4750 60  0000 L BNN
-F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2300 5950 60  0001 C CNN
-F 3 "" H 2300 4750 60  0000 C CNN
-	1    2400 5350
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2700 5500 2    39   Input ~ 0
 MCRL
 Wire Wire Line
@@ -1548,28 +541,6 @@ Wire Wire Line
 	2700 5100 2600 5100
 Wire Wire Line
 	2700 5000 2600 5000
-$Comp
-L power:VDD #PWR018
-U 1 1 5A648DDA
-P 4900 6500
-F 0 "#PWR018" H 4900 6350 50  0001 C CNN
-F 1 "VDD" H 4900 6650 50  0000 C CNN
-F 2 "" H 4900 6500 50  0000 C CNN
-F 3 "" H 4900 6500 50  0000 C CNN
-	1    4900 6500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR019
-U 1 1 5A649BDF
-P 5250 6400
-F 0 "#PWR019" H 5250 6150 50  0001 C CNN
-F 1 "GND" H 5250 6250 50  0000 C CNN
-F 2 "" H 5250 6400 50  0000 C CNN
-F 3 "" H 5250 6400 50  0000 C CNN
-	1    5250 6400
-	1    0    0    -1  
-$EndComp
 Text GLabel 4900 6200 2    39   Input ~ 0
 PGC
 Text GLabel 4900 6300 2    39   Input ~ 0
@@ -1594,94 +565,6 @@ Wire Wire Line
 	3850 8700 3850 9000
 Wire Wire Line
 	3850 9000 3750 9000
-$Comp
-L power:VDD #PWR020
-U 1 1 5A661625
-P 10550 3200
-F 0 "#PWR020" H 10550 3050 50  0001 C CNN
-F 1 "VDD" V 10550 3400 50  0000 C CNN
-F 2 "" H 10550 3200 50  0000 C CNN
-F 3 "" H 10550 3200 50  0000 C CNN
-	1    10550 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR022
-U 1 1 5A661A4D
-P 10550 2550
-F 0 "#PWR022" H 10550 2400 50  0001 C CNN
-F 1 "VDD" V 10550 2750 50  0000 C CNN
-F 2 "" H 10550 2550 50  0000 C CNN
-F 3 "" H 10550 2550 50  0000 C CNN
-	1    10550 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR023
-U 1 1 5A661B57
-P 10550 1900
-F 0 "#PWR023" H 10550 1750 50  0001 C CNN
-F 1 "VDD" V 10550 2100 50  0000 C CNN
-F 2 "" H 10550 1900 50  0000 C CNN
-F 3 "" H 10550 1900 50  0000 C CNN
-	1    10550 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR024
-U 1 1 5A662305
-P 10550 1300
-F 0 "#PWR024" H 10550 1150 50  0001 C CNN
-F 1 "VDD" V 10550 1500 50  0000 C CNN
-F 2 "" H 10550 1300 50  0000 C CNN
-F 3 "" H 10550 1300 50  0000 C CNN
-	1    10550 1300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR025
-U 1 1 5A663BC4
-P 11950 1500
-F 0 "#PWR025" H 11950 1250 50  0001 C CNN
-F 1 "GND" H 11950 1350 50  0000 C CNN
-F 2 "" H 11950 1500 50  0000 C CNN
-F 3 "" H 11950 1500 50  0000 C CNN
-	1    11950 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR026
-U 1 1 5A6650BA
-P 11950 2100
-F 0 "#PWR026" H 11950 1850 50  0001 C CNN
-F 1 "GND" H 11950 1950 50  0000 C CNN
-F 2 "" H 11950 2100 50  0000 C CNN
-F 3 "" H 11950 2100 50  0000 C CNN
-	1    11950 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 5A6655C0
-P 11950 2750
-F 0 "#PWR027" H 11950 2500 50  0001 C CNN
-F 1 "GND" H 11950 2600 50  0000 C CNN
-F 2 "" H 11950 2750 50  0000 C CNN
-F 3 "" H 11950 2750 50  0000 C CNN
-	1    11950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR028
-U 1 1 5A6656CA
-P 11950 3400
-F 0 "#PWR028" H 11950 3150 50  0001 C CNN
-F 1 "GND" H 11950 3250 50  0000 C CNN
-F 2 "" H 11950 3400 50  0000 C CNN
-F 3 "" H 11950 3400 50  0000 C CNN
-	1    11950 3400
-	1    0    0    -1  
-$EndComp
 Text GLabel 2700 8250 2    39   Input ~ 0
 RB0
 Text GLabel 2700 8150 2    39   Input ~ 0
@@ -1746,140 +629,19 @@ Wire Wire Line
 	2700 9150 2600 9150
 Wire Wire Line
 	2700 9250 2600 9250
-$Comp
-L power:GND #PWR029
-U 1 1 5A6768D2
-P 7100 6450
-F 0 "#PWR029" H 7100 6200 50  0001 C CNN
-F 1 "GND" H 7100 6300 50  0001 C CNN
-F 2 "" H 7100 6450 50  0000 C CNN
-F 3 "" H 7100 6450 50  0000 C CNN
-	1    7100 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 5A6769D9
-P 7600 6450
-F 0 "#PWR030" H 7600 6200 50  0001 C CNN
-F 1 "GND" H 7600 6300 50  0000 C CNN
-F 2 "" H 7600 6450 50  0000 C CNN
-F 3 "" H 7600 6450 50  0000 C CNN
-	1    7600 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR031
-U 1 1 5A676AE0
-P 3850 9300
-F 0 "#PWR031" H 3850 9050 50  0001 C CNN
-F 1 "GND" H 3850 9150 50  0000 C CNN
-F 2 "" H 3850 9300 50  0000 C CNN
-F 3 "" H 3850 9300 50  0000 C CNN
-	1    3850 9300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 6400 7600 6450
 Wire Wire Line
 	7100 6400 7100 6450
 Wire Wire Line
 	3750 1150 3750 1250
-$Comp
-L power:GND #PWR041
-U 1 1 5A685C8F
-P 9800 8800
-F 0 "#PWR041" H 9800 8550 50  0001 C CNN
-F 1 "GND" H 9800 8650 50  0000 C CNN
-F 2 "" H 9800 8800 50  0000 C CNN
-F 3 "" H 9800 8800 50  0000 C CNN
-	1    9800 8800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR042
-U 1 1 5A685D96
-P 10400 8800
-F 0 "#PWR042" H 10400 8550 50  0001 C CNN
-F 1 "GND" H 10400 8650 50  0000 C CNN
-F 2 "" H 10400 8800 50  0000 C CNN
-F 3 "" H 10400 8800 50  0000 C CNN
-	1    10400 8800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR043
-U 1 1 5A68726B
-P 4000 9200
-F 0 "#PWR043" H 4000 9050 50  0001 C CNN
-F 1 "VDD" H 4000 9350 50  0000 C CNN
-F 2 "" H 4000 9200 50  0000 C CNN
-F 3 "" H 4000 9200 50  0000 C CNN
-	1    4000 9200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 3250 5250 3900
 Wire Wire Line
 	5200 3900 5250 3900
 Connection ~ 5250 3900
-$Comp
-L Entrenador1-SchDoc-rescue:SPST S2
-U 1 1 5A68E040
-P 9600 6800
-F 0 "S2" H 9390 6930 60  0000 L BNN
-F 1 "SW DPST_2" H 9390 6570 60  0000 L BNN
-F 2 "libreria:SW_PUSH_6mm_h13mm" H 9390 6570 60  0001 C CNN
-F 3 "" H 9390 6570 60  0000 C CNN
-	1    9600 6800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8650 5600 9100 5600
-$Comp
-L Entrenador1-SchDoc-rescue:SPST S3
-U 1 1 5A6DBE1D
-P 11550 1300
-F 0 "S3" H 11340 1430 60  0000 L BNN
-F 1 "SW DPST_2" H 11340 1070 60  0000 L BNN
-F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 1070 60  0001 C CNN
-F 3 "" H 11340 1070 60  0000 C CNN
-	1    11550 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:SPST S4
-U 1 1 5A6DD400
-P 11550 1900
-F 0 "S4" H 11340 2030 60  0000 L BNN
-F 1 "SW DPST_2" H 11340 1670 60  0000 L BNN
-F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 1670 60  0001 C CNN
-F 3 "" H 11340 1670 60  0000 C CNN
-	1    11550 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:SPST S5
-U 1 1 5A6DD518
-P 11550 2550
-F 0 "S5" H 11340 2680 60  0000 L BNN
-F 1 "SW DPST_2" H 11340 2320 60  0000 L BNN
-F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 2320 60  0001 C CNN
-F 3 "" H 11340 2320 60  0000 C CNN
-	1    11550 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:SPST S6
-U 1 1 5A6DD635
-P 11550 3200
-F 0 "S6" H 11340 3330 60  0000 L BNN
-F 1 "SW DPST_2" H 11340 2970 60  0000 L BNN
-F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 2970 60  0001 C CNN
-F 3 "" H 11340 2970 60  0000 C CNN
-	1    11550 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11950 3400 11950 3300
 Wire Wire Line
@@ -1918,28 +680,6 @@ Connection ~ 11050 3200
 Connection ~ 11050 2550
 Connection ~ 11050 1900
 Connection ~ 11050 1300
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X02 P7
-U 1 1 5A6E6642
-P 4350 4800
-F 0 "P7" H 4350 4950 50  0000 C CNN
-F 1 "CONN_01X02" V 4450 4800 50  0000 C CNN
-F 2 "libreria:TerminalBlock_bornier-2_P5.08mm" H 4350 4800 50  0001 C CNN
-F 3 "" H 4350 4800 50  0000 C CNN
-	1    4350 4800
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR045
-U 1 1 5A6E94EF
-P 4650 4850
-F 0 "#PWR045" H 4650 4600 50  0001 C CNN
-F 1 "GND" H 4650 4700 50  0000 C CNN
-F 2 "" H 4650 4850 50  0000 C CNN
-F 3 "" H 4650 4850 50  0000 C CNN
-	1    4650 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4650 4850 4550 4850
 Text GLabel 4850 4750 2    60   Input ~ 0
@@ -1962,63 +702,8 @@ Text GLabel 11850 3900 0    60   Input ~ 0
 VrefAnalogica
 Wire Wire Line
 	11850 3900 11950 3900
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X02 P8
-U 1 1 5A71D7A0
-P 4350 5550
-F 0 "P8" H 4350 5700 50  0000 C CNN
-F 1 "CONN_01X02" V 4450 5550 50  0000 C CNN
-F 2 "libreria:TerminalBlock_bornier-2_P5.08mm" H 4350 5550 50  0001 C CNN
-F 3 "" H 4350 5550 50  0000 C CNN
-	1    4350 5550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4550 5600 4750 5600
-$Comp
-L power:+5VD #PWR047
-U 1 1 5A721D25
-P 5400 5600
-F 0 "#PWR047" H 5400 5450 50  0001 C CNN
-F 1 "+5VD" H 5400 5750 50  0000 C CNN
-F 2 "" H 5400 5600 50  0000 C CNN
-F 3 "" H 5400 5600 50  0000 C CNN
-	1    5400 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X04 P9
-U 1 1 5A72322A
-P 2300 2750
-F 0 "P9" H 2300 3000 50  0000 C CNN
-F 1 "CONN_01X04" V 2400 2750 50  0000 C CNN
-F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 2750 50  0001 C CNN
-F 3 "" H 2300 2750 50  0001 C CNN
-	1    2300 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X04 P10
-U 1 1 5A723EA4
-P 2300 3250
-F 0 "P10" H 2300 3500 50  0000 C CNN
-F 1 "CONN_01X04" V 2400 3250 50  0000 C CNN
-F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 3250 50  0001 C CNN
-F 3 "" H 2300 3250 50  0001 C CNN
-	1    2300 3250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR048
-U 1 1 5A724122
-P 2700 2550
-F 0 "#PWR048" H 2700 2400 50  0001 C CNN
-F 1 "VDD" H 2700 2700 50  0000 C CNN
-F 2 "" H 2700 2550 50  0000 C CNN
-F 3 "" H 2700 2550 50  0000 C CNN
-	1    2700 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 2550 2700 2600
 Wire Wire Line
@@ -2032,17 +717,6 @@ Connection ~ 2700 2700
 Wire Wire Line
 	2700 2900 2500 2900
 Connection ~ 2700 2800
-$Comp
-L power:GND #PWR049
-U 1 1 5A724E72
-P 3250 3450
-F 0 "#PWR049" H 3250 3200 50  0001 C CNN
-F 1 "GND" H 3250 3300 50  0000 C CNN
-F 2 "" H 3250 3450 50  0000 C CNN
-F 3 "" H 3250 3450 50  0000 C CNN
-	1    3250 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3250 3450 3250 3400
 Wire Wire Line
@@ -2058,28 +732,6 @@ Connection ~ 2700 3300
 Wire Wire Line
 	2500 3200 2700 3200
 Connection ~ 2700 3200
-$Comp
-L Device:D D1
-U 1 1 5A7F09D1
-P 5000 5600
-F 0 "D1" H 5000 5700 50  0000 C CNN
-F 1 "1n4004" H 5000 5500 50  0000 C CNN
-F 2 "libreria:D_5W_P10.16mm_Horizontal" H 5000 5600 50  0001 C CNN
-F 3 "" H 5000 5600 50  0000 C CNN
-	1    5000 5600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Entrenador1-SchDoc-rescue:CONN_01X05 P3
-U 1 1 5A7F3B85
-P 12850 8150
-F 0 "P3" H 12850 8450 50  0000 C CNN
-F 1 "CONN_01X05" V 12950 8150 50  0000 C CNN
-F 2 "libreria:Socket_Strip_Straight_1x05_Pitch2.54mm" H 12850 8150 50  0001 C CNN
-F 3 "" H 12850 8150 50  0000 C CNN
-	1    12850 8150
-	-1   0    0    -1  
-$EndComp
 Text GLabel 11950 4800 3    60   Input ~ 0
 -VrefAnalogica
 Text GLabel 11400 5200 0    60   Input ~ 0
@@ -2110,17 +762,6 @@ Wire Wire Line
 Connection ~ 9100 3200
 Wire Wire Line
 	4750 3900 4900 3900
-$Comp
-L display:CC56-12EWA U1
-U 1 1 5B4E520D
-P 14600 1200
-F 0 "U1" H 13650 1650 50  0000 C CNN
-F 1 "CC56-12EWA" H 15430 1650 50  0000 C CNN
-F 2 "libreria:CA56-12EWA" H 14600 600 50  0001 C CNN
-F 3 "" H 14220 1230 50  0001 C CNN
-	1    14600 1200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	15700 800  15900 800 
 Wire Wire Line
@@ -2153,25 +794,25 @@ Text Label 15900 900  0    60   ~ 0
 g
 Text Label 15900 800  0    60   ~ 0
 h
-Text Label 15300 2100 0    60   ~ 0
+Text Label 15150 2100 0    60   ~ 0
 CC1
 Text Label 13100 1100 0    60   ~ 0
 CC1
 Wire Wire Line
 	13100 1100 13400 1100
-Text Label 15400 3550 0    60   ~ 0
+Text Label 15150 3550 0    60   ~ 0
 CC2
 Text Label 13100 1000 0    60   ~ 0
 CC2
 Wire Wire Line
 	13100 1000 13400 1000
-Text Label 15400 5000 0    60   ~ 0
+Text Label 15150 5000 0    60   ~ 0
 CC3
 Text Label 13100 900  0    60   ~ 0
 CC3
 Wire Wire Line
 	13100 900  13400 900 
-Text Label 15400 6450 0    60   ~ 0
+Text Label 15150 6450 0    60   ~ 0
 CC4
 Text Label 13100 800  0    60   ~ 0
 CC4
@@ -2229,155 +870,12 @@ Wire Wire Line
 	8100 3200 8600 3200
 Wire Wire Line
 	8600 3200 9100 3200
-$Comp
-L power:+5VD #PWR0101
-U 1 1 5D1FF0E2
-P 14550 7750
-F 0 "#PWR0101" H 14550 7600 50  0001 C CNN
-F 1 "+5VD" H 14550 7900 50  0000 C CNN
-F 2 "" H 14550 7750 50  0000 C CNN
-F 3 "" H 14550 7750 50  0000 C CNN
-	1    14550 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR0102
-U 1 1 5D1FF9E5
-P 13900 8450
-F 0 "#PWR0102" H 13900 8300 50  0001 C CNN
-F 1 "+5VD" H 13900 8600 50  0000 C CNN
-F 2 "" H 13900 8450 50  0000 C CNN
-F 3 "" H 13900 8450 50  0000 C CNN
-	1    13900 8450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14550 8500 14550 8750
-$Comp
-L power:+5VD #PWR0103
-U 1 1 5D21CD1B
-P 9300 3300
-F 0 "#PWR0103" H 9300 3150 50  0001 C CNN
-F 1 "+5VD" H 9300 3450 50  0000 C CNN
-F 2 "" H 9300 3300 50  0000 C CNN
-F 3 "" H 9300 3300 50  0000 C CNN
-	1    9300 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VD #PWR0104
-U 1 1 5D21DE51
-P 3750 1150
-F 0 "#PWR0104" H 3750 1000 50  0001 C CNN
-F 1 "+5VD" H 3750 1300 50  0000 C CNN
-F 2 "" H 3750 1150 50  0000 C CNN
-F 3 "" H 3750 1150 50  0000 C CNN
-	1    3750 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0105
-U 1 1 5D2A8C9B
-P 4600 5700
-F 0 "#PWR0105" H 4600 5450 50  0001 C CNN
-F 1 "GNDD" H 4604 5545 50  0000 C CNN
-F 2 "" H 4600 5700 50  0001 C CNN
-F 3 "" H 4600 5700 50  0001 C CNN
-	1    4600 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 5700 4600 5500
 Wire Wire Line
 	4600 5500 4550 5500
-$Comp
-L power:GNDD #PWR0106
-U 1 1 5D2C4E45
-P 15550 6900
-F 0 "#PWR0106" H 15550 6650 50  0001 C CNN
-F 1 "GNDD" H 15554 6745 50  0000 C CNN
-F 2 "" H 15550 6900 50  0001 C CNN
-F 3 "" H 15550 6900 50  0001 C CNN
-	1    15550 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0107
-U 1 1 5D2C5953
-P 15550 5450
-F 0 "#PWR0107" H 15550 5200 50  0001 C CNN
-F 1 "GNDD" H 15554 5295 50  0000 C CNN
-F 2 "" H 15550 5450 50  0001 C CNN
-F 3 "" H 15550 5450 50  0001 C CNN
-	1    15550 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0108
-U 1 1 5D2C6002
-P 15550 4000
-F 0 "#PWR0108" H 15550 3750 50  0001 C CNN
-F 1 "GNDD" H 15554 3845 50  0000 C CNN
-F 2 "" H 15550 4000 50  0001 C CNN
-F 3 "" H 15550 4000 50  0001 C CNN
-	1    15550 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0109
-U 1 1 5D2C630A
-P 15500 2550
-F 0 "#PWR0109" H 15500 2300 50  0001 C CNN
-F 1 "GNDD" H 15504 2395 50  0000 C CNN
-F 2 "" H 15500 2550 50  0001 C CNN
-F 3 "" H 15500 2550 50  0001 C CNN
-	1    15500 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0110
-U 1 1 5D2C6E60
-P 12400 7000
-F 0 "#PWR0110" H 12400 6750 50  0001 C CNN
-F 1 "GNDD" H 12404 6845 50  0000 C CNN
-F 2 "" H 12400 7000 50  0001 C CNN
-F 3 "" H 12400 7000 50  0001 C CNN
-	1    12400 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0111
-U 1 1 5D2C7311
-P 3750 2250
-F 0 "#PWR0111" H 3750 2000 50  0001 C CNN
-F 1 "GNDD" H 3754 2095 50  0000 C CNN
-F 2 "" H 3750 2250 50  0001 C CNN
-F 3 "" H 3750 2250 50  0001 C CNN
-	1    3750 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0112
-U 1 1 5D2C81CF
-P 13750 7650
-F 0 "#PWR0112" H 13750 7400 50  0001 C CNN
-F 1 "GNDD" H 13754 7495 50  0000 C CNN
-F 2 "" H 13750 7650 50  0001 C CNN
-F 3 "" H 13750 7650 50  0001 C CNN
-	1    13750 7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0113
-U 1 1 5D2C842D
-P 14550 8750
-F 0 "#PWR0113" H 14550 8500 50  0001 C CNN
-F 1 "GNDD" H 14554 8595 50  0000 C CNN
-F 2 "" H 14550 8750 50  0001 C CNN
-F 3 "" H 14550 8750 50  0001 C CNN
-	1    14550 8750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 2500 9100 2700
 Wire Wire Line
@@ -2396,4 +894,1536 @@ Wire Wire Line
 	5350 2500 5350 2700
 Wire Wire Line
 	10550 1300 10700 1300
+Wire Wire Line
+	10550 1900 10700 1900
+$Comp
+L power:GNDD #PWR0113
+U 1 1 5D2C842D
+P 14550 8750
+F 0 "#PWR0113" H 14550 8500 50  0001 C CNN
+F 1 "GNDD" H 14554 8595 50  0000 C CNN
+F 2 "" H 14550 8750 50  0001 C CNN
+F 3 "" H 14550 8750 50  0001 C CNN
+	1    14550 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0112
+U 1 1 5D2C81CF
+P 13750 7650
+F 0 "#PWR0112" H 13750 7400 50  0001 C CNN
+F 1 "GNDD" H 13754 7495 50  0000 C CNN
+F 2 "" H 13750 7650 50  0001 C CNN
+F 3 "" H 13750 7650 50  0001 C CNN
+	1    13750 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0111
+U 1 1 5D2C7311
+P 3750 2250
+F 0 "#PWR0111" H 3750 2000 50  0001 C CNN
+F 1 "GNDD" H 3754 2095 50  0000 C CNN
+F 2 "" H 3750 2250 50  0001 C CNN
+F 3 "" H 3750 2250 50  0001 C CNN
+	1    3750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0110
+U 1 1 5D2C6E60
+P 12400 7000
+F 0 "#PWR0110" H 12400 6750 50  0001 C CNN
+F 1 "GNDD" H 12404 6845 50  0000 C CNN
+F 2 "" H 12400 7000 50  0001 C CNN
+F 3 "" H 12400 7000 50  0001 C CNN
+	1    12400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0109
+U 1 1 5D2C630A
+P 15500 2550
+F 0 "#PWR0109" H 15500 2300 50  0001 C CNN
+F 1 "GNDD" H 15504 2395 50  0000 C CNN
+F 2 "" H 15500 2550 50  0001 C CNN
+F 3 "" H 15500 2550 50  0001 C CNN
+	1    15500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0108
+U 1 1 5D2C6002
+P 15550 4000
+F 0 "#PWR0108" H 15550 3750 50  0001 C CNN
+F 1 "GNDD" H 15554 3845 50  0000 C CNN
+F 2 "" H 15550 4000 50  0001 C CNN
+F 3 "" H 15550 4000 50  0001 C CNN
+	1    15550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0107
+U 1 1 5D2C5953
+P 15550 5450
+F 0 "#PWR0107" H 15550 5200 50  0001 C CNN
+F 1 "GNDD" H 15554 5295 50  0000 C CNN
+F 2 "" H 15550 5450 50  0001 C CNN
+F 3 "" H 15550 5450 50  0001 C CNN
+	1    15550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0106
+U 1 1 5D2C4E45
+P 15550 6900
+F 0 "#PWR0106" H 15550 6650 50  0001 C CNN
+F 1 "GNDD" H 15554 6745 50  0000 C CNN
+F 2 "" H 15550 6900 50  0001 C CNN
+F 3 "" H 15550 6900 50  0001 C CNN
+	1    15550 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0105
+U 1 1 5D2A8C9B
+P 4600 5700
+F 0 "#PWR0105" H 4600 5450 50  0001 C CNN
+F 1 "GNDD" H 4604 5545 50  0000 C CNN
+F 2 "" H 4600 5700 50  0001 C CNN
+F 3 "" H 4600 5700 50  0001 C CNN
+	1    4600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR0104
+U 1 1 5D21DE51
+P 3750 1150
+F 0 "#PWR0104" H 3750 1000 50  0001 C CNN
+F 1 "+5VD" H 3750 1300 50  0000 C CNN
+F 2 "" H 3750 1150 50  0000 C CNN
+F 3 "" H 3750 1150 50  0000 C CNN
+	1    3750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR0103
+U 1 1 5D21CD1B
+P 9300 3300
+F 0 "#PWR0103" H 9300 3150 50  0001 C CNN
+F 1 "+5VD" H 9300 3450 50  0000 C CNN
+F 2 "" H 9300 3300 50  0000 C CNN
+F 3 "" H 9300 3300 50  0000 C CNN
+	1    9300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR0102
+U 1 1 5D1FF9E5
+P 13900 8450
+F 0 "#PWR0102" H 13900 8300 50  0001 C CNN
+F 1 "+5VD" H 13900 8600 50  0000 C CNN
+F 2 "" H 13900 8450 50  0000 C CNN
+F 3 "" H 13900 8450 50  0000 C CNN
+	1    13900 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR0101
+U 1 1 5D1FF0E2
+P 14550 7750
+F 0 "#PWR0101" H 14550 7600 50  0001 C CNN
+F 1 "+5VD" H 14550 7900 50  0000 C CNN
+F 2 "" H 14550 7750 50  0000 C CNN
+F 3 "" H 14550 7750 50  0000 C CNN
+	1    14550 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L display:CC56-12EWA U1
+U 1 1 5B4E520D
+P 14600 1200
+F 0 "U1" H 13650 1650 50  0000 C CNN
+F 1 "CC56-12EWA" H 15430 1650 50  0000 C CNN
+F 2 "Displays_7-Segment:CA56-12EWA" H 14600 600 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf" H 14220 1230 50  0001 C CNN
+	1    14600 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X05 P3
+U 1 1 5A7F3B85
+P 12850 8150
+F 0 "P3" H 12850 8450 50  0000 C CNN
+F 1 "CONN_01X05" V 12950 8150 50  0000 C CNN
+F 2 "libreria:Socket_Strip_Straight_1x05_Pitch2.54mm" H 12850 8150 50  0001 C CNN
+F 3 "" H 12850 8150 50  0000 C CNN
+	1    12850 8150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5A7F09D1
+P 5000 5600
+F 0 "D1" H 5000 5700 50  0000 C CNN
+F 1 "1n4004" H 5000 5500 50  0000 C CNN
+F 2 "libreria:D_5W_P10.16mm_Horizontal" H 5000 5600 50  0001 C CNN
+F 3 "~" H 5000 5600 50  0000 C CNN
+	1    5000 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 5A724E72
+P 3250 3450
+F 0 "#PWR049" H 3250 3200 50  0001 C CNN
+F 1 "GND" H 3250 3300 50  0000 C CNN
+F 2 "" H 3250 3450 50  0000 C CNN
+F 3 "" H 3250 3450 50  0000 C CNN
+	1    3250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR048
+U 1 1 5A724122
+P 2700 2550
+F 0 "#PWR048" H 2700 2400 50  0001 C CNN
+F 1 "VDD" H 2700 2700 50  0000 C CNN
+F 2 "" H 2700 2550 50  0000 C CNN
+F 3 "" H 2700 2550 50  0000 C CNN
+	1    2700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X04 P10
+U 1 1 5A723EA4
+P 2300 3250
+F 0 "P10" H 2300 3500 50  0000 C CNN
+F 1 "CONN_01X04" V 2400 3250 50  0000 C CNN
+F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 3250 50  0001 C CNN
+F 3 "" H 2300 3250 50  0001 C CNN
+	1    2300 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X04 P9
+U 1 1 5A72322A
+P 2300 2750
+F 0 "P9" H 2300 3000 50  0000 C CNN
+F 1 "CONN_01X04" V 2400 2750 50  0000 C CNN
+F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 2750 50  0001 C CNN
+F 3 "" H 2300 2750 50  0001 C CNN
+	1    2300 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR047
+U 1 1 5A721D25
+P 5400 5600
+F 0 "#PWR047" H 5400 5450 50  0001 C CNN
+F 1 "+5VD" H 5400 5750 50  0000 C CNN
+F 2 "" H 5400 5600 50  0000 C CNN
+F 3 "" H 5400 5600 50  0000 C CNN
+	1    5400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X02 P8
+U 1 1 5A71D7A0
+P 4350 5550
+F 0 "P8" H 4350 5700 50  0000 C CNN
+F 1 "CONN_01X02" V 4450 5550 50  0000 C CNN
+F 2 "libreria:TerminalBlock_bornier-2_P5.08mm" H 4350 5550 50  0001 C CNN
+F 3 "" H 4350 5550 50  0000 C CNN
+	1    4350 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 5A6E94EF
+P 4650 4850
+F 0 "#PWR045" H 4650 4600 50  0001 C CNN
+F 1 "GND" H 4650 4700 50  0000 C CNN
+F 2 "" H 4650 4850 50  0000 C CNN
+F 3 "" H 4650 4850 50  0000 C CNN
+	1    4650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X02 P7
+U 1 1 5A6E6642
+P 4350 4800
+F 0 "P7" H 4350 4950 50  0000 C CNN
+F 1 "CONN_01X02" V 4450 4800 50  0000 C CNN
+F 2 "libreria:TerminalBlock_bornier-2_P5.08mm" H 4350 4800 50  0001 C CNN
+F 3 "" H 4350 4800 50  0000 C CNN
+	1    4350 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:SPST S6
+U 1 1 5A6DD635
+P 11550 3200
+F 0 "S6" H 11340 3330 60  0000 L BNN
+F 1 "SW DPST_2" H 11340 2970 60  0000 L BNN
+F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 2970 60  0001 C CNN
+F 3 "" H 11340 2970 60  0000 C CNN
+	1    11550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:SPST S5
+U 1 1 5A6DD518
+P 11550 2550
+F 0 "S5" H 11340 2680 60  0000 L BNN
+F 1 "SW DPST_2" H 11340 2320 60  0000 L BNN
+F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 2320 60  0001 C CNN
+F 3 "" H 11340 2320 60  0000 C CNN
+	1    11550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:SPST S4
+U 1 1 5A6DD400
+P 11550 1900
+F 0 "S4" H 11340 2030 60  0000 L BNN
+F 1 "SW DPST_2" H 11340 1670 60  0000 L BNN
+F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 1670 60  0001 C CNN
+F 3 "" H 11340 1670 60  0000 C CNN
+	1    11550 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:SPST S3
+U 1 1 5A6DBE1D
+P 11550 1300
+F 0 "S3" H 11340 1430 60  0000 L BNN
+F 1 "SW DPST_2" H 11340 1070 60  0000 L BNN
+F 2 "libreria:SW_PUSH_6mm_h13mm" H 11340 1070 60  0001 C CNN
+F 3 "" H 11340 1070 60  0000 C CNN
+	1    11550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:SPST S2
+U 1 1 5A68E040
+P 9600 6800
+F 0 "S2" H 9390 6930 60  0000 L BNN
+F 1 "SW DPST_2" H 9390 6570 60  0000 L BNN
+F 2 "libreria:SW_PUSH_6mm_h13mm" H 9390 6570 60  0001 C CNN
+F 3 "" H 9390 6570 60  0000 C CNN
+	1    9600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR043
+U 1 1 5A68726B
+P 4000 9200
+F 0 "#PWR043" H 4000 9050 50  0001 C CNN
+F 1 "VDD" H 4000 9350 50  0000 C CNN
+F 2 "" H 4000 9200 50  0000 C CNN
+F 3 "" H 4000 9200 50  0000 C CNN
+	1    4000 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 5A685D96
+P 10400 8800
+F 0 "#PWR042" H 10400 8550 50  0001 C CNN
+F 1 "GND" H 10400 8650 50  0000 C CNN
+F 2 "" H 10400 8800 50  0000 C CNN
+F 3 "" H 10400 8800 50  0000 C CNN
+	1    10400 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 5A685C8F
+P 9800 8800
+F 0 "#PWR041" H 9800 8550 50  0001 C CNN
+F 1 "GND" H 9800 8650 50  0000 C CNN
+F 2 "" H 9800 8800 50  0000 C CNN
+F 3 "" H 9800 8800 50  0000 C CNN
+	1    9800 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5A676AE0
+P 3850 9300
+F 0 "#PWR031" H 3850 9050 50  0001 C CNN
+F 1 "GND" H 3850 9150 50  0000 C CNN
+F 2 "" H 3850 9300 50  0000 C CNN
+F 3 "" H 3850 9300 50  0000 C CNN
+	1    3850 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5A6769D9
+P 7600 6450
+F 0 "#PWR030" H 7600 6200 50  0001 C CNN
+F 1 "GND" H 7600 6300 50  0000 C CNN
+F 2 "" H 7600 6450 50  0000 C CNN
+F 3 "" H 7600 6450 50  0000 C CNN
+	1    7600 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5A6768D2
+P 7100 6450
+F 0 "#PWR029" H 7100 6200 50  0001 C CNN
+F 1 "GND" H 7100 6300 50  0001 C CNN
+F 2 "" H 7100 6450 50  0000 C CNN
+F 3 "" H 7100 6450 50  0000 C CNN
+	1    7100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5A6656CA
+P 11950 3400
+F 0 "#PWR028" H 11950 3150 50  0001 C CNN
+F 1 "GND" H 11950 3250 50  0000 C CNN
+F 2 "" H 11950 3400 50  0000 C CNN
+F 3 "" H 11950 3400 50  0000 C CNN
+	1    11950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5A6655C0
+P 11950 2750
+F 0 "#PWR027" H 11950 2500 50  0001 C CNN
+F 1 "GND" H 11950 2600 50  0000 C CNN
+F 2 "" H 11950 2750 50  0000 C CNN
+F 3 "" H 11950 2750 50  0000 C CNN
+	1    11950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5A6650BA
+P 11950 2100
+F 0 "#PWR026" H 11950 1850 50  0001 C CNN
+F 1 "GND" H 11950 1950 50  0000 C CNN
+F 2 "" H 11950 2100 50  0000 C CNN
+F 3 "" H 11950 2100 50  0000 C CNN
+	1    11950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5A663BC4
+P 11950 1500
+F 0 "#PWR025" H 11950 1250 50  0001 C CNN
+F 1 "GND" H 11950 1350 50  0000 C CNN
+F 2 "" H 11950 1500 50  0000 C CNN
+F 3 "" H 11950 1500 50  0000 C CNN
+	1    11950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR024
+U 1 1 5A662305
+P 10550 1300
+F 0 "#PWR024" H 10550 1150 50  0001 C CNN
+F 1 "VDD" V 10550 1500 50  0000 C CNN
+F 2 "" H 10550 1300 50  0000 C CNN
+F 3 "" H 10550 1300 50  0000 C CNN
+	1    10550 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR023
+U 1 1 5A661B57
+P 10550 1900
+F 0 "#PWR023" H 10550 1750 50  0001 C CNN
+F 1 "VDD" V 10550 2100 50  0000 C CNN
+F 2 "" H 10550 1900 50  0000 C CNN
+F 3 "" H 10550 1900 50  0000 C CNN
+	1    10550 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR022
+U 1 1 5A661A4D
+P 10550 2550
+F 0 "#PWR022" H 10550 2400 50  0001 C CNN
+F 1 "VDD" V 10550 2750 50  0000 C CNN
+F 2 "" H 10550 2550 50  0000 C CNN
+F 3 "" H 10550 2550 50  0000 C CNN
+	1    10550 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR020
+U 1 1 5A661625
+P 10550 3200
+F 0 "#PWR020" H 10550 3050 50  0001 C CNN
+F 1 "VDD" V 10550 3400 50  0000 C CNN
+F 2 "" H 10550 3200 50  0000 C CNN
+F 3 "" H 10550 3200 50  0000 C CNN
+	1    10550 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5A649BDF
+P 5250 6400
+F 0 "#PWR019" H 5250 6150 50  0001 C CNN
+F 1 "GND" H 5250 6250 50  0000 C CNN
+F 2 "" H 5250 6400 50  0000 C CNN
+F 3 "" H 5250 6400 50  0000 C CNN
+	1    5250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR018
+U 1 1 5A648DDA
+P 4900 6500
+F 0 "#PWR018" H 4900 6350 50  0001 C CNN
+F 1 "VDD" H 4900 6650 50  0000 C CNN
+F 2 "" H 4900 6500 50  0000 C CNN
+F 3 "" H 4900 6500 50  0000 C CNN
+	1    4900 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X08 J5
+U 1 1 5A5C3D0D
+P 2400 5350
+F 0 "J5" H 2300 5750 60  0000 L BNN
+F 1 "CON8" H 2300 4750 60  0000 L BNN
+F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2300 5950 60  0001 C CNN
+F 3 "" H 2300 4750 60  0000 C CNN
+	1    2400 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5A63155E
+P 3350 5600
+F 0 "#PWR017" H 3350 5350 50  0001 C CNN
+F 1 "GND" H 3350 5450 50  0000 C CNN
+F 2 "" H 3350 5600 50  0000 C CNN
+F 3 "" H 3350 5600 50  0000 C CNN
+	1    3350 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VDD #PWR016
+U 1 1 5A630582
+P 3150 5700
+F 0 "#PWR016" H 3150 5550 50  0001 C CNN
+F 1 "VDD" H 3150 5850 50  0000 C CNN
+F 2 "" H 3150 5700 50  0000 C CNN
+F 3 "" H 3150 5700 50  0000 C CNN
+	1    3150 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:XTAL Y2
+U 1 1 5A61A552
+P 7300 6000
+F 0 "Y2" H 7300 6200 60  0000 L BNN
+F 1 "20MHz" H 7200 6100 60  0000 L BNN
+F 2 "libreria:Crystal_HC49-4H_Vertical" H 7300 6000 60  0001 C CNN
+F 3 "" H 7300 6000 60  0000 C CNN
+	1    7300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5A61A476
+P 7600 6250
+F 0 "C10" H 7625 6350 50  0000 L CNN
+F 1 "22pf" H 7625 6150 50  0000 L CNN
+F 2 "libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7638 6100 50  0001 C CNN
+F 3 "~" H 7600 6250 50  0000 C CNN
+	1    7600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5A61A339
+P 7100 6250
+F 0 "C9" H 7125 6350 50  0000 L CNN
+F 1 "22pf" H 7125 6150 50  0000 L CNN
+F 2 "libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7138 6100 50  0001 C CNN
+F 3 "~" H 7100 6250 50  0000 C CNN
+	1    7100 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR015
+U 1 1 5A615EA9
+P 7250 4200
+F 0 "#PWR015" H 7250 4050 50  0001 C CNN
+F 1 "VDD" H 7250 4350 50  0000 C CNN
+F 2 "" H 7250 4200 50  0000 C CNN
+F 3 "" H 7250 4200 50  0000 C CNN
+	1    7250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5A60FE65
+P 6250 4300
+F 0 "#PWR014" H 6250 4050 50  0001 C CNN
+F 1 "GND" H 6250 4150 50  0000 C CNN
+F 2 "" H 6250 4300 50  0000 C CNN
+F 3 "" H 6250 4300 50  0000 C CNN
+	1    6250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5A60F4DD
+P 5700 4300
+F 0 "#PWR013" H 5700 4050 50  0001 C CNN
+F 1 "GND" H 5700 4150 50  0000 C CNN
+F 2 "" H 5700 4300 50  0000 C CNN
+F 3 "" H 5700 4300 50  0000 C CNN
+	1    5700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5A60D459
+P 5050 3900
+F 0 "D12" H 5050 4000 50  0000 C CNN
+F 1 "1n4004" H 5050 3800 50  0000 C CNN
+F 2 "libreria:D_5W_P10.16mm_Horizontal" H 5050 3900 50  0001 C CNN
+F 3 "~" H 5050 3900 50  0000 C CNN
+	1    5050 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:JUMPER3 JP1
+U 1 1 5A60CAEE
+P 6700 3900
+F 0 "JP1" H 6750 3800 50  0000 L CNN
+F 1 "JUMPER3" H 6700 4000 50  0000 C BNN
+F 2 "libreria:Pin_Header_Straight_1x03_Pitch2.54mm" H 6700 3900 50  0001 C CNN
+F 3 "" H 6700 3900 50  0000 C CNN
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 5A60CA15
+P 6250 4050
+F 0 "C8" H 6275 4150 50  0000 L CNN
+F 1 "47uf" H 6275 3950 50  0000 L CNN
+F 2 "libreria:CP_Radial_D5.0mm_P2.50mm" H 6288 3900 50  0001 C CNN
+F 3 "~" H 6250 4050 50  0000 C CNN
+	1    6250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LM7805CT U4
+U 1 1 5A60C94E
+P 5700 3950
+F 0 "U4" H 5850 3754 50  0000 C CNN
+F 1 "LM7805" H 5700 4150 50  0000 C CNN
+F 2 "TO-220" H 5700 3950 50  0001 C CNN
+F 3 "" H 5700 3950 50  0000 C CNN
+	1    5700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5A60AD11
+P 4000 8050
+F 0 "#PWR012" H 4000 7800 50  0001 C CNN
+F 1 "GND" H 4000 7900 50  0000 C CNN
+F 2 "" H 4000 8050 50  0000 C CNN
+F 3 "" H 4000 8050 50  0000 C CNN
+	1    4000 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR011
+U 1 1 5A60A9E4
+P 4000 7750
+F 0 "#PWR011" H 4000 7600 50  0001 C CNN
+F 1 "VDD" H 4000 7900 50  0000 C CNN
+F 2 "" H 4000 7750 50  0000 C CNN
+F 3 "" H 4000 7750 50  0000 C CNN
+	1    4000 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5A60A3BD
+P 4000 7900
+F 0 "C7" H 4150 7950 50  0000 L CNN
+F 1 "100nf" H 4150 7850 50  0000 L CNN
+F 2 "libreria:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4038 7750 50  0001 C CNN
+F 3 "~" H 4000 7900 50  0000 C CNN
+	1    4000 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5A607580
+P 8700 8300
+F 0 "#PWR010" H 8700 8050 50  0001 C CNN
+F 1 "GND" H 8700 8150 50  0000 C CNN
+F 2 "" H 8700 8300 50  0000 C CNN
+F 3 "" H 8700 8300 50  0000 C CNN
+	1    8700 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5A607470
+P 8250 8300
+F 0 "#PWR09" H 8250 8050 50  0001 C CNN
+F 1 "GND" H 8250 8150 50  0001 C CNN
+F 2 "" H 8250 8300 50  0000 C CNN
+F 3 "" H 8250 8300 50  0000 C CNN
+	1    8250 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5A606C94
+P 7900 8700
+F 0 "#PWR08" H 7900 8450 50  0001 C CNN
+F 1 "GND" H 7900 8550 50  0000 C CNN
+F 2 "" H 7900 8700 50  0000 C CNN
+F 3 "" H 7900 8700 50  0000 C CNN
+	1    7900 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C11
+U 1 1 5A6062F8
+P 7900 8550
+F 0 "C11" H 8050 8550 50  0000 L CNN
+F 1 "1uf" H 8050 8450 50  0000 L CNN
+F 2 "libreria:CP_Radial_D5.0mm_P2.50mm" H 7938 8400 50  0001 C CNN
+F 3 "~" H 7900 8550 50  0000 C CNN
+	1    7900 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5A602ACD
+P 6200 10200
+F 0 "#PWR07" H 6200 9950 50  0001 C CNN
+F 1 "GND" H 6200 10050 50  0000 C CNN
+F 2 "" H 6200 10200 50  0000 C CNN
+F 3 "" H 6200 10200 50  0000 C CNN
+	1    6200 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5A5EFB5C
+P 10100 6800
+F 0 "#PWR06" H 10100 6550 50  0001 C CNN
+F 1 "GND" H 10100 6650 50  0000 C CNN
+F 2 "" H 10100 6800 50  0000 C CNN
+F 3 "" H 10100 6800 50  0000 C CNN
+	1    10100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5A5EF8C4
+P 10100 5600
+F 0 "#PWR05" H 10100 5350 50  0001 C CNN
+F 1 "GND" H 10100 5450 50  0000 C CNN
+F 2 "" H 10100 5600 50  0000 C CNN
+F 3 "" H 10100 5600 50  0000 C CNN
+	1    10100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5A5EF5F2
+P 9100 5900
+F 0 "#PWR04" H 9100 5650 50  0001 C CNN
+F 1 "GND" H 9100 5750 50  0000 C CNN
+F 2 "" H 9100 5900 50  0000 C CNN
+F 3 "" H 9100 5900 50  0000 C CNN
+	1    9100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR03
+U 1 1 5A5EEBB7
+P 9100 5200
+F 0 "#PWR03" H 9100 5050 50  0001 C CNN
+F 1 "VDD" H 9100 5350 50  0000 C CNN
+F 2 "" H 9100 5200 50  0000 C CNN
+F 3 "" H 9100 5200 50  0000 C CNN
+	1    9100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR02
+U 1 1 5A5EDD3A
+P 9100 6400
+F 0 "#PWR02" H 9100 6250 50  0001 C CNN
+F 1 "VDD" H 9100 6550 50  0000 C CNN
+F 2 "" H 9100 6400 50  0000 C CNN
+F 3 "" H 9100 6400 50  0000 C CNN
+	1    9100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:USB_B-RESCUE-Entrenador1-SchDoc P6
+U 1 1 5A5E6768
+P 8600 8000
+F 0 "P6" H 8800 7800 50  0000 C CNN
+F 1 "USB_B" H 8550 8200 50  0000 C CNN
+F 2 "libreria:USB_B" V 8550 7900 50  0001 C CNN
+F 3 "" V 8550 7900 50  0000 C CNN
+	1    8600 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR01
+U 1 1 5A5CFC8F
+P 6200 7200
+F 0 "#PWR01" H 6200 7050 50  0001 C CNN
+F 1 "VDD" H 6200 7350 50  0000 C CNN
+F 2 "" H 6200 7200 50  0000 C CNN
+F 3 "" H 6200 7200 50  0000 C CNN
+	1    6200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:PIC18(L)F4550-I_P U5
+U 1 1 5A5CC39D
+P 6300 8700
+F 0 "U5" H 5400 10000 50  0000 C CNN
+F 1 "PIC18(L)F4550-I/P" H 6850 7400 50  0000 C CNN
+F 2 "DIP40" H 6300 8900 50  0000 C CIN
+F 3 "" H 6300 8450 50  0000 C CNN
+	1    6300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X09 P5
+U 1 1 5A5C7776
+P 2400 6600
+F 0 "P5" H 2400 7100 50  0000 C CNN
+F 1 "CONN_01X09" V 2500 6600 50  0000 C CNN
+F 2 "libreria:Socket_Strip_Straight_1x09_Pitch2.54mm" H 2400 6600 50  0001 C CNN
+F 3 "" H 2400 6600 50  0000 C CNN
+	1    2400 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X08 J6
+U 1 1 5A5C6968
+P 2400 7900
+F 0 "J6" H 2300 8300 60  0000 L BNN
+F 1 "CON8" H 2300 7300 60  0000 L BNN
+F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2400 7250 60  0001 C CNN
+F 3 "" H 2300 7300 60  0000 C CNN
+	1    2400 7900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X08 J7
+U 1 1 5A5C622E
+P 2400 9100
+F 0 "J7" H 2300 9500 60  0000 L BNN
+F 1 "CON8" H 2300 8500 60  0000 L BNN
+F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2400 8350 60  0001 C CNN
+F 3 "" H 2300 8500 60  0000 C CNN
+	1    2400 9100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R32
+U 1 1 5A5AC4FE
+P 12750 6500
+F 0 "R32" V 12850 6350 60  0000 R TNN
+F 1 "10k" V 12760 6370 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12760 6370 60  0001 C CNN
+F 3 "~" H 12760 6370 60  0000 C CNN
+	1    12750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R31
+U 1 1 5A5AC3C7
+P 12400 6500
+F 0 "R31" V 12500 6350 60  0000 R TNN
+F 1 "10k" V 12410 6370 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12410 6370 60  0001 C CNN
+F 3 "~" H 12410 6370 60  0000 C CNN
+	1    12400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R30
+U 1 1 5A5AC2B9
+P 12050 6500
+F 0 "R30" V 12150 6350 60  0000 R TNN
+F 1 "10k" V 12060 6370 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 12060 6370 60  0001 C CNN
+F 3 "~" H 12060 6370 60  0000 C CNN
+	1    12050 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R29
+U 1 1 5A5AB7FD
+P 11700 6500
+F 0 "R29" V 11800 6350 60  0000 R TNN
+F 1 "10k" V 11710 6370 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 11710 6370 60  0001 C CNN
+F 3 "~" H 11710 6370 60  0000 C CNN
+	1    11700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D11
+U 1 1 5A5ABF28
+P 9200 2900
+F 0 "D11" H 9200 3000 50  0000 C CNN
+F 1 "LED" H 9200 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 9200 2900 50  0001 C CNN
+F 3 "" H 9200 2900 50  0000 C CNN
+	1    9200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D10
+U 1 1 5A5ABDFD
+P 8700 2900
+F 0 "D10" H 8700 3000 50  0000 C CNN
+F 1 "LED" H 8700 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 8700 2900 50  0001 C CNN
+F 3 "" H 8700 2900 50  0000 C CNN
+	1    8700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D9
+U 1 1 5A5ABCCF
+P 8200 2900
+F 0 "D9" H 8200 3000 50  0000 C CNN
+F 1 "LED" H 8200 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 8200 2900 50  0001 C CNN
+F 3 "" H 8200 2900 50  0000 C CNN
+	1    8200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D8
+U 1 1 5A5ABBB0
+P 7650 2900
+F 0 "D8" H 7650 3000 50  0000 C CNN
+F 1 "LED" H 7650 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 7650 2900 50  0001 C CNN
+F 3 "" H 7650 2900 50  0000 C CNN
+	1    7650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D7
+U 1 1 5A5ABA90
+P 7100 2900
+F 0 "D7" H 7100 3000 50  0000 C CNN
+F 1 "LED" H 7100 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 7100 2900 50  0001 C CNN
+F 3 "" H 7100 2900 50  0000 C CNN
+	1    7100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D6
+U 1 1 5A5AB963
+P 6550 2900
+F 0 "D6" H 6550 3000 50  0000 C CNN
+F 1 "LED" H 6550 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 6550 2900 50  0001 C CNN
+F 3 "" H 6550 2900 50  0000 C CNN
+	1    6550 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D5
+U 1 1 5A5AB849
+P 6000 2900
+F 0 "D5" H 6000 3000 50  0000 C CNN
+F 1 "LED" H 6000 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 6000 2900 50  0001 C CNN
+F 3 "" H 6000 2900 50  0000 C CNN
+	1    6000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D4
+U 1 1 5A5AB091
+P 5450 2900
+F 0 "D4" H 5450 3000 50  0000 C CNN
+F 1 "LED" H 5450 2800 50  0000 C CNN
+F 2 "libreria:LED_D3.0mm" H 5450 2900 50  0001 C CNN
+F 3 "" H 5450 2900 50  0000 C CNN
+	1    5450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X04 P4
+U 1 1 5A5B19C5
+P 2300 4400
+F 0 "P4" H 2300 4650 50  0000 C CNN
+F 1 "CONN_01X04" V 2400 4400 50  0000 C CNN
+F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 4400 50  0001 C CNN
+F 3 "" H 2300 4400 50  0000 C CNN
+	1    2300 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X04 P1
+U 1 1 5A5A69AC
+P 12350 4550
+F 0 "P1" H 12350 4800 50  0000 C CNN
+F 1 "CONN_01X04" V 12450 4550 50  0000 C CNN
+F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 12350 4550 50  0001 C CNN
+F 3 "" H 12350 4550 50  0000 C CNN
+	1    12350 4550
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_US R27
+U 1 1 5A4C3235
+P 15350 8450
+F 0 "R27" V 15300 9150 60  0000 R TNN
+F 1 "180" V 15300 8900 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 8320 60  0001 C CNN
+F 3 "~" H 15360 8320 60  0000 C CNN
+	1    15350 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R26
+U 1 1 5A4C3138
+P 15350 8350
+F 0 "R26" V 15300 9050 60  0000 R TNN
+F 1 "180" V 15300 8800 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 8220 60  0001 C CNN
+F 3 "~" H 15360 8220 60  0000 C CNN
+	1    15350 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R25
+U 1 1 5A4C303E
+P 15350 8250
+F 0 "R25" V 15300 8950 60  0000 R TNN
+F 1 "180" V 15300 8700 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 8120 60  0001 C CNN
+F 3 "~" H 15360 8120 60  0000 C CNN
+	1    15350 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R24
+U 1 1 5A4C2F43
+P 15350 8150
+F 0 "R24" V 15300 8850 60  0000 R TNN
+F 1 "180" V 15300 8600 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 8020 60  0001 C CNN
+F 3 "~" H 15360 8020 60  0000 C CNN
+	1    15350 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R23
+U 1 1 5A4C2D4D
+P 15350 8050
+F 0 "R23" V 15300 8750 60  0000 R TNN
+F 1 "180" V 15300 8500 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 7920 60  0001 C CNN
+F 3 "~" H 15360 7920 60  0000 C CNN
+	1    15350 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R22
+U 1 1 5A4C2ADD
+P 15350 7950
+F 0 "R22" V 15300 8650 60  0000 R TNN
+F 1 "180" V 15300 8400 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 7820 60  0001 C CNN
+F 3 "~" H 15360 7820 60  0000 C CNN
+	1    15350 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R21
+U 1 1 5A4C13B7
+P 15350 7850
+F 0 "R21" V 15300 8550 60  0000 R TNN
+F 1 "180" V 15300 8300 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 7720 60  0001 C CNN
+F 3 "~" H 15360 7720 60  0000 C CNN
+	1    15350 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X04 P2
+U 1 1 5A4F30AE
+P 2300 3800
+F 0 "P2" H 2300 4050 50  0000 C CNN
+F 1 "CONN_01X04" V 2400 3800 50  0000 C CNN
+F 2 "libreria:Socket_Strip_Straight_1x04_Pitch2.54mm" H 2300 3800 50  0001 C CNN
+F 3 "" H 2300 3800 50  0001 C CNN
+	1    2300 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R20
+U 1 1 5A4D5E87
+P 15950 6800
+F 0 "R20" H 16300 6900 60  0000 R TNN
+F 1 "1200" H 16350 6800 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15960 6670 60  0001 C CNN
+F 3 "~" H 15960 6670 60  0000 C CNN
+	1    15950 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R19
+U 1 1 5A4D5D82
+P 15950 5350
+F 0 "R19" H 16300 5450 60  0000 R TNN
+F 1 "1200" H 16350 5350 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15960 5220 60  0001 C CNN
+F 3 "~" H 15960 5220 60  0000 C CNN
+	1    15950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R18
+U 1 1 5A4D351A
+P 15950 3900
+F 0 "R18" H 16300 4000 60  0000 R TNN
+F 1 "1200" H 16350 3900 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15960 3770 60  0001 C CNN
+F 3 "~" H 15960 3770 60  0000 C CNN
+	1    15950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R17
+U 1 1 5A4D18FF
+P 15900 2450
+F 0 "R17" H 16250 2550 60  0000 R TNN
+F 1 "1200" H 16300 2450 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15910 2320 60  0001 C CNN
+F 3 "~" H 15910 2320 60  0000 C CNN
+	1    15900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L transistors:BC548 Q4
+U 1 1 5A4C6421
+P 15650 6650
+F 0 "Q4" H 15850 6725 50  0000 L CNN
+F 1 "BC548" H 15850 6650 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 15650 7200 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 15650 6650 50  0001 L CNN
+	1    15650 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L transistors:BC548 Q3
+U 1 1 5A4C5CFE
+P 15650 5200
+F 0 "Q3" H 15850 5275 50  0000 L CNN
+F 1 "BC548" H 15850 5200 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 15650 5750 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 15650 5200 50  0001 L CNN
+	1    15650 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L transistors:BC548 Q2
+U 1 1 5A4C554D
+P 15650 3750
+F 0 "Q2" H 15850 3825 50  0000 L CNN
+F 1 "BC548" H 15850 3750 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 15650 4300 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 15650 3750 50  0001 L CNN
+	1    15650 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L transistors:BC548 Q1
+U 1 1 5A4C2FC5
+P 15600 2300
+F 0 "Q1" H 15800 2375 50  0000 L CNN
+F 1 "BC548" H 15800 2300 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 15550 2850 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 15600 2300 50  0001 L CNN
+	1    15600 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L cmos_ieee:4511 U3
+U 1 1 5A4B7D2C
+P 14550 8150
+F 0 "U3" H 14900 8600 50  0000 C CNN
+F 1 "4511" H 14900 7700 50  0000 C CNN
+F 2 "libreria:DIP-16_W7.62mm" H 14550 8150 60  0001 C CNN
+F 3 "" H 14550 8150 60  0001 C CNN
+	1    14550 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R16
+U 1 1 5A405865
+P 5350 2350
+F 0 "R16" V 5500 2550 60  0000 R TNN
+F 1 "180" V 5400 2550 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5360 2220 60  0001 C CNN
+F 3 "~" H 5360 2220 60  0000 C CNN
+	1    5350 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X08 J11
+U 1 1 5A403AF2
+P 2650 1750
+F 0 "J11" H 2550 2150 60  0000 L BNN
+F 1 "CON8" H 2550 1150 60  0000 L BNN
+F 2 "libreria:Socket_Strip_Straight_1x08_Pitch2.54mm" H 2900 100 60  0001 C CNN
+F 3 "" H 2550 1150 60  0000 C CNN
+	1    2650 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:ULN2803 U2
+U 1 1 5A402E41
+P 3750 1750
+F 0 "U2" H 3900 2300 60  0000 C CNN
+F 1 "ULN2803" H 4000 2200 60  0000 C CNN
+F 2 "libreria:DIP-18_W7.62mm_LongPads" H 3750 1750 60  0001 C CNN
+F 3 "" H 3750 1750 60  0000 C CNN
+	1    3750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 5A3FBEB9
+P 9100 2350
+F 0 "R15" V 9200 2200 60  0000 R TNN
+F 1 "180" V 9110 2220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9110 2220 60  0001 C CNN
+F 3 "~" H 9110 2220 60  0000 C CNN
+	1    9100 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R14
+U 1 1 5A3FBDCB
+P 8600 2350
+F 0 "R14" V 8700 2200 60  0000 R TNN
+F 1 "180" V 8610 2220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8610 2220 60  0001 C CNN
+F 3 "~" H 8610 2220 60  0000 C CNN
+	1    8600 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R13
+U 1 1 5A3FBCE9
+P 8100 2350
+F 0 "R13" V 8200 2200 60  0000 R TNN
+F 1 "180" V 8110 2220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8110 2220 60  0001 C CNN
+F 3 "~" H 8110 2220 60  0000 C CNN
+	1    8100 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 5A3EBDBB
+P 7550 2350
+F 0 "R12" V 7650 2200 60  0000 R TNN
+F 1 "180" V 7560 2220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7560 2220 60  0001 C CNN
+F 3 "~" H 7560 2220 60  0000 C CNN
+	1    7550 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 5A3EBCFF
+P 7000 2350
+F 0 "R11" V 7110 2220 60  0000 R TNN
+F 1 "180" V 7010 2220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7010 2220 60  0001 C CNN
+F 3 "~" H 7010 2220 60  0000 C CNN
+	1    7000 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R10
+U 1 1 5A3EBC52
+P 6450 2350
+F 0 "R10" V 6560 2220 60  0000 R TNN
+F 1 "180" V 6460 2220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6460 2220 60  0001 C CNN
+F 3 "~" H 6460 2220 60  0000 C CNN
+	1    6450 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R9
+U 1 1 5A3EBB4E
+P 5900 2350
+F 0 "R9" V 6010 2220 60  0000 R TNN
+F 1 "180" V 5910 2220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5910 2220 60  0001 C CNN
+F 3 "~" H 5910 2220 60  0000 C CNN
+	1    5900 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 5A3ECE52
+P 10850 3200
+F 0 "R8" V 10950 3150 60  0000 R TNN
+F 1 "10K" V 11050 3200 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10860 3070 60  0001 C CNN
+F 3 "~" H 10860 3070 60  0000 C CNN
+	1    10850 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 5A3ECB7A
+P 10850 2550
+F 0 "R7" V 10950 2550 60  0000 R TNN
+F 1 "10K" V 11050 2600 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10860 2420 60  0001 C CNN
+F 3 "~" H 10860 2420 60  0000 C CNN
+	1    10850 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5A3ECAFB
+P 10850 1900
+F 0 "R6" V 10700 2050 60  0000 R TNN
+F 1 "10K" V 10600 2050 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10860 1770 60  0001 C CNN
+F 3 "~" H 10860 1770 60  0000 C CNN
+	1    10850 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5A3EC6F9
+P 10850 1300
+F 0 "R5" V 10700 1450 60  0000 R TNN
+F 1 "10K" V 10600 1450 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10860 1170 60  0001 C CNN
+F 3 "~" H 10860 1170 60  0000 C CNN
+	1    10850 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:POT-RESCUE-Entrenador1-SchDoc RV2
+U 1 1 5A3E7E62
+P 11400 4900
+F 0 "RV2" V 11400 4600 50  0000 C CNN
+F 1 "10K lin" V 11300 4650 50  0000 C CNN
+F 2 "libreria:Potentiometer_Omeg_PC16PU_Horizontal" H 11400 4900 50  0001 C CNN
+F 3 "" H 11400 4900 50  0000 C CNN
+	1    11400 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:POT-RESCUE-Entrenador1-SchDoc RV1
+U 1 1 5A3E7AC7
+P 11400 4200
+F 0 "RV1" V 11450 3900 50  0000 C CNN
+F 1 "10K lin" V 11350 3950 50  0000 C CNN
+F 2 "libreria:Potentiometer_Omeg_PC16PU_Horizontal" H 11400 4200 50  0001 C CNN
+F 3 "" H 11400 4200 50  0000 C CNN
+	1    11400 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5A368A02
+P 9100 5350
+F 0 "R1" V 9210 5220 60  0000 R TNN
+F 1 "10K" V 9110 5220 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9110 5220 60  0001 C CNN
+F 3 "~" H 9110 5220 60  0000 C CNN
+	1    9100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 5A368A09
+P 9100 5750
+F 0 "C6" H 8800 5800 60  0000 L BNN
+F 1 "10uf" H 8900 5750 60  0000 C CNN
+F 2 "libreria:CP_Radial_D6.3mm_P2.50mm" H 9100 5750 60  0001 C CNN
+F 3 "~" H 9100 5750 60  0001 C CNN
+	1    9100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5A368A0D
+P 9100 6550
+F 0 "R2" V 9210 6420 60  0000 R TNN
+F 1 "10K" V 9110 6420 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 9110 6420 60  0001 C CNN
+F 3 "~" H 9110 6420 60  0000 C CNN
+	1    9100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:SPST S1
+U 1 1 5A368A12
+P 9600 5600
+F 0 "S1" H 9390 5730 60  0000 L BNN
+F 1 "SW DPST_2" H 9390 5370 60  0000 L BNN
+F 2 "libreria:SW_PUSH_6mm_h13mm" H 9390 5370 60  0001 C CNN
+F 3 "" H 9390 5370 60  0000 C CNN
+	1    9600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5A368A13
+P 9800 8050
+F 0 "R3" V 9910 7920 60  0000 R TNN
+F 1 "470" V 9810 7920 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8950 6250 60  0001 C CNN
+F 3 "~" H 9810 7920 60  0000 C CNN
+	1    9800 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5A368A14
+P 10400 8050
+F 0 "R4" V 10510 7920 60  0000 R TNN
+F 1 "470" V 10410 7920 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 10410 7920 60  0001 C CNN
+F 3 "~" H 10410 7920 60  0000 C CNN
+	1    10400 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D3
+U 1 1 5A368A15
+P 10500 8500
+F 0 "D3" V 10590 8620 60  0000 L BNN
+F 1 "LED" V 10690 8620 60  0000 L BNN
+F 2 "libreria:LED_D3.0mm" H 10690 8620 60  0001 C CNN
+F 3 "" H 10690 8620 60  0000 C CNN
+	1    10500 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:LED-RESCUE-Entrenador1-SchDoc-RESCUE-Entrenador1-SchDoc D2
+U 1 1 5A368A16
+P 9900 8500
+F 0 "D2" V 9990 8620 60  0000 L BNN
+F 1 "LED" V 10090 8620 60  0000 L BNN
+F 2 "libreria:LED_D3.0mm" H 10090 8620 60  0001 C CNN
+F 3 "" H 10090 8620 60  0000 C CNN
+	1    9900 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X03 J9
+U 1 1 5A368A17
+P 3550 9100
+F 0 "J9" H 3450 9300 60  0000 L BNN
+F 1 "3vias" H 3450 8800 60  0000 L BNN
+F 2 "libreria:Pin_Header_Straight_1x03_Pitch2.54mm" H 3450 8800 60  0001 C CNN
+F 3 "" H 3450 8800 60  0000 C CNN
+	1    3550 9100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Entrenador1-SchDoc-rescue:CONN_01X06 J3
+U 1 1 5A368A1B
+P 4500 6350
+F 0 "J3" H 4200 5950 60  0000 L TNN
+F 1 "ICSP" H 4200 6750 60  0000 L TNN
+F 2 "libreria:Socket_Strip_Straight_1x06_Pitch2.54mm" H 4250 6900 60  0000 C CNN
+F 3 "" H 4200 6750 60  0000 C CNN
+	1    4500 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 5500 9100 5600
+Wire Wire Line
+	9100 6700 9100 6800
+Connection ~ 9100 6800
+Wire Wire Line
+	9800 8200 9800 8300
+Wire Wire Line
+	10400 8200 10400 8300
+Wire Wire Line
+	11700 6650 11700 6850
+Wire Wire Line
+	12050 6650 12050 6850
+Wire Wire Line
+	12400 6650 12400 6850
+Wire Wire Line
+	12750 6650 12750 6850
+$Comp
+L Device:R_US R28
+U 1 1 5A4C49E4
+P 15350 8550
+F 0 "R28" V 15300 9250 60  0000 R TNN
+F 1 "180" V 15300 9000 60  0000 R TNN
+F 2 "libreria:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 15360 8420 60  0001 C CNN
+F 3 "~" H 15360 8420 60  0000 C CNN
+	1    15350 8550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15100 7850 15200 7850
+Wire Wire Line
+	15200 7950 15100 7950
+Wire Wire Line
+	15100 8050 15200 8050
+Wire Wire Line
+	15200 8150 15100 8150
+Wire Wire Line
+	15100 8250 15200 8250
+Wire Wire Line
+	15200 8350 15100 8350
+Wire Wire Line
+	15100 8450 15200 8450
+Wire Wire Line
+	13550 8550 15200 8550
+Wire Wire Line
+	15950 6950 15950 7050
+Wire Wire Line
+	15950 5500 15950 5600
+Wire Wire Line
+	15950 4050 15950 4150
+Wire Wire Line
+	15900 2600 15900 2700
+Wire Wire Line
+	10550 2550 10700 2550
+Wire Wire Line
+	10550 3200 10700 3200
 $EndSCHEMATC
