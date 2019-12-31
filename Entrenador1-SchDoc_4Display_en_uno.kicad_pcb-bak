@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -779,7 +779,7 @@
     )
   )
 
-  (module libreria:USB_B (layer F.Cu) (tedit 5E07C271) (tstamp 5A5B8E33)
+  (module libreria:USB_B (layer F.Cu) (tedit 5E08B650) (tstamp 5A5B8E33)
     (at 74.136 107.315 180)
     (descr "USB B connector")
     (tags "USB_B USB_DEV")
@@ -816,6 +816,11 @@
       (offset (xyz 6.984999895095826 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
+    )
+    (model ${KIPRJMOD}/Modelos3d/usb_B.STEP
+      (offset (xyz 1 -1.25 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
     )
   )
 
