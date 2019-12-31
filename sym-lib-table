@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name Entrenador1-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Entrenador1-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name Entrenador1-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/Entrenador1-SchDoc-rescue.lib)(options "")(descr "")(disabled))
   (lib (name transistors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/transistors.lib)(options "")(descr ""))
   (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/conn.lib)(options "")(descr ""))
   (lib (name linear)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/linear.lib)(options "")(descr ""))
@@ -26,4 +26,5 @@
   (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr ""))
   (lib (name cmos_ieee)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/cmos_ieee.lib)(options "")(descr ""))
   (lib (name microchip_pic18mcu)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/microchip_pic18mcu.lib)(options "")(descr ""))
+  (lib (name Entrenador1-SchDoc_4Display_en_uno)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Entrenador1-SchDoc_4Display_en_uno.lib)(options "")(descr ""))
 )
