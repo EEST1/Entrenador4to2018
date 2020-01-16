@@ -1,0 +1,108 @@
+\documentclass[a4paper,spanish]{article}
+\usepackage{lmodern}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\usepackage{array}
+\usepackage{float}
+\usepackage{fancybox}
+\usepackage{calc}
+\usepackage{units}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{nomencl}
+\usepackage{fancyhdr}
+\usepackage{graphics}
+\usepackage{circuitikz}
+\usepackage{pgf,tikz}
+\usepackage{multicol}
+\usepackage{mathtools}
+\usepackage[makeroom]{cancel}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes.symbols}
+\usetikzlibrary{shapes.arrows}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+\usetikzlibrary{patterns}
+%lyx
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\newenvironment{lyxlist}[1]
+{\begin{list}{}
+		{\settowidth{\labelwidth}{#1}
+			\setlength{\leftmargin}{\labelwidth}
+			\addtolength{\leftmargin}{\labelsep}
+			\renewcommand{\makelabel}[1]{##1\hfil}}}
+	{\end{list}}
+
+\PassOptionsToPackage{caption=false}{subfig}
+\usepackage{subfig}
+\makeatother
+
+\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+
+\graphicspath{ {imagenes/} }
+\newtheorem{ej}{{Ejemplo }}[section]
+
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+
+	%%Dimenciones de la página
+\fancyhead{}
+\pagestyle{fancy}
+\textwidth = 424pt
+\headwidth = 424pt
+\headheight =38pt
+\setlength\marginparwidth{54pt}	
+\oddsidemargin = 18pt
+\setlength\headsep{35pt}
+\setlength\topmargin{0in}
+\setlength\footskip{50pt}
+
+
+\begin{document}
+
+
+
+	\begin{tikzpicture}[remember picture, overlay]
+	\node[at=(current page.center)](){\includegraphics[width=\paperwidth,height=\paperheight]{LOGO-EEST1_mosaico_hexagonos_peque_plus}};
+	\node[overlay,anchor=south,yshift=4.5cm,fill=white](aplicaciones)at(current page.south)[]{\fontsize{40}{60} \textbf{ELECTR\'ONICA APLICADA}}		
+	;
+	\node[below of=aplicaciones,yshift=-1 cm,fill=white](jaja){\fontsize{40}{50}\textbf{\emph{Profesor Esteban Lemos}}};
+	\end{tikzpicture}
+\clearpage
+	%Indice automático
+\fancyhead{}
+\fancyhead[C]{ÍNDICE}
+
+\tableofcontents{}
+\clearpage
+	%formato del resto del documento
+\fancyhead{}
+\rhead{\leftmark\\\rightmark}
+\rfoot{\thepage}
+\lfoot{Prof: Esteban Lemos}
+\fancyfoot[C]{ELECAP}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\headrulewidth}{1pt}
+\textwidth = 424pt 
+\setlength\marginparwidth{54pt} 
+\headwidth = 424pt 
+\oddsidemargin = 18pt
+\lhead{\resizebox{0.5in}{!}{\includegraphics{logoeest1vl_2014.png}}}
+
+
+
+	%Contenidos
+\include{segundo}
+\include{tercero}
+\include{Ejercicios}
+
+	
+\end{document}
