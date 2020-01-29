@@ -21,7 +21,7 @@
 \usepackage{graphics}
 \usepackage{circuitikz}
 \usepackage{pgf,tikz}
-\usepackage{multicol}
+\usepackage{multicol,caption}
 \usepackage{mathtools}
 \usepackage[makeroom]{cancel}
 \usetikzlibrary{arrows}
@@ -33,19 +33,13 @@
 \numberwithin{equation}{section}
 \numberwithin{figure}{section}
 
-\newenvironment{lyxlist}[1]
-{\begin{list}{}
-		{\settowidth{\labelwidth}{#1}
-			\setlength{\leftmargin}{\labelwidth}
-			\addtolength{\leftmargin}{\labelsep}
-			\renewcommand{\makelabel}[1]{##1\hfil}}}
-	{\end{list}}
+
 
 \PassOptionsToPackage{caption=false}{subfig}
 \usepackage{subfig}
 \makeatother
 
-\addto\shorthandsspanish{\spanishdeactivate{~<>}}
+%\addto\shorthandsspanish{\spanishdeactivate{~<>}}
 
 \graphicspath{ {imagenes/} }
 \newtheorem{ej}{{Ejemplo }}[section]
@@ -72,9 +66,9 @@
 
 	\begin{tikzpicture}[remember picture, overlay]
 	\node[at=(current page.center)](){\includegraphics[width=\paperwidth,height=\paperheight]{LOGO-EEST1_mosaico_hexagonos_peque_plus}};
-	\node[overlay,anchor=south,yshift=4.5cm,fill=white](aplicaciones)at(current page.south)[]{\fontsize{40}{60} \textbf{ELECTR\'ONICA APLICADA}}		
+	\node[overlay,anchor=south,yshift=4.5cm,fill=white](aplicaciones)at(current page.south)[]{\fontsize{40}{60} \textbf{ENTRENADOR DIGITAL}}		
 	;
-	\node[below of=aplicaciones,yshift=-1 cm,fill=white](jaja){\fontsize{40}{50}\textbf{\emph{Profesor Esteban Lemos}}};
+	%\node[below of=aplicaciones,yshift=-1 cm,fill=white](jaja){\fontsize{40}{50}\textbf{\emph{Profesor Esteban Lemos}}};
 	\end{tikzpicture}
 \clearpage
 	%Indice automático
@@ -100,9 +94,10 @@
 
 
 	%Contenidos
-\include{segundo}
-\include{tercero}
-\include{Ejercicios}
+\include{Introduccion}	
+\include{Armado}
+%\include{PuestaEnMarcha}
+%\include{Practicas}
 
 	
 \end{document}

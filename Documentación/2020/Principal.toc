@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}
+\contentsline {part}{I\hspace {1em}Introducci\IeC {\'o}n}{3}% 
+\contentsline {section}{\numberline {1}Expectativas de logro}{3}% 
+\contentsline {part}{II\hspace {1em}Armado}{4}% 
+\contentsline {section}{\numberline {2}Gabinete}{4}% 
+\contentsline {subsection}{\numberline {2.1}Croquis}{4}% 
+\contentsline {subsection}{\numberline {2.2}Lista de materiales}{4}% 
+\contentsline {section}{\numberline {3}Fuente de alimentaci\IeC {\'o}n}{5}% 
+\contentsline {section}{\numberline {4}Placa Principal}{6}% 
