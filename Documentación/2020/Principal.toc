@@ -7,3 +7,6 @@
 \contentsline {subsection}{\numberline {2.2}Lista de materiales}{4}% 
 \contentsline {section}{\numberline {3}Fuente de alimentaci\IeC {\'o}n}{5}% 
 \contentsline {section}{\numberline {4}Placa Principal}{6}% 
+\contentsline {subsection}{\numberline {4.1}Circuito Esquem\IeC {\'a}tico}{6}% 
+\contentsline {subsection}{\numberline {4.2}Detalles del impreso y de los componentes}{6}% 
+\contentsline {subsection}{\numberline {4.3}Poster de la Placa}{9}% 

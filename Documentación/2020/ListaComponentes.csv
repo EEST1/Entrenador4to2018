@@ -1,0 +1,37 @@
+Referencia,Cantidad,Value,Footprint
+C10 C9,2,22pf,C_Disc_D5.0mm_W2.5mm_P2.50mm
+C11,1,1uf,CP_Radial_D5.0mm_P2.50mm
+C6,1,10uf,CP_Radial_D6.3mm_P2.50mm
+C7,1,100nf,C_Disc_D5.0mm_W2.5mm_P2.50mm
+C8,1,47uf,CP_Radial_D5.0mm_P2.50mm
+D1 D12,2,1n4004,D_5W_P10.16mm_Horizontal
+D11 D10 D9 D8 D7 D6 D5 D4 D3 D2,10,LED,LED_D3.0mm
+J11,1,LEDS,Socket_Strip_Straight_1x08_Pitch2.54mm
+J3,1,ICSP,Socket_Strip_Straight_1x06_Pitch2.54mm
+J5 J6 J7,3,CON8,Socket_Strip_Straight_1x08_Pitch2.54mm
+J9,1,3vias,Pin_Header_Straight_1x03_Pitch2.54mm
+JP1,1,JUMPER3,Pin_Header_Straight_1x03_Pitch2.54mm
+P1,1,CONN_01X04,Socket_Strip_Straight_1x04_Pitch2.54mm
+P10,1,Negativo,Socket_Strip_Straight_1x04_Pitch2.54mm
+P2,1,DISPLAY,Socket_Strip_Straight_1x04_Pitch2.54mm
+P3,1,CONN_01X05,Socket_Strip_Straight_1x05_Pitch2.54mm
+P4,1,BOTONES,Socket_Strip_Straight_1x04_Pitch2.54mm
+P5,1,CONN_01X09,Socket_Strip_Straight_1x09_Pitch2.54mm
+P6,1,USB_B,USB_B
+P7,1,12V,TerminalBlock_bornier-2_P5.08mm
+P8,1,5V,TerminalBlock_bornier-2_P5.08mm
+P9,1,Positivo,Socket_Strip_Straight_1x04_Pitch2.54mm
+Q4 Q3 Q2 Q1,4,BC548,TO-92_Molded_Narrow
+R20 R19 R18 R17,4,1200,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+R27 R26 R25 R24 R23 R22 R21 R16 R15 R14 R13 R12 R11 R10 R9 R28,16,180,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+R3 R4,2,470,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+R32 R31 R30 R29,4,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+R8 R7 R6 R5 R1 R2,6,10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+RV1 RV2,2,10K lin,Potentiometer_Omeg_PC16PU_Horizontal
+S6 S5 S4 S3 S2 S1,6,SW DPST_2,SW_PUSH_6mm_h13mm
+U1,1,CC56-12EWA,CA56-12EWA
+U2,1,ULN2803,DIP-18_W7.62mm_LongPads
+U3,1,CD4511,DIP-16_W7.62mm
+U4,1,LM7805,TO-220-3_Vertical
+U5,1,PIC18(L)F4550-I/P,DIP-40_W15.24mm_LongPads
+Y2,1,20MHz,Crystal_HC49-4H_Vertical
