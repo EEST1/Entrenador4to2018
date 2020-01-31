@@ -34,15 +34,12 @@ Se realiza en el tercer año de la carrera, los alumnos en esta etapa aún no co
 
 la placa de la fuente se realiza siguiente el circuito de la figura \ref{CircuitoFuente}.
 
-\begin{figure}[ht]
+\begin{figure}[]
 	\includegraphics[width=\textwidth]{CircuitoFuente.eps}\caption{Circuito esquemático de la fuente}\label{CircuitoFuente}
 \end{figure}
-\begin{figure}[ht]
-	\begin{tikzpicture}
-	\node[]{\includegraphics[width=\textwidth]{VistaComponentes.eps}};
-	\draw (-7,-1.5) node[rotate=90](Entrada){\Large Entrada};
-	\draw (8,0) node[rotate =90](Salida){\Large Salida};
-	\end{tikzpicture}\caption{Vista de componentes sobre la placa de la fuente}\label{LadoComponentesFuente}
+\begin{figure}[]
+	\includegraphics[width=\textwidth]{VistaComponentes.eps};
+	 \caption{fuente}\label{LadoComponentesFuente}
 \end{figure}
 
 Se puede observar que la fuente consta de tres valores de tensión de salida para que los alumnos tengan al finalizar el trabajo una herramienta versatil. Existe un documento para ampliar la información necesaria para llevar a cabo la construcción de la fuente en el blog de la escuela.
@@ -51,20 +48,20 @@ Se puede observar que la fuente consta de tres valores de tensión de salida par
 La placa principal es el entrenador propiamente dicho y consta a su vez de dos partes; la paca base y la placa superior. Ambas placas son producidas por los alumnos del 7mo año de la carrera en el marco del plan de prácticas internas dentro del laboratorio de diseño electrónico.
 \subsection{Circuito Esquemático}
 El circuito esta separado en bloques para facilitar su comprensión, ambas placas, tanto la superior como la base se encuentran dentro del mismo circuito esquemático, por esto se podrán observar diferentes tensiones de alimentación que estarán referidas a las distintas placas. También es importante comprender que debido a que ambas placas pueden funcionar separadas, ambas placas tienen conexiones de masa independientes. Algunas partes del circuito son totalmente independientes y requieren se conecte una alimentación externa para operar, es el caso de los potenciómetros, que están pensados para ser utilizados en conjunto con los ADC (conversor analógico a digital). Se puede acceder al circuito completo en la figura \ref{CircuitoEntrenador}. %
-\begin{figure}[ht]
-	\raggedleft\includegraphics[trim =2cm 0.5cm 2cm 0cm ,angle=90,origin=c,width=\textwidth,clip=true]{EsquematicoEntrenador}
+\begin{sidewaysfigure}[htb]
+	\centering\includegraphics[trim =3cm 0cm 0.5cm 0.5cm, width=0.8\paperheight]{EsquematicoEntrenador};
 	\caption{Circuito Esquemático Entrenador Digital}
 	\label{CircuitoEntrenador}
-\end{figure}
+\end{sidewaysfigure}%
 \subsection{Detalles del impreso y de los componentes}
 Se puede observar en la figura \ref{ComponentesEntrenador} los valores y la referencia de cada componente, para completar la información de los componentes más complejos como ser conectores (USB o tiras de pines macho/hembra) consulte la figura \ref{posterEntrenador} o la tabla con la lista de componentes a que se puede consultar en el cuadro \ref{ComponentesEntrenador} . 
-\begin{figure}[H]
-	\centering\includegraphics[width=0.85\textwidth]{ComponentesEntrenador}	\caption{Vista superior de los componentes del entrenador digital}\label{ComponentesEntrenador}
-\end{figure}%
-\begin{figure}[H]
-	\centering\includegraphics[width=0.85\textwidth]{PistasEntrenador}	\caption{Vista inferior detalle de las pistas del entrenador digital}\label{PistaEntrenador}
+\begin{sidewaysfigure}[htb]
+	\centering\includegraphics[trim =0cm 0.5cm 0.5cm 0cm, width=0.8\paperheight]{ComponentesEntrenador}	\caption{Vista superior de los componentes del entrenador digital}\label{ComponentesEntrenador}
+\end{sidewaysfigure}%
+\begin{figure}[htb]
+	\centering\includegraphics[width=\textwidth]{PistasEntrenador}	\caption{Vista inferior detalle de las pistas del entrenador digital}\label{PistaEntrenador}
 \end{figure}%	
-\begin{table}[H]
+\begin{table}[htb]
 	\begin{tabular}{|p{0.3\textwidth}|p{0.1\textwidth}|p{0.18\textwidth}|p{0.3\textwidth}|}
 		\hline
 		\textbf{Referencia} & \multicolumn{1}{l|}{\textbf{Cantidad}} & \textbf{Valor} & \textbf{Encapsulado} / Tipo \\ \hline
@@ -112,9 +109,9 @@ Se puede observar en la figura \ref{ComponentesEntrenador} los valores y la refe
 	\label{ListaComponentes}
 \end{table}
 \pagebreak%
-\subsection{Poster de la Placa}
-Finalizada la placa, la misma deberá tener un aspecto como se puede observar en la imagen renderizada de la figura \ref{posterEntrenador} .%
-\begin{figure}[H]
+\subsection{Aspecto de la placa}
+Finalizada la placa, la misma deberá tener un aspecto como se puede observar en la imagen renderizada de la figura \ref{posterEntrenador} . 
+\begin{figure}[htb]
 
 	\centering\includegraphics[width=0.9\textwidth,clip=true]{Entrenador1-SchDoc_4Display_en_uno}
 
