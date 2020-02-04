@@ -47,9 +47,9 @@ Se puede observar que la fuente consta de tres valores de tensión de salida par
 \section{Placa Principal}
 La placa principal es el entrenador propiamente dicho y consta a su vez de dos partes; la paca base y la placa superior. Ambas placas son producidas por los alumnos del 7mo año de la carrera en el marco del plan de prácticas internas dentro del laboratorio de diseño electrónico.
 \subsection{Circuito Esquemático}
-El circuito esta separado en bloques para facilitar su comprensión, ambas placas, tanto la superior como la base se encuentran dentro del mismo circuito esquemático, por esto se podrán observar diferentes tensiones de alimentación que estarán referidas a las distintas placas. También es importante comprender que debido a que ambas placas pueden funcionar separadas, ambas placas tienen conexiones de masa independientes. Algunas partes del circuito son totalmente independientes y requieren se conecte una alimentación externa para operar, es el caso de los potenciómetros, que están pensados para ser utilizados en conjunto con los ADC (conversor analógico a digital). Se puede acceder al circuito completo en la figura \ref{CircuitoEntrenador}. %
+El circuito esta separado en bloques para facilitar su comprensión, ambas placas, tanto la superior como la base se encuentran dentro del mismo esquema, por esto se podrán observar diferentes tensiones de alimentación que estarán referidas a las distintas placas. También es importante comprender que debido a que ambas placas pueden funcionar separadas, ambas tienen conexiones de masa independientes. Algunas partes del circuito son totalmente independientes y requieren se conecte una alimentación externa para operar, es el caso de los potenciómetros, ya que están pensados para ser utilizados en conjunto con el ADC (conversor analógico a digital). Se puede acceder al circuito completo en la figura \ref{CircuitoEntrenador}. %
 \begin{sidewaysfigure}[htb]
-	\centering\includegraphics[trim =3cm 0cm 0.5cm 0.5cm, width=0.8\paperheight]{EsquematicoEntrenador};
+	\centering\includegraphics[trim =3cm 1.9cm 0.80cm 0.5cm, width=0.8\paperheight]{EsquematicoEntrenador};
 	\caption{Circuito Esquemático Entrenador Digital}
 	\label{CircuitoEntrenador}
 \end{sidewaysfigure}%
@@ -58,9 +58,9 @@ Se puede observar en la figura \ref{ComponentesEntrenador} los valores y la refe
 \begin{sidewaysfigure}[htb]
 	\centering\includegraphics[trim =0cm 0.5cm 0.5cm 0cm, width=0.8\paperheight]{ComponentesEntrenador}	\caption{Vista superior de los componentes del entrenador digital}\label{ComponentesEntrenador}
 \end{sidewaysfigure}%
-\begin{figure}[htb]
-	\centering\includegraphics[width=\textwidth]{PistasEntrenador}	\caption{Vista inferior detalle de las pistas del entrenador digital}\label{PistaEntrenador}
-\end{figure}%	
+\begin{sidewaysfigure}[htb]
+	\centering\includegraphics[trim =1cm 1.85cm 0.5cm 0cm, width=0.8\paperheight,clip=true]{PistasEntrenador}	\caption{Vista inferior detalle de las pistas del entrenador digital}\label{PistaEntrenador}
+\end{sidewaysfigure}%	
 \begin{table}[htb]
 	\begin{tabular}{|p{0.3\textwidth}|p{0.1\textwidth}|p{0.18\textwidth}|p{0.3\textwidth}|}
 		\hline
@@ -89,11 +89,11 @@ Se puede observar en la figura \ref{ComponentesEntrenador} los valores y la refe
 		P8 & 1 & 5V & Bornera 2 bornes \\ \hline
 		P9 & 1 & Positivo & 1x04\_Pitch2.54mm \\ \hline
 		Q4 Q3 Q2 Q1 & 4 & BC548 & TO-92 \\ \hline
-		R20 R19 R18 R17 & 4 & 1200 & R\_Axial\_DIN0207 \\ \hline
+		R20 R19 R18 R17 & 4 & 1K2 & R\_Axial\_DIN0207 \\ \hline
 		R27 R26 R25 R24 R23 R22 
 		R21 R16 R15 R14 R13 R12 
-		R11 R10 R9 R28 & 16 & 180 & R\_Axial\_DIN0207 \\ \hline
-		R3 R4 & 2 & 470 & R\_Axial\_DIN0207 \\ \hline
+		R11 R10 R9 R28 & 16 & 180$\Omega$ & R\_Axial\_DIN0207 \\ \hline
+		R3 R4 & 2 & 470 $\Omega$ & R\_Axial\_DIN0207 \\ \hline
 		R32 R31 R30 R29 & 4 & 10k & R\_Axial\_DIN0207 \\ \hline
 		R8 R7 R6 R5 R1 R2 & 6 & 10K & R\_Axial\_DIN0207 \\ \hline
 		RV1 RV2 & 2 & 10K lin & Potenciómetro \\ \hline
@@ -111,12 +111,12 @@ Se puede observar en la figura \ref{ComponentesEntrenador} los valores y la refe
 \pagebreak%
 \subsection{Aspecto de la placa}
 Finalizada la placa, la misma deberá tener un aspecto como se puede observar en la imagen renderizada de la figura \ref{posterEntrenador} . 
-\begin{figure}[htb]
+\begin{sidewaysfigure}[htb]
 
-	\centering\includegraphics[width=0.9\textwidth,clip=true]{Entrenador1-SchDoc_4Display_en_uno}
+	\centering\includegraphics[trim =0cm 0cm 0cm 0cm, width=0.8\paperheight,clip=true]{PosterCompletoEntrenador.png}
 
-	\caption{Vista de ambas placas (superior y base) del entrenador con sus componentes ya instalados}\label{posterEntrenador}
-\end{figure}
+	\caption{Vista superior de la placa base}\label{posterEntrenador}
+\end{sidewaysfigure}
 
 
 
